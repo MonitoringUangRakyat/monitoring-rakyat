@@ -11,8 +11,8 @@ Panduan ini untuk menyiapkan publikasi repo tanpa membawa jejak lokal/pribadi.
 
 Catatan email:
 
-- `monitoring_rakyat@gmail.com` belum tentu bisa dipakai karena Gmail umumnya tidak memakai underscore pada username.
-- Alternatif yang lebih rapi: `monitoring.rakyat.id@gmail.com`, `monitoring.uang.rakyat@gmail.com`, atau email privacy-first seperti Proton.
+- Gunakan email privacy-first yang dibuat khusus untuk project.
+- Jangan pakai email pribadi, email recovery utama, nomor pribadi, atau akun lama yang mudah dikaitkan dengan identitas personal.
 
 ## Folder Yang Di-upload
 

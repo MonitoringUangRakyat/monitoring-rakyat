@@ -33,7 +33,7 @@ FORBIDDEN_TEXT = [
     "github.com/" + "USER/",
     "api_key",
     "telegram" + "_bot_token_here",
-    "C:" + "\\Users\\",
+    "".join(["C:", "\\", "Users", "\\"]),
     "127" + ".0.0.1",
     "local" + "host:",
 ]

@@ -64,8 +64,8 @@ Jika `Pre-GitHub readiness` masih `NEEDS_WORK`, repo boleh dipreview secara loka
 - Jalankan scan identitas/secret sebelum commit:
 
   ```bash
-  rg -n "Windows user path|loopback host|private IP|private Codex folder|personal marker" .
-  rg -n "\bsk-(proj-|live|test|ant-)?[A-Za-z0-9_]{16,}|ghp_[0-9A-Za-z]{20,}|github_pat_[0-9A-Za-z_]{20,}|AIza[0-9A-Za-z_-]{20,}|BEGIN (RSA|OPENSSH|PRIVATE) KEY" .
+  python scripts/anonymity_scan.py
+  python scripts/release_check.py
   ```
 
 - Jangan klaim data final jika status masih `DRAFT_REVIEW`, `DRAFT_UNVERIFIED`, atau belum punya evidence primer.
