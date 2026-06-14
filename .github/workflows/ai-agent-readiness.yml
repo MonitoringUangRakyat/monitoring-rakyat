@@ -1,0 +1,36 @@
+name: AI Agent Readiness Patrol
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patrol:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Gudang DB readiness
+        run: |
+          python scripts/generate_ai_index.py
+          python scripts/validate_gudang_db.py
+          python scripts/validate_immutable_db.py
+          python scripts/build_dashboard_summary.py
+          python scripts/pre_github_readiness.py --write
+          python scripts/build_source_patrol.py
+
+      - name: Commit readiness updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(ai-agent): update readiness patrol"
+          file_pattern: "dashboard/dashboard_summary.json dashboard/pre_github_readiness.json dashboard/ai_agent_tasks.json dashboard/ai_agent_source_patrol.json docs/PRE_GITHUB_READINESS_REPORT.md gudang-db/_index/ai_index.json"

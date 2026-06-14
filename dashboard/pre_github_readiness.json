@@ -1,0 +1,1393 @@
+{
+  "generated_at": "2026-06-14T09:15:31+07:00",
+  "active_period": {
+    "year": 2026,
+    "month": 6,
+    "month_name": "Juni",
+    "trend_years": 20,
+    "policy": "Dashboard publik hanya menampilkan tahun dan bulan berjalan. Data historis di luar periode berjalan diarahkan ke Gudang DB. Grafik dashboard memakai kerangka 20 tahun terakhir untuk rasio perbandingan; tahun tanpa sumber DB ditampilkan Kosong/0 sampai Gudang DB dilengkapi."
+  },
+  "current_jakarta": {
+    "year": 2026,
+    "month": 6
+  },
+  "status": "NEEDS_WORK",
+  "blockers": [
+    "belum ada baris data riil bersumber untuk tahun/bulan berjalan"
+  ],
+  "modules_count": 35,
+  "core_modules_count": 15,
+  "missing_core_modules": [],
+  "structural_missing_modules": [],
+  "current_period_rows": 0,
+  "current_period_rill_rows": 0,
+  "ai_agent_tasks_count": 15,
+  "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
+  "dashboard_summary": {
+    "tahun": 2026,
+    "bulan": 6,
+    "bulan_nama": "Juni",
+    "kerugian_total": 0,
+    "recovery_total": 0,
+    "jumlah_kasus": 0,
+    "jumlah_koruptor": 0,
+    "history_akumulasi": {
+      "2007": 0,
+      "2008": 73180000000000,
+      "2009": 0,
+      "2010": 0,
+      "2011": 4600000000000,
+      "2012": 22780000000000,
+      "2013": 0,
+      "2014": 0,
+      "2015": 1500000000000000,
+      "2016": 0,
+      "2017": 0,
+      "2018": 1355900000000000,
+      "2019": 9980000000000,
+      "2020": 32410000000000,
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1000000000000,
+      "2025": 5750000000,
+      "2026": 0
+    },
+    "data_rows_terisi": 62,
+    "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
+  },
+  "core_modules": {
+    "akuntansi": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "audit": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "audittrail": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "bea_cukai": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "bumn": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "korupsi": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "pajak": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "parpol": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "prog_daerah": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "prog_eksekutif": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "prog_legislatif": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "redflag": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "risknas": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "sda": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "vendor": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_EMPTY",
+        "file": "gudang-db/master/master_vendor.csv",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    }
+  },
+  "modules": {
+    "ai_data_builder": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "ai_pengawas": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "akuntansi": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "aset": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "asn": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "audit": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "audittrail": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "bea_cukai": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "blu": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "bo": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "bumn": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "coi": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "daerah": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "data_health": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "donasi_ai": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "eksekutif": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "evidence": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "evidence_vault": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "investigation_ledger": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "kontrak": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "korupsi": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "koruptor_db": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "legislatif": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "pajak": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "parpol": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "prog_daerah": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "prog_eksekutif": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "prog_legislatif": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "redflag": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "risknas": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "sda": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "source_catalog": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "transparansi_algoritma": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "vendor": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "MASTER_EMPTY",
+        "file": "gudang-db/master/master_vendor.csv",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    },
+    "yudisial": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 0,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 0,
+      "active_rill_rows": 0,
+      "latest_nonempty_year": 0,
+      "latest_nonempty_rows": 0,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "NEEDS_DATA"
+    }
+  },
+  "ai_agent_tasks": [
+    {
+      "module": "akuntansi",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "Kemenkeu APBN KiTa",
+        "LKPP/SiRUP",
+        "BPK"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "audit",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "BPK",
+        "KPK",
+        "Kejaksaan",
+        "LKPP",
+        "Kompas/Detik/Tempo sebagai pembanding"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "audittrail",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "BPK",
+        "LKPP",
+        "K/L pemilik program"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "bea_cukai",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "Kemenkeu/DJBC",
+        "BPK",
+        "KPK",
+        "Kejaksaan",
+        "putusan pengadilan",
+        "Kompas/Detik/Tempo/Metro TV"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "bumn",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "fallback_note": "Pakai fallback gudang-db/master/master_koruptor.csv tahun terakhir 2025",
+      "source_priorities": [
+        "Laporan keuangan BUMN",
+        "BPK",
+        "KPK",
+        "Kejaksaan",
+        "CNBC/Kompas/Detik/Tempo"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "korupsi",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "fallback_note": "Pakai fallback gudang-db/master/master_koruptor.csv tahun terakhir 2025",
+      "source_priorities": [
+        "KPK",
+        "Kejaksaan",
+        "BPK",
+        "Putusan MA",
+        "Kompas/Detik/Tempo/Metro TV/CNN",
+        "Nemesis sebagai acuan awal non-final"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "pajak",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "Kemenkeu/DJP",
+        "BPK",
+        "putusan pengadilan",
+        "Kompas/Detik/CNBC"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "parpol",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "KPU",
+        "BPK",
+        "Kemendagri",
+        "APBN/APBD",
+        "Kompas/Detik/Tempo"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "prog_daerah",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "LKPP/SiRUP",
+        "APBD",
+        "BPK",
+        "Kompas/Detik/Tempo",
+        "Nemesis"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "prog_eksekutif",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "LKPP/SiRUP",
+        "Kemenkeu",
+        "BPK",
+        "Kompas/Detik/Tempo",
+        "Nemesis"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "prog_legislatif",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "LKPP/SiRUP",
+        "DPR/DPRD",
+        "BPK",
+        "Kompas/Detik/Tempo",
+        "Nemesis"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "redflag",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "LKPP/SiRUP",
+        "BPK",
+        "KPK",
+        "Kompas/Detik/Tempo/Metro TV",
+        "Nemesis"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "risknas",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "MEDIUM",
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "fallback_note": "Pakai fallback gudang-db/master/master_koruptor.csv tahun terakhir 2025",
+      "source_priorities": [
+        "BPK",
+        "KPK",
+        "Kejaksaan",
+        "LKPP/SiRUP",
+        "Kompas/Detik/Tempo/CNN",
+        "Nemesis"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "sda",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "ESDM",
+        "KLHK",
+        "KKP",
+        "BPK",
+        "KPK"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    },
+    {
+      "module": "vendor",
+      "year": 2026,
+      "month": 6,
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "MASTER_EMPTY",
+        "file": "gudang-db/master/master_vendor.csv",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "LKPP/SiRUP",
+        "LPSE",
+        "Kompas/Detik/Tempo",
+        "Nemesis",
+        "AHU/beneficial ownership"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    }
+  ]
+}

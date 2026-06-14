@@ -1,0 +1,25 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Local runtime caches
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Local-only exports and backups
+*.sqlite-wal
+*.sqlite-shm
+*.db-wal
+*.db-shm
+monitoring-rakyat-data-*.json
+
+# Secrets/config that should not be committed
+.env
+.env.*
+secrets/

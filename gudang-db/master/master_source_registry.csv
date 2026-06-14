@@ -1,0 +1,17 @@
+id,nama_sumber,kategori,domain_utama,confidence_awal,peran,status,catatan
+SRC-001,BPK,OFFICIAL_AUDIT,bpk.go.id,95,Sumber audit dan temuan keuangan negara,ACTIVE,Sumber resmi prioritas
+SRC-002,KPK,OFFICIAL_ENFORCEMENT,kpk.go.id,95,Sumber perkara korupsi dan rilis penindakan,ACTIVE,Sumber resmi prioritas
+SRC-003,Kejaksaan RI,OFFICIAL_ENFORCEMENT,kejaksaan.go.id,95,Sumber perkara pidana korupsi dan asset recovery,ACTIVE,Sumber resmi prioritas
+SRC-004,Mahkamah Agung / Direktori Putusan,OFFICIAL_COURT,putusan3.mahkamahagung.go.id,95,Sumber putusan pengadilan,ACTIVE,Sumber resmi prioritas
+SRC-005,LKPP / SiRUP,OFFICIAL_PROCUREMENT,sirup.lkpp.go.id,90,Sumber pengadaan dan rencana umum pengadaan,ACTIVE,Sumber resmi prioritas
+SRC-006,Kementerian Keuangan,OFFICIAL_BUDGET,kemenkeu.go.id,90,Sumber APBN pajak bea cukai dan fiskal,ACTIVE,Sumber resmi prioritas
+SRC-007,DJBC / Bea Cukai,OFFICIAL_CUSTOMS,beacukai.go.id,90,Sumber kepabeanan dan cukai,ACTIVE,Sumber resmi prioritas
+SRC-008,Kompas,MAINSTREAM_MEDIA,kompas.com,70,Sinyal berita dan kronologi publik,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-009,Detik,MAINSTREAM_MEDIA,detik.com,70,Sinyal berita cepat dan kronologi publik,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-010,Tempo,MAINSTREAM_MEDIA,tempo.co,75,Sinyal investigasi dan laporan publik,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-011,Metro TV,MAINSTREAM_MEDIA,metrotvnews.com,70,Sinyal berita arus utama,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-012,CNN Indonesia,MAINSTREAM_MEDIA,cnnindonesia.com,70,Sinyal berita arus utama,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-013,CNBC Indonesia,MAINSTREAM_MEDIA,cnbcindonesia.com,70,Sinyal ekonomi BUMN pasar dan fiskal,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-014,Tirto,MAINSTREAM_MEDIA,tirto.id,70,Sinyal laporan publik dan konteks kebijakan,ACTIVE,Wajib cross-check ke sumber resmi
+SRC-015,Nemesis,AGGREGATOR_AI,nemesis.assai.id,60,Acuan awal pengadaan red flag dan risk score,ACTIVE,Tidak boleh jadi bukti final tunggal
+SRC-016,Masukan Rakyat,COMMUNITY_TIP,github_issues,30,Petunjuk awal dari publik,ACTIVE,Wajib audit sebelum masuk DB

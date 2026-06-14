@@ -1,0 +1,330 @@
+[
+  {
+    "module": "akuntansi",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "audit",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "audittrail",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "bumn",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Pakai fallback gudang-db/master/master_koruptor.csv tahun terakhir 2025",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "korupsi",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Pakai fallback gudang-db/master/master_koruptor.csv tahun terakhir 2025",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "pajak",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "parpol",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "redflag",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "risknas",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Pakai fallback gudang-db/master/master_koruptor.csv tahun terakhir 2025",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "sda",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "vendor",
+    "year": 2026,
+    "month": 6,
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  }
+]
