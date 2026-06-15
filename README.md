@@ -1,5 +1,15 @@
 # Monitoring Rakyat
 
+[![Buka Dashboard Publik](https://img.shields.io/badge/BUKA_DASHBOARD_PUBLIK-monitoringuangrakyat.github.io-f59e0b?style=for-the-badge)](https://monitoringuangrakyat.github.io/monitoring-rakyat/dashboard/)
+
+## Buka Dashboard Publik
+
+Klik link utama ini untuk membuka tampilan HTML dashboard:
+
+[https://monitoringuangrakyat.github.io/monitoring-rakyat/dashboard/](https://monitoringuangrakyat.github.io/monitoring-rakyat/dashboard/)
+
+> Catatan: file `dashboard/index.html` di GitHub akan tampil sebagai source code. Untuk melihat dashboard berjalan, gunakan link GitHub Pages di atas.
+
 Repositori audit fiskal dan forensik publik untuk membantu rakyat Indonesia memantau aliran uang negara secara terbuka, terstruktur, dan bisa diverifikasi.
 
 Tujuan utama proyek ini adalah transparansi: dashboard tetap ringan untuk dibuka publik, sementara data mentah lintas era disimpan sebagai CSV di Gudang DB agar bisa diperiksa ulang oleh jurnalis, peneliti, aktivis data, programmer, dan warga.
