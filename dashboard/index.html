@@ -423,7 +423,10 @@ td:last-child:has(.btn-del), td.action-btns{display:none!important}
 .koruptor-ticker-title{margin:12px 0 6px;font-weight:800;color:#fca5a5;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .koruptor-ticker-title select{width:auto;min-width:92px;background:#0f1117;border:1px solid #7f1d1d;color:#fecaca;border-radius:6px;padding:4px 8px;font-size:.72rem;font-weight:700}
 .koruptor-ticker-title .ticker-year-label{font-size:.68rem;color:#fca5a5;text-transform:uppercase;letter-spacing:.8px}
-.koruptor-ticker{white-space:nowrap;display:inline-block;min-width:max-content;animation:mrTicker 180s linear infinite;color:#fecaca}
+.koruptor-ticker{white-space:nowrap;display:inline-block;min-width:max-content;animation:mrTicker 180s linear infinite;color:#fecaca;animation-play-state:running!important;will-change:transform;pointer-events:none}
+.koruptor-ticker-wrap:hover .koruptor-ticker,
+.koruptor-ticker-wrap:focus-within .koruptor-ticker,
+.koruptor-ticker:hover{animation-play-state:running!important}
 @keyframes mrTicker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .korupsi-highlight{border:2px solid #991b1b!important;box-shadow:0 0 12px rgba(220,38,38,.25)}
 .mr-contribute-cta{
@@ -7241,6 +7244,15 @@ Prinsip:
     return tickerSelectedYear || (sel ? sel.value : '');
   }
 
+  function keepTickerRunning(){
+    const el=document.getElementById('koruptor-ticker');
+    if(!el) return;
+    el.style.animationPlayState='running';
+    if(!el.style.animation || el.style.animation==='none'){
+      el.style.animation='mrTicker 180s linear infinite';
+    }
+  }
+
   function setTickerTitle(){
     const title=document.getElementById('koruptor-ticker-title');
     if(!title) return;
@@ -7355,6 +7367,7 @@ Prinsip:
       box.innerHTML='<div class="koruptor-ticker" id="koruptor-ticker"></div>';
     }
     setTickerTitle();
+    keepTickerRunning();
     return box;
   }
 
@@ -7373,6 +7386,7 @@ Prinsip:
     data.sort((a,b)=>Number(b.hot)-Number(a.hot) || (b.year||0)-(a.year||0) || (b.kerugian_num||0)-(a.kerugian_num||0));
     if(!data.length && selectedYear){
       el.textContent=`🚨 Belum ada data koruptor untuk tahun ${selectedYear} di Gudang DB. Silakan beri masukan sumber, Tim AI Agent wajib cek & ricek.`;
+      keepTickerRunning();
       return;
     }
     if(!data.length){
@@ -7389,6 +7403,7 @@ Prinsip:
     }).join('   ✦   ');
     el.textContent=text + '   ✦   ' + text;
     el.title=`Sumber: Gudang DB master_koruptor.csv. Filter: ${selectedYear||'Semua tahun'} (${data.length}/${allCount} baris). Tambah baris baru dengan status HOT_NEWS/BARU/PROSES agar otomatis naik di ticker.`;
+    keepTickerRunning();
   }
 
   async function loadKoruptorCSV(){
@@ -7437,18 +7452,27 @@ Prinsip:
     seed:KORUPTOR_SEED,
     load:loadKoruptorCSV,
     render:renderTicker,
-    updateSummary:updateKorupsiSummary
+    updateSummary:updateKorupsiSummary,
+    keepRunning:keepTickerRunning
   };
 
   document.addEventListener('DOMContentLoaded',()=>{
+    ['mouseenter','mouseleave','mouseover','wheel','scroll','pointermove','focusin'].forEach(evt=>{
+      document.addEventListener(evt, keepTickerRunning, {passive:true, capture:true});
+    });
+    window.addEventListener('scroll', keepTickerRunning, {passive:true});
+    window.addEventListener('pageshow', keepTickerRunning);
+    document.addEventListener('visibilitychange', keepTickerRunning);
     setTimeout(async()=>{
       await loadKoruptorCSV();
       updateKorupsiSummary();
+      keepTickerRunning();
     },500);
   });
   setInterval(async()=>{
     await loadKoruptorCSV();
     updateKorupsiSummary();
+    keepTickerRunning();
   },120000);
 })();
 </script>
