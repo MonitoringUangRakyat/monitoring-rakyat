@@ -3,6 +3,7 @@
     "module": "akuntansi",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
     "fallback": {
@@ -17,12 +18,328 @@
       "LKPP/SiRUP",
       "BPK"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "akuntansi",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu APBN KiTa",
+      "LKPP/SiRUP",
+      "BPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "audit",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -39,12 +356,358 @@
       "LKPP",
       "Kompas/Detik/Tempo sebagai pembanding"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "audit",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audit",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP",
+      "Kompas/Detik/Tempo sebagai pembanding"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "audittrail",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -59,12 +722,328 @@
       "LKPP",
       "K/L pemilik program"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "audittrail",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "audittrail",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "LKPP",
+      "K/L pemilik program"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "bea_cukai",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
     "fallback": {
@@ -82,12 +1061,373 @@
       "putusan pengadilan",
       "Kompas/Detik/Tempo/Metro TV"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "bumn",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -104,12 +1444,358 @@
       "Kejaksaan",
       "CNBC/Kompas/Detik/Tempo"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "bumn",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bumn",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Laporan keuangan BUMN",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "CNBC/Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "korupsi",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
     "fallback": {
@@ -127,12 +1813,373 @@
       "Kompas/Detik/Tempo/Metro TV/CNN",
       "Nemesis sebagai acuan awal non-final"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "korupsi",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "korupsi",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPK",
+      "Kejaksaan",
+      "BPK",
+      "Putusan MA",
+      "Kompas/Detik/Tempo/Metro TV/CNN",
+      "Nemesis sebagai acuan awal non-final"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "pajak",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -148,12 +2195,343 @@
       "putusan pengadilan",
       "Kompas/Detik/CNBC"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "pajak",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "pajak",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "Kemenkeu/DJP",
+      "BPK",
+      "putusan pengadilan",
+      "Kompas/Detik/CNBC"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "parpol",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -170,12 +2548,358 @@
       "APBN/APBD",
       "Kompas/Detik/Tempo"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "parpol",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "parpol",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "KPU",
+      "BPK",
+      "Kemendagri",
+      "APBN/APBD",
+      "Kompas/Detik/Tempo"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "prog_daerah",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -192,12 +2916,358 @@
       "Kompas/Detik/Tempo",
       "Nemesis"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_daerah",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "APBD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "prog_eksekutif",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -214,12 +3284,358 @@
       "Kompas/Detik/Tempo",
       "Nemesis"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_eksekutif",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "Kemenkeu",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "prog_legislatif",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -236,12 +3652,358 @@
       "Kompas/Detik/Tempo",
       "Nemesis"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "prog_legislatif",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "DPR/DPRD",
+      "BPK",
+      "Kompas/Detik/Tempo",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "redflag",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
     "fallback": {
@@ -258,12 +4020,358 @@
       "Kompas/Detik/Tempo/Metro TV",
       "Nemesis"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "redflag",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "redflag",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "BPK",
+      "KPK",
+      "Kompas/Detik/Tempo/Metro TV",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "risknas",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
     "fallback": {
@@ -281,12 +4389,373 @@
       "Kompas/Detik/Tempo/CNN",
       "Nemesis"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "risknas",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "risknas",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_HISTORY_AVAILABLE",
+      "file": "gudang-db/master/master_koruptor.csv",
+      "rows": 27,
+      "year": 2025
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "LKPP/SiRUP",
+      "Kompas/Detik/Tempo/CNN",
+      "Nemesis"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "sda",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
     "fallback": {
@@ -303,12 +4772,358 @@
       "BPK",
       "KPK"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "sda",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "sda",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "ESDM",
+      "KLHK",
+      "KKP",
+      "BPK",
+      "KPK"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   },
   {
     "module": "vendor",
     "year": 2026,
     "month": 6,
+    "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
     "fallback": {
@@ -325,6 +5140,351 @@
       "Nemesis",
       "AHU/beneficial ownership"
     ],
-    "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
+  },
+  {
+    "module": "vendor",
+    "year": 2011,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2012,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2013,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2014,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2015,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "MEDIUM",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2016,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2017,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2018,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2019,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2020,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2021,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2022,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2023,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2024,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "vendor",
+    "year": 2025,
+    "month": 0,
+    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "MASTER_EMPTY",
+      "file": "gudang-db/master/master_vendor.csv",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+    "source_priorities": [
+      "LKPP/SiRUP",
+      "LPSE",
+      "Kompas/Detik/Tempo",
+      "Nemesis",
+      "AHU/beneficial ownership"
+    ],
+    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
   }
 ]

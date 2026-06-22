@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:40:51+07:00",
+  "generated_at": "2026-06-22T08:56:30+07:00",
   "purpose": "Draft queue hasil patroli AI Pengawas. Jangan dipublish sebagai data final sebelum review.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
   "candidates": [
@@ -27,7 +27,9 @@
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "Kejaksaan Agung menangkap buronan penipuan bisnis batu bara, Richard Arief Muljadi, di Bandara Soekarno Hatta. Ia didakwa merugikan Rp7 miliar.",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false
     },
     {
       "id": "MR-AI-9CC3B650AD093447",
@@ -53,7 +55,9 @@
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "Tim SIRI dan Kejaksaan menangkap Richard Arief Muljadi, buronan penipuan batu bara, di Bandara Soekarno Hatta. Ia didakwa kerugian Rp7 miliar.",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false
     },
     {
       "id": "MR-AI-FECDCF3FB9FDCC8B",
@@ -79,7 +83,9 @@
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "Menteri Keuangan Purbaya Yudhi Sadewa belum menjelaskan penerapan layer cukai rokok baru ke Komisi XI DPR",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false
     }
   ]
 }

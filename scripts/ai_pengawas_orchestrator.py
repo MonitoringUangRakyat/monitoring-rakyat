@@ -259,12 +259,15 @@ def make_candidate(task: dict, feed: Feed, item: dict[str, str], score: int, rea
     module = str(task.get("module") or "unknown")
     cid = candidate_id(module, item.get("link", ""), item.get("title", ""))
     status = policy_status(module, feed, score)
+    task_type = task.get("task_type", "CURRENT_PERIOD_SEARCH")
     return {
         "id": cid,
         "created_at": generated_at,
         "module": module,
         "year": task.get("year"),
         "month": task.get("month"),
+        "task_type": task_type,
+        "historical_mandate": task_type == "HISTORICAL_BACKFILL_REQUIRED",
         "title": item.get("title", ""),
         "link": item.get("link", ""),
         "published": item.get("published", ""),
@@ -278,20 +281,31 @@ def make_candidate(task: dict, feed: Feed, item: dict[str, str], score: int, rea
         "match_reasons": reasons,
         "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
         "summary": item.get("summary", "")[:500],
-        "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
+        "next_action": (
+            "Backfill historis wajib: cek arsip resmi, duplikasi Gudang DB, nominal/periode, status verifikasi, lalu draft CSV/PR."
+            if task_type == "HISTORICAL_BACKFILL_REQUIRED"
+            else "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR."
+        ),
         "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
     }
 
 
 def merge_candidates(new_items: list[dict], keep_existing: bool) -> list[dict]:
     if not keep_existing:
-        return sorted(new_items, key=lambda item: str(item.get("created_at", "")), reverse=True)[:2000]
+        return normalize_candidates(sorted(new_items, key=lambda item: str(item.get("created_at", "")), reverse=True)[:2000])
     old_payload = read_json(CANDIDATES_JSON, {"candidates": []})
     old_items = old_payload.get("candidates", [])
     by_id = {str(item.get("id")): item for item in old_items if item.get("id")}
     for item in new_items:
         by_id.setdefault(str(item["id"]), item)
-    return sorted(by_id.values(), key=lambda item: str(item.get("created_at", "")), reverse=True)[:2000]
+    return normalize_candidates(sorted(by_id.values(), key=lambda item: str(item.get("created_at", "")), reverse=True)[:2000])
+
+
+def normalize_candidates(candidates: list[dict]) -> list[dict]:
+    for item in candidates:
+        item.setdefault("task_type", "CURRENT_PERIOD_SEARCH")
+        item.setdefault("historical_mandate", item.get("task_type") == "HISTORICAL_BACKFILL_REQUIRED")
+    return candidates
 
 
 def write_candidates_csv(candidates: list[dict]) -> None:
@@ -302,6 +316,8 @@ def write_candidates_csv(candidates: list[dict]) -> None:
         "module",
         "year",
         "month",
+        "task_type",
+        "historical_mandate",
         "title",
         "link",
         "published",
@@ -319,18 +335,23 @@ def write_candidates_csv(candidates: list[dict]) -> None:
             writer.writerow({field: item.get(field, "") for field in fields})
 
 
-def summarize(candidates: list[dict], new_count: int, failures: list[dict], generated_at: str) -> dict:
+def summarize(candidates: list[dict], new_count: int, failures: list[dict], generated_at: str, tasks: list[dict]) -> dict:
     by_module: dict[str, int] = {}
     by_status: dict[str, int] = {}
     by_source: dict[str, int] = {}
     high_confidence = 0
+    historical_candidates = 0
     for item in candidates:
         by_module[item.get("module", "unknown")] = by_module.get(item.get("module", "unknown"), 0) + 1
         by_status[item.get("status", "unknown")] = by_status.get(item.get("status", "unknown"), 0) + 1
         by_source[item.get("source", "unknown")] = by_source.get(item.get("source", "unknown"), 0) + 1
         if int(item.get("confidence") or 0) >= 80:
             high_confidence += 1
+        if item.get("historical_mandate"):
+            historical_candidates += 1
     top = sorted(candidates, key=lambda item: int(item.get("confidence") or 0), reverse=True)[:15]
+    historical_tasks = [task for task in tasks if task.get("task_type") == "HISTORICAL_BACKFILL_REQUIRED"]
+    current_tasks = [task for task in tasks if task.get("task_type", "CURRENT_PERIOD_SEARCH") == "CURRENT_PERIOD_SEARCH"]
     return {
         "generated_at": generated_at,
         "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
@@ -343,6 +364,18 @@ def summarize(candidates: list[dict], new_count: int, failures: list[dict], gene
             "token_in_html": False,
             "required_before_rill": "sumber resmi atau dua sumber independen, nominal/periode jelas, dan review manusia/AI policy guard",
         },
+        "historical_backfill_policy": {
+            "hardcoded": True,
+            "target_years": 15,
+            "minimum_required_years": 10,
+            "mandate": "Tim AI Pengumpul DB wajib mencari dan mengisi data historis 10-15 tahun ke belakang ke Gudang DB.",
+            "html_policy": "HTML publik hanya menampilkan tahun/bulan berjalan; periode lama diarahkan ke Gudang DB.",
+        },
+        "task_counts": {
+            "total": len(tasks),
+            "current_period": len(current_tasks),
+            "historical_backfill": len(historical_tasks),
+        },
         "queue_files": {
             "json": "gudang-db/_queue/ai_pengawas_candidates.json",
             "csv": "gudang-db/_queue/ai_pengawas_candidates.csv",
@@ -350,6 +383,7 @@ def summarize(candidates: list[dict], new_count: int, failures: list[dict], gene
         "total_candidates": len(candidates),
         "new_candidates_this_run": new_count,
         "high_confidence_candidates": high_confidence,
+        "historical_backfill_candidates": historical_candidates,
         "by_module": dict(sorted(by_module.items())),
         "by_status": dict(sorted(by_status.items())),
         "by_source": dict(sorted(by_source.items(), key=lambda item: item[1], reverse=True)[:20]),
@@ -369,12 +403,15 @@ def write_report(status: dict) -> None:
         "- Misi: setiap aliran APBN/APBD, sampai Rp 1, harus bisa ditelusuri ke program, instansi, vendor, bukti, dan status verifikasi.",
         "- Output otomatis masuk draft queue, bukan data final.",
         "- Data final tetap harus lolos policy guard, evidence, dan review.",
+        "- Hardcode: Tim AI Pengumpul DB wajib mencari 10-15 tahun data historis; tahun berjalan boleh on-process.",
         "",
         "## Status",
         "",
         f"- Total candidates: {status['total_candidates']}",
         f"- New candidates this run: {status['new_candidates_this_run']}",
         f"- High confidence candidates: {status['high_confidence_candidates']}",
+        f"- Historical backfill tasks: {status['task_counts']['historical_backfill']}",
+        f"- Historical backfill candidates: {status['historical_backfill_candidates']}",
         "",
         "## Module Coverage",
         "",
@@ -430,7 +467,7 @@ def run() -> int:
         "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
         "candidates": all_candidates,
     }
-    status = summarize(all_candidates, len(new_candidates), failures, generated_at)
+    status = summarize(all_candidates, len(new_candidates), failures, generated_at, tasks)
     write_json(CANDIDATES_JSON, payload)
     write_candidates_csv(all_candidates)
     write_json(STATUS_JSON, status)

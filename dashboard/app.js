@@ -120,6 +120,7 @@ function renderAgentTasks(tasks) {
 function renderSourcePatrol(patrolPayload) {
   const patrol = patrolPayload && Array.isArray(patrolPayload.patrol) ? patrolPayload.patrol : [];
   if (!patrol.length) return "";
+  const totalPatrol = Number(patrolPayload.patrol_count || patrol.length);
   const sources = [...new Set(patrol.map((item) => item.source).filter(Boolean))].slice(0, 10);
   const countByCategory = patrol.reduce((acc, item) => {
     acc[item.category || "UNKNOWN"] = (acc[item.category || "UNKNOWN"] || 0) + 1;
@@ -129,7 +130,7 @@ function renderSourcePatrol(patrolPayload) {
     <div style="margin-top:12px;border:1px solid #334155;border-radius:8px;padding:10px;background:#0f1117">
       <div style="display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap">
         <b style="color:#a7f3d0;font-size:12px">Source Patrol 24/7</b>
-        <span style="color:#cbd5e1;font-size:11px">${patrol.length} query/source pending</span>
+        <span style="color:#cbd5e1;font-size:11px">${totalPatrol} query/source pending</span>
       </div>
       <p style="margin:8px 0 0;color:#94a3b8;font-size:11px;line-height:1.5">
         Sumber: ${sources.join(", ")}. Kategori: ${Object.entries(countByCategory).map(([k, v]) => `${k}:${v}`).join(", ")}.
@@ -141,6 +142,7 @@ function renderOrchestratorStatus(status) {
   if (!status) return "";
   const top = Array.isArray(status.top_candidates) ? status.top_candidates.slice(0, 5) : [];
   const byStatus = status.by_status || {};
+  const taskCounts = status.task_counts || {};
   const statusText = Object.entries(byStatus).map(([key, value]) => `${key}:${value}`).join(", ") || "draft queue kosong";
   return `
     <div style="margin-top:12px;border:1px solid #f59e0b66;border-radius:8px;padding:10px;background:#1f1304">
@@ -151,6 +153,7 @@ function renderOrchestratorStatus(status) {
       <p style="margin:8px 0 0;color:#cbd5e1;font-size:11px;line-height:1.5">
         Scope: ${status.cashflow_scope || "ALL_APBN_APBD_RP1_TRACE"}.
         Kandidat baru run terakhir: ${status.new_candidates_this_run || 0}.
+        Task historis wajib: ${taskCounts.historical_backfill || 0}.
         Status: ${statusText}.
       </p>
       ${top.length ? `

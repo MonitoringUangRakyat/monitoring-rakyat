@@ -8,6 +8,8 @@ Tujuan: Tim AI Agent tidak pasif ketika Gudang DB tahun/bulan berjalan kosong.
 - Fallback boleh memakai data historis/master/tahun sebelumnya, tetapi wajib diberi label review.
 - Data dari AI, Nemesis, media, atau agregator lain adalah acuan awal, bukan bukti final.
 - Data menjadi rill hanya jika punya sumber/evidence resmi dan nominal/periode jelas.
+- Tim AI Pengumpul DB wajib melakukan backfill historis 10-15 tahun ke belakang. Ini hardcode mandate karena data lama lebih matang, lebih banyak audit/putusan, dan lebih mudah diverifikasi.
+- Tahun/bulan berjalan boleh berstatus on-process dan masuk belakangan; data historis tetap harus dikejar lebih dulu untuk fondasi Gudang DB.
 
 ## Tim
 
@@ -34,6 +36,7 @@ Tujuan: Tim AI Agent tidak pasif ketika Gudang DB tahun/bulan berjalan kosong.
 - `AI_CLASSIFIED_NEEDS_VERIFICATION`: hasil klasifikasi AI/agregator.
 - `VERIFIED_SOURCE`: ada sumber resmi yang bisa dicek.
 - `RILL_CURRENT_PERIOD`: tahun/bulan berjalan, punya sumber/evidence, dan punya nominal.
+- `HISTORICAL_BACKFILL_REQUIRED`: kewajiban mencari data historis 10-15 tahun ke belakang untuk Gudang DB.
 
 ## Output Wajib
 
@@ -48,6 +51,17 @@ Jika ada pengguna membuka tahun/bulan yang belum ada sumber, sistem harus menamp
 > DB periode ini belum ada sumber riil. Silakan beri masukan/evidence resmi bila punya data.
 
 Tidak boleh menampilkan data kosong seolah-olah lengkap.
+
+## Hardcode Backfill Historis
+
+AI Agent wajib membuat dan menjalankan task historis untuk 10-15 tahun ke belakang pada modul inti.
+
+- Minimum wajib: 10 tahun ke belakang.
+- Target penuh: 15 tahun ke belakang.
+- Output masuk Gudang DB/draft queue, bukan HTML publik.
+- HTML publik tetap hanya bulan/tahun berjalan agar ringan, responsif, dan tidak delay.
+- Jika user memilih bulan/tahun lama, arahkan ke Gudang DB atau load-on-demand dari Gudang DB.
+- Record historis baru harus otomatis memicu regenerasi index, dashboard summary, readiness, source patrol, dan orchestrator status melalui workflow.
 
 ## Masukan Rakyat
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:40:51+07:00",
+  "generated_at": "2026-06-22T08:56:30+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -10,6 +10,18 @@
     "token_in_html": false,
     "required_before_rill": "sumber resmi atau dua sumber independen, nominal/periode jelas, dan review manusia/AI policy guard"
   },
+  "historical_backfill_policy": {
+    "hardcoded": true,
+    "target_years": 15,
+    "minimum_required_years": 10,
+    "mandate": "Tim AI Pengumpul DB wajib mencari dan mengisi data historis 10-15 tahun ke belakang ke Gudang DB.",
+    "html_policy": "HTML publik hanya menampilkan tahun/bulan berjalan; periode lama diarahkan ke Gudang DB."
+  },
+  "task_counts": {
+    "total": 240,
+    "current_period": 15,
+    "historical_backfill": 225
+  },
   "queue_files": {
     "json": "gudang-db/_queue/ai_pengawas_candidates.json",
     "csv": "gudang-db/_queue/ai_pengawas_candidates.csv"
@@ -17,6 +29,7 @@
   "total_candidates": 3,
   "new_candidates_this_run": 0,
   "high_confidence_candidates": 0,
+  "historical_backfill_candidates": 0,
   "by_module": {
     "korupsi": 2,
     "prog_legislatif": 1
@@ -54,7 +67,9 @@
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "Kejaksaan Agung menangkap buronan penipuan bisnis batu bara, Richard Arief Muljadi, di Bandara Soekarno Hatta. Ia didakwa merugikan Rp7 miliar.",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false
     },
     {
       "id": "MR-AI-9CC3B650AD093447",
@@ -80,7 +95,9 @@
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "Tim SIRI dan Kejaksaan menangkap Richard Arief Muljadi, buronan penipuan batu bara, di Bandara Soekarno Hatta. Ia didakwa kerugian Rp7 miliar.",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false
     },
     {
       "id": "MR-AI-FECDCF3FB9FDCC8B",
@@ -106,7 +123,9 @@
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "Menteri Keuangan Purbaya Yudhi Sadewa belum menjelaskan penerapan layer cukai rokok baru ke Komisi XI DPR",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy.",
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false
     }
   ],
   "failures": [

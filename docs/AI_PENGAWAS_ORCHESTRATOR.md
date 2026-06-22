@@ -4,6 +4,8 @@ AI Pengawas Orchestrator adalah pola kerja 24/7 untuk membuat Monitoring Rakyat 
 
 Tujuan utamanya sederhana: setiap aliran APBN/APBD, sampai Rp 1, harus bisa ditelusuri ke program, instansi, vendor, bukti, status verifikasi, dan dampaknya ke cashflow negara.
 
+Hardcode utama: Tim AI Pengumpul DB wajib mencari dan mengisi data historis 10-15 tahun ke belakang. Data historis diprioritaskan karena sumbernya lebih matang, putusan/audit lebih banyak, dan validasi lebih stabil. Tahun/bulan berjalan boleh on-process dan masuk belakangan.
+
 ## Prinsip
 
 - Orchestrator adalah router, policy guard, source patrol, dan draft queue builder.
@@ -11,6 +13,7 @@ Tujuan utamanya sederhana: setiap aliran APBN/APBD, sampai Rp 1, harus bisa dite
 - HTML publik tidak boleh menyimpan token GitHub, API key, cookie, atau secret.
 - Data sensitif tidak boleh menjadi klaim final tanpa sumber resmi atau dua sumber independen kredibel.
 - Jika sumber/API/feed gagal, sistem melaporkan apa adanya dan tidak membuat data palsu.
+- HTML publik hanya menampilkan tahun/bulan berjalan; bulan/tahun lama dibuka melalui Gudang DB agar halaman tetap ringan.
 
 ## Alur 24/7
 
@@ -26,6 +29,16 @@ GitHub Actions schedule
 -> GitHub Pages menampilkan status patroli
 ```
 
+Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
+
+- `gudang-db/_index/ai_index.json`
+- `dashboard/dashboard_summary.json`
+- `dashboard/pre_github_readiness.json`
+- `dashboard/ai_agent_tasks.json`
+- `dashboard/ai_agent_source_patrol.json`
+- `dashboard/ai_orchestrator_status.json`
+- laporan readiness dan orchestrator di `docs/`
+
 ## Output
 
 - `dashboard/ai_agent_tasks.json`: modul yang butuh pencarian.
@@ -40,6 +53,7 @@ GitHub Actions schedule
 - `AI_CLASSIFIED_NEEDS_VERIFICATION`: kandidat awal, perlu bukti tambahan.
 - `DRAFT_REVIEW`: kandidat layak review, belum final.
 - `VERIFIED_SOURCE_CANDIDATE`: berasal dari kategori resmi dan confidence tinggi, tetap perlu review sebelum masuk data rill.
+- `HISTORICAL_BACKFILL_REQUIRED`: tugas wajib untuk mengisi Gudang DB 10-15 tahun ke belakang.
 
 ## Integrasi Ke Menu
 

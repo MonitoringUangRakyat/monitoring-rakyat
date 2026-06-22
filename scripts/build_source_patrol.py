@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FEEDS = ROOT / "gudang-db" / "master" / "master_source_feeds.csv"
 TASKS = ROOT / "dashboard" / "ai_agent_tasks.json"
 OUT = ROOT / "dashboard" / "ai_agent_source_patrol.json"
+HISTORICAL_BACKFILL_TASK = "HISTORICAL_BACKFILL_REQUIRED"
+MAX_PUBLIC_PATROL_ROWS = 500
 
 KEYWORDS_BY_MODULE = {
     "akuntansi": ["APBN", "realisasi anggaran", "belanja negara"],
@@ -52,6 +54,7 @@ def main() -> None:
     for task in active_modules:
         module = task["module"]
         year = task["year"]
+        task_type = task.get("task_type", "CURRENT_PERIOD_SEARCH")
         keywords = KEYWORDS_BY_MODULE.get(module, [module, "uang rakyat"])
         for feed in feeds:
             confidence = int(feed.get("confidence_awal") or 0)
@@ -69,6 +72,8 @@ def main() -> None:
                         "module": module,
                         "year": year,
                         "month": task["month"],
+                        "task_type": task_type,
+                        "historical_mandate": task_type == HISTORICAL_BACKFILL_TASK,
                         "source_id": feed["id"],
                         "source": feed["nama_sumber"],
                         "category": category,
@@ -77,21 +82,36 @@ def main() -> None:
                         "query": feed["search_query_template"].replace("{keyword}", keyword).replace("{tahun}", str(year)),
                         "confidence_awal": confidence,
                         "status": "PATROL_PENDING",
-                        "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV.",
+                        "next_action": (
+                            "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
+                            if task_type == HISTORICAL_BACKFILL_TASK
+                            else "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
+                        ),
                     }
                 )
 
+    total_count = len(patrol)
+    public_patrol = patrol[:MAX_PUBLIC_PATROL_ROWS]
     payload = {
         "generated_at": now.isoformat(timespec="seconds"),
         "purpose": "Daftar patroli proaktif Tim AI Agent untuk mencari DB kosong dari sumber resmi, media mainstream, dan agregator.",
+        "historical_backfill_policy": {
+            "hardcoded": True,
+            "mandate": "Tim AI Pengumpul DB wajib mencari dan mengisi 10-15 tahun data historis ke Gudang DB.",
+            "html_policy": "HTML publik hanya tahun/bulan berjalan; data lama diarahkan ke Gudang DB.",
+        },
         "rules": [
+            "HISTORICAL_BACKFILL_REQUIRED adalah kewajiban hardcode untuk 10-15 tahun ke belakang.",
             "Media mainstream adalah sinyal awal 70-75, bukan bukti final tunggal.",
             "Sumber resmi/audit/putusan punya prioritas tertinggi.",
             "Nemesis hanya salah satu acuan red flag, bukan sumber tunggal.",
             "Semua hasil crawl masuk DRAFT_REVIEW sampai evidence lolos audit.",
         ],
-        "patrol_count": len(patrol),
-        "patrol": patrol,
+        "patrol_count": total_count,
+        "patrol_returned": len(public_patrol),
+        "truncated_for_public_dashboard": total_count > len(public_patrol),
+        "public_dashboard_limit": MAX_PUBLIC_PATROL_ROWS,
+        "patrol": public_patrol,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {OUT.relative_to(ROOT)} with {len(patrol)} patrol items.")

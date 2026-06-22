@@ -83,6 +83,8 @@ def main() -> None:
     filled_rows = 0
 
     for path in sorted(GUDANG_DB.rglob("*.csv")):
+      if any(part.startswith("_") for part in path.relative_to(GUDANG_DB).parts[:-1]):
+          continue
       if path.parent.name == "master":
           fallback_year = active_year
       else:

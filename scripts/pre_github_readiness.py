@@ -17,6 +17,8 @@ SUMMARY = ROOT / "dashboard" / "dashboard_summary.json"
 JSON_OUT = ROOT / "dashboard" / "pre_github_readiness.json"
 TASKS_OUT = ROOT / "dashboard" / "ai_agent_tasks.json"
 MD_OUT = ROOT / "docs" / "PRE_GITHUB_READINESS_REPORT.md"
+HISTORICAL_BACKFILL_YEARS = 15
+HISTORICAL_MIN_REQUIRED_YEARS = 10
 
 CORE_MODULES = {
     "akuntansi",
@@ -202,6 +204,8 @@ def build_payload() -> dict:
     active_year = int(active["year"])
     active_month = int(active["month"])
     expected_years = set(range(1966, active_year + 1))
+    historical_backfill_years = list(range(max(1966, active_year - HISTORICAL_BACKFILL_YEARS), active_year))
+    historical_min_years = list(range(max(1966, active_year - HISTORICAL_MIN_REQUIRED_YEARS), active_year))
 
     modules: dict[str, dict] = {}
     for module, meta in sorted(index.get("modules", {}).items()):
@@ -217,6 +221,11 @@ def build_payload() -> dict:
             "rows_with_money": 0,
             "active_rows": 0,
             "active_rill_rows": 0,
+            "historical_backfill_years_expected": historical_backfill_years,
+            "historical_backfill_years_ready": [],
+            "historical_backfill_years_needing_data": [],
+            "historical_minimum_years_ready": [],
+            "year_health": {},
             "latest_nonempty_year": 0,
             "latest_nonempty_rows": 0,
             "fallback": inspect_master_fallback(module),
@@ -232,6 +241,11 @@ def build_payload() -> dict:
         rows = read_rows(path)
         info = modules[module]
         info["rows_total"] += len(rows)
+        year_info = info["year_health"].setdefault(
+            str(file_year),
+            {"rows_total": 0, "rows_with_source": 0, "rows_with_money": 0, "rill_rows": 0},
+        )
+        year_info["rows_total"] += len(rows)
         if rows and file_year >= info["latest_nonempty_year"]:
             info["latest_nonempty_year"] = file_year
             info["latest_nonempty_rows"] = len(rows)
@@ -240,8 +254,12 @@ def build_payload() -> dict:
             money = has_money(row)
             if source:
                 info["rows_with_source"] += 1
+                year_info["rows_with_source"] += 1
             if money:
                 info["rows_with_money"] += 1
+                year_info["rows_with_money"] += 1
+            if source and money:
+                year_info["rill_rows"] += 1
             if active_row(row, file_year, active_year, active_month):
                 info["active_rows"] += 1
                 if source and money:
@@ -252,6 +270,17 @@ def build_payload() -> dict:
             info["data_status"] = "HAS_EVIDENCE"
         elif info["rows_total"]:
             info["data_status"] = "HAS_ROWS_NO_EVIDENCE"
+        ready_years = []
+        needing_years = []
+        for year in historical_backfill_years:
+            year_info = info["year_health"].get(str(year), {})
+            if int(year_info.get("rill_rows") or 0) > 0:
+                ready_years.append(year)
+            else:
+                needing_years.append(year)
+        info["historical_backfill_years_ready"] = ready_years
+        info["historical_backfill_years_needing_data"] = needing_years
+        info["historical_minimum_years_ready"] = [year for year in historical_min_years if year in ready_years]
 
     core = {k: modules.get(k) for k in sorted(CORE_MODULES) if k in modules}
     missing_core = sorted(CORE_MODULES - set(modules))
@@ -265,26 +294,43 @@ def build_payload() -> dict:
         if not info:
             continue
         if info["active_rill_rows"] > 0:
-            continue
-        fallback = info["fallback"]
-        fallback_note = (
-            f"Pakai fallback {fallback['file']} tahun terakhir {fallback['year']}"
-            if fallback.get("status") == "MASTER_HISTORY_AVAILABLE"
-            else "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber"
-        )
-        tasks.append(
-            {
-                "module": module,
-                "year": active_year,
-                "month": active_month,
-                "status": "SEARCH_REQUIRED",
-                "priority": "HIGH" if module in {"akuntansi", "korupsi", "bea_cukai", "sda", "vendor", "redflag"} else "MEDIUM",
-                "fallback": fallback,
-                "fallback_note": fallback_note,
-                "source_priorities": SOURCE_PRIORITIES.get(module, ["Sumber resmi pemerintah", "BPK", "LKPP/SiRUP"]),
-                "instruction": "Tim AI Agent harus mencari sumber publik/resmi, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi.",
-            }
-        )
+            pass
+        else:
+            fallback = info["fallback"]
+            fallback_note = (
+                f"Pakai fallback {fallback['file']} tahun terakhir {fallback['year']}"
+                if fallback.get("status") == "MASTER_HISTORY_AVAILABLE"
+                else "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber"
+            )
+            tasks.append(
+                {
+                    "module": module,
+                    "year": active_year,
+                    "month": active_month,
+                    "task_type": "CURRENT_PERIOD_SEARCH",
+                    "status": "SEARCH_REQUIRED",
+                    "priority": "HIGH" if module in {"akuntansi", "korupsi", "bea_cukai", "sda", "vendor", "redflag"} else "MEDIUM",
+                    "fallback": fallback,
+                    "fallback_note": fallback_note,
+                    "source_priorities": SOURCE_PRIORITIES.get(module, ["Sumber resmi pemerintah", "BPK", "LKPP/SiRUP"]),
+                    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi.",
+                }
+            )
+        for year in info["historical_backfill_years_needing_data"]:
+            tasks.append(
+                {
+                    "module": module,
+                    "year": year,
+                    "month": 0,
+                    "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+                    "status": "SEARCH_REQUIRED",
+                    "priority": "HIGH" if year in historical_min_years else "MEDIUM",
+                    "fallback": info["fallback"],
+                    "fallback_note": "Hardcode mandate: data historis 10-15 tahun ke belakang wajib dicari karena sumbernya lebih matang dan lebih mudah diverifikasi.",
+                    "source_priorities": SOURCE_PRIORITIES.get(module, ["Sumber resmi pemerintah", "BPK", "LKPP/SiRUP"]),
+                    "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit.",
+                }
+            )
 
     status = "READY_WITH_EMPTY_CURRENT_PERIOD"
     blockers = []
@@ -296,6 +342,18 @@ def build_payload() -> dict:
         blockers.append("ada modul yang belum lengkap file tahunnya")
     if active_rill_total == 0:
         blockers.append("belum ada baris data riil bersumber untuk tahun/bulan berjalan")
+    historical_ready_minimum = sum(
+        1
+        for info in core.values()
+        if info and len(info.get("historical_minimum_years_ready", [])) >= HISTORICAL_MIN_REQUIRED_YEARS
+    )
+    historical_modules_needing_backfill = [
+        module
+        for module, info in core.items()
+        if info and len(info.get("historical_minimum_years_ready", [])) < HISTORICAL_MIN_REQUIRED_YEARS
+    ]
+    if historical_modules_needing_backfill:
+        blockers.append("hardcode backfill 10 tahun historis belum lengkap untuk modul inti")
     if blockers:
         status = "NEEDS_WORK"
 
@@ -313,6 +371,15 @@ def build_payload() -> dict:
         "current_period_rill_rows": active_rill_total,
         "ai_agent_tasks_count": len(tasks),
         "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
+        "historical_backfill_policy": {
+            "hardcoded": True,
+            "target_years": HISTORICAL_BACKFILL_YEARS,
+            "minimum_required_years": HISTORICAL_MIN_REQUIRED_YEARS,
+            "year_range": historical_backfill_years,
+            "minimum_year_range": historical_min_years,
+            "modules_meeting_minimum": historical_ready_minimum,
+            "modules_needing_backfill": historical_modules_needing_backfill,
+        },
         "dashboard_summary": summary,
         "core_modules": core,
         "modules": modules,
@@ -334,6 +401,7 @@ def write_report(payload: dict) -> None:
         f"- Current period rows: {payload['current_period_rows']}",
         f"- Current period rill rows with source + nominal: {payload['current_period_rill_rows']}",
         f"- AI Agent search tasks: {payload['ai_agent_tasks_count']}",
+        f"- Historical backfill hardcode: last {payload['historical_backfill_policy']['target_years']} years, minimum {payload['historical_backfill_policy']['minimum_required_years']} years",
         "",
         "## Blockers",
         "",
@@ -343,6 +411,15 @@ def write_report(payload: dict) -> None:
     else:
         lines.append("- Tidak ada blocker struktural.")
     lines.extend([
+        "",
+        "## Historical Backfill Mandate",
+        "",
+        "- Tim AI Pengumpul DB wajib mengisi data 10-15 tahun ke belakang karena data historis lebih matang, lebih banyak putusan/audit, dan lebih mudah diverifikasi.",
+        "- Tahun berjalan tetap boleh on-process dan masuk belakangan sebagai current-period draft.",
+        "- HTML publik tetap hanya menampilkan tahun/bulan berjalan; klik tahun/bulan lama harus diarahkan ke Gudang DB.",
+        f"- Target backfill: {payload['historical_backfill_policy']['year_range']}",
+        f"- Minimum wajib: {payload['historical_backfill_policy']['minimum_year_range']}",
+        f"- Modul yang belum memenuhi minimum: {', '.join(payload['historical_backfill_policy']['modules_needing_backfill']) or '-'}",
         "",
         "## Core Sector Coverage",
         "",
@@ -362,6 +439,7 @@ def write_report(payload: dict) -> None:
         "- Jika periode berjalan kosong, dashboard boleh menampilkan fallback historis/master dengan label jelas.",
         "- Fallback tidak boleh dianggap data riil tahun/bulan berjalan.",
         "- Daftar tugas pencarian otomatis ditulis ke `dashboard/ai_agent_tasks.json`.",
+        "- `HISTORICAL_BACKFILL_REQUIRED` adalah tugas wajib, bukan opsional.",
         "- Website seperti Nemesis dapat dipakai sebagai acuan awal untuk pengadaan/redflag, tetapi harus diberi status review dan diverifikasi ke LKPP/SiRUP/BPK/KPK/Kejaksaan/putusan.",
         "",
         "## Catatan",
