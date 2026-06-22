@@ -199,7 +199,7 @@ function renderOrchestratorStatus(status) {
 
 function formatTrillion(value) {
   const n = Number(value || 0);
-  if (!n) return "Kosong";
+  if (!n) return "0";
   return n.toFixed(n >= 100 ? 0 : 1).replace(".0", "");
 }
 
@@ -235,12 +235,15 @@ function renderFiscalRatioChart(payload) {
     const apbn = Number(row.belanja_apbn_t || 0);
     const pajak = Number(row.pendapatan_pajak_t || 0);
     const sda = Number(row.hasil_sda_t || 0);
+    const isEmpty = !apbn && !pajak && !sda;
+    const valueLabel = (value) => value > 0 ? `<span class="cmp-val">${formatTrillion(value)}</span>` : "";
     return `
       <div class="cmp-group" title="Sinkron Gudang DB ${year}: ${row.status || "UNKNOWN"}">
+        ${isEmpty ? `<div class="cmp-empty-label">Kosong</div>` : ""}
         <div class="cmp-bars">
-          <div class="cmp-bar b-apbn" title="Belanja APBN ${year}: ${formatTrillion(apbn)} Rp T" style="height:${barHeight(apbn)}px;opacity:${apbn ? 1 : .28}"><span class="cmp-val">${formatTrillion(apbn)}</span></div>
-          <div class="cmp-bar b-pajak" title="Pendapatan Pajak ${year}: ${formatTrillion(pajak)} Rp T" style="height:${barHeight(pajak)}px;opacity:${pajak ? 1 : .28}"><span class="cmp-val">${formatTrillion(pajak)}</span></div>
-          <div class="cmp-bar b-sda" title="Hasil SDA ${year}: ${formatTrillion(sda)} Rp T" style="height:${barHeight(sda)}px;opacity:${sda ? 1 : .28}"><span class="cmp-val">${formatTrillion(sda)}</span></div>
+          <div class="cmp-bar b-apbn" title="Belanja APBN ${year}: ${apbn ? formatTrillion(apbn) : "Kosong"} Rp T" style="height:${barHeight(apbn)}px;opacity:${apbn ? 1 : .28}">${valueLabel(apbn)}</div>
+          <div class="cmp-bar b-pajak" title="Pendapatan Pajak ${year}: ${pajak ? formatTrillion(pajak) : "Kosong"} Rp T" style="height:${barHeight(pajak)}px;opacity:${pajak ? 1 : .28}">${valueLabel(pajak)}</div>
+          <div class="cmp-bar b-sda" title="Hasil SDA ${year}: ${sda ? formatTrillion(sda) : "Kosong"} Rp T" style="height:${barHeight(sda)}px;opacity:${sda ? 1 : .28}">${valueLabel(sda)}</div>
         </div>
         <div class="cmp-year">${year}</div>
       </div>`;
@@ -249,7 +252,7 @@ function renderFiscalRatioChart(payload) {
   const desc = chart.closest(".sec")?.querySelector(".sec-desc");
   if (desc && !desc.dataset.fiscalRatioSync) {
     desc.dataset.fiscalRatioSync = "1";
-    desc.innerHTML += `<br><span style="color:#7dd3fc">Sinkron Gudang DB: ${payload.data.length} baris agregasi tahunan, minimum ${minimumYears} tahun. Tahun kosong bukan simulasi, melainkan menunggu CSV resmi.</span>`;
+    desc.innerHTML += `<br><span style="color:#7dd3fc">Sinkron Gudang DB: ${payload.data.length} baris agregasi tahunan. Area grafik bisa digeser kiri-kanan; tahun kosong bukan simulasi, melainkan menunggu CSV resmi.</span>`;
   }
   return true;
 }

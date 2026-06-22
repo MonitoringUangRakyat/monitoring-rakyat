@@ -212,19 +212,21 @@ textarea{resize:vertical;min-height:60px}
 .period-bar .pinfo{font-size:.7rem;color:var(--td);font-style:italic;margin-left:auto}
 
 /* ── COMPARE CHART ── */
-.cmp-wrap{overflow-x:auto;padding-bottom:8px}
-.cmp-chart{display:flex;align-items:flex-end;gap:12px;height:252px;min-width:1280px;padding:18px 6px 0}
-.cmp-group{display:flex;flex-direction:column;align-items:center;gap:4px;flex:1;min-width:52px}
-.cmp-bars{display:flex;align-items:flex-end;gap:3px;height:200px}
-.cmp-bar{width:16px;border-radius:3px 3px 0 0;position:relative;transition:height 1s}
+.cmp-wrap{overflow-x:auto;padding-bottom:10px;scrollbar-color:#475569 #111827;scrollbar-width:thin}
+.cmp-chart{display:flex;align-items:flex-end;gap:16px;height:252px;width:max-content;min-width:100%;padding:22px 8px 0}
+.cmp-group{display:flex;flex-direction:column;align-items:center;gap:4px;flex:0 0 176px;min-width:176px;position:relative}
+.cmp-bars{display:flex;align-items:flex-end;justify-content:center;gap:5px;height:200px;width:100%}
+.cmp-bar{width:20px;border-radius:3px 3px 0 0;position:relative;transition:height 1s}
 .cmp-bar.b-apbn{background:linear-gradient(180deg,#ef4444,#7f1d1d)}
 .cmp-bar.b-pajak{background:linear-gradient(180deg,#10b981,#065f46)}
 .cmp-bar.b-sda{background:linear-gradient(180deg,#fbbf24,#92400e)}
 .cmp-val{position:absolute;top:-16px;left:50%;transform:translateX(-50%);font-size:.6rem;font-weight:700;color:var(--tl);white-space:nowrap}
+.cmp-empty-label{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);font-size:.62rem;font-weight:800;color:#64748b;white-space:nowrap}
 .cmp-year{font-size:.7rem;color:var(--tm);font-weight:600;margin-top:4px}
 .cmp-legend{display:flex;gap:16px;justify-content:center;margin-top:10px;font-size:.72rem}
 .cmp-legend span{display:flex;align-items:center;gap:5px}
 .cmp-legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+@media(max-width:640px){.cmp-group{flex-basis:132px;min-width:132px}.cmp-chart{gap:12px}.cmp-bar{width:16px}}
 
 .dtab-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
 .dtab{padding:6px 14px;border-radius:5px;border:1px solid var(--db);background:var(--dc);color:var(--tm);font-size:.75rem;font-weight:500;cursor:pointer;transition:all .2s}
@@ -779,7 +781,7 @@ body{background:#ffffff!important;}
   <div class="sec">
     <div class="sec-title">📊 Perbandingan Tahun ke Tahun: Belanja APBN vs Pendapatan Pajak vs Hasil SDA</div>
     <div class="sec-desc">Grafik perbandingan total realisasi/estimasi nasional per tahun (dalam Rp Triliun). Data Pajak & SDA bersumber dari modul 💰 Pajak Negara dan ⛏️ SDA Indonesia (otomatis terupdate saat data ditambah).</div>
-    <div class="sec-desc" style="color:#7dd3fc">Mode grafik: minimum 10 tahun agregasi tahunan. Tahun tanpa sumber Gudang DB ditampilkan sebagai Kosong/0 dan otomatis terisi saat CSV Gudang DB dilengkapi.</div>
+    <div class="sec-desc" style="color:#7dd3fc">Mode grafik: tampil nyaman sekitar 5-10 tahun per layar dan bisa digeser kiri-kanan. Tahun tanpa sumber Gudang DB ditampilkan sebagai Kosong/0 dan otomatis terisi saat CSV Gudang DB dilengkapi.</div>
     <div class="cmp-wrap"><div class="cmp-chart" id="cmp-chart"></div></div>
     <div class="cmp-legend">
       <span><i style="background:#ef4444"></i> Belanja APBN (Rp T)</span>
@@ -8063,7 +8065,7 @@ Prinsip:
       const title = chart.closest('.sec')?.querySelector('.sec-desc');
       if(title && !title.dataset.trendNote){
         title.dataset.trendNote='1';
-        title.innerHTML += `<br><span style="color:#7dd3fc">Grafik dashboard memakai agregasi maksimum ${TREND_YEARS} tahun untuk rasio perbandingan, bukan data mentah penuh.</span>`;
+        title.innerHTML += `<br><span style="color:#7dd3fc">Grafik dashboard memakai agregasi tahunan ringan; geser kiri-kanan untuk melihat tahun sebelum/sesudahnya.</span>`;
       }
     };
   }
