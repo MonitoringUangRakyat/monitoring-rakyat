@@ -18,6 +18,7 @@ Tujuan: Tim AI Agent tidak pasif ketika Gudang DB tahun/bulan berjalan kosong.
 - Tim Pengawas Program: memetakan program, kontrak, vendor, dan wilayah.
 - Tim Evidence: memastikan link/sumber/dokumen ada.
 - Tim Risk Score: memberi red flag tanpa memvonis.
+- AI Koordinator Alur Harian: mengatur urutan build, validasi, patrol, queue, dan sinkron dashboard setiap hari.
 
 ## Sumber Prioritas
 
@@ -42,6 +43,7 @@ Tujuan: Tim AI Agent tidak pasif ketika Gudang DB tahun/bulan berjalan kosong.
 
 - `dashboard/ai_agent_tasks.json`: daftar tugas aktif.
 - `dashboard/pre_github_readiness.json`: status gate publik.
+- `dashboard/fiscal_ratio_annual.json`: agregasi tahunan Belanja APBN vs Pajak vs SDA untuk dashboard minimum 10 tahun.
 - `docs/PRE_GITHUB_READINESS_REPORT.md`: laporan siap baca.
 
 ## Aturan Publik
@@ -62,6 +64,8 @@ AI Agent wajib membuat dan menjalankan task historis untuk 10-15 tahun ke belaka
 - HTML publik tetap hanya bulan/tahun berjalan agar ringan, responsif, dan tidak delay.
 - Jika user memilih bulan/tahun lama, arahkan ke Gudang DB atau load-on-demand dari Gudang DB.
 - Record historis baru harus otomatis memicu regenerasi index, dashboard summary, readiness, source patrol, dan orchestrator status melalui workflow.
+- Khusus grafik dashboard `Belanja APBN vs Pajak vs SDA`, HTML wajib tetap boleh menampilkan minimum 10 tahun karena payload-nya hanya agregasi tahunan ringan dari `dashboard/fiscal_ratio_annual.json`.
+- Jika Gudang DB diperbarui, workflow wajib membangun ulang `dashboard/fiscal_ratio_annual.json` agar grafik otomatis sinkron.
 
 ## Masukan Rakyat
 

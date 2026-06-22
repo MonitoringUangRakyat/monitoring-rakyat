@@ -41,6 +41,7 @@ python scripts/generate_ai_index.py
 python scripts/validate_gudang_db.py
 python scripts/validate_immutable_db.py
 python scripts/build_dashboard_summary.py
+python scripts/build_fiscal_ratio_summary.py
 python scripts/pre_github_readiness.py --write
 python scripts/release_check.py
 ```

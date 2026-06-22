@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-06-22T08:56:30+07:00 Asia/Jakarta
+Generated: 2026-06-22T09:11:17+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -8,6 +8,7 @@ Generated: 2026-06-22T08:56:30+07:00 Asia/Jakarta
 - Output otomatis masuk draft queue, bukan data final.
 - Data final tetap harus lolos policy guard, evidence, dan review.
 - Hardcode: Tim AI Pengumpul DB wajib mencari 10-15 tahun data historis; tahun berjalan boleh on-process.
+- Koordinator harian: AI Koordinator Alur Harian mengatur urutan build, validasi, patrol, dan sinkron dashboard.
 
 ## Status
 
@@ -16,6 +17,20 @@ Generated: 2026-06-22T08:56:30+07:00 Asia/Jakarta
 - High confidence candidates: 0
 - Historical backfill tasks: 225
 - Historical backfill candidates: 0
+
+## Daily Flow Controller
+
+- ID: AI_KOORDINATOR_ALUR_HARIAN
+- Mission: Mengatur urutan kerja harian agar Gudang DB, dashboard, patrol, dan draft queue selalu sinkron tanpa perlu diingatkan manual.
+- Hardcoded tasks:
+  - generate_ai_index.py
+  - validate_gudang_db.py
+  - validate_immutable_db.py
+  - build_dashboard_summary.py
+  - build_fiscal_ratio_summary.py
+  - pre_github_readiness.py --write
+  - build_source_patrol.py
+  - ai_pengawas_orchestrator.py
 
 ## Module Coverage
 

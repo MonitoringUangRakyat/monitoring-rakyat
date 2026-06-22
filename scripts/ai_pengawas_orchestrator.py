@@ -32,6 +32,33 @@ USER_AGENT = "MonitoringRakyat-AIPengawas/1.0 (+https://github.com/MonitoringUan
 MAX_FEEDS_PER_RUN = 12
 MAX_ITEMS_PER_FEED = 20
 MAX_TOTAL_NEW = 250
+DAILY_FLOW_CONTROLLER = {
+    "id": "AI_KOORDINATOR_ALUR_HARIAN",
+    "name": "AI Koordinator Alur Harian",
+    "hardcoded": True,
+    "mission": "Mengatur urutan kerja harian agar Gudang DB, dashboard, patrol, dan draft queue selalu sinkron tanpa perlu diingatkan manual.",
+    "daily_hardcoded_tasks": [
+        "generate_ai_index.py",
+        "validate_gudang_db.py",
+        "validate_immutable_db.py",
+        "build_dashboard_summary.py",
+        "build_fiscal_ratio_summary.py",
+        "pre_github_readiness.py --write",
+        "build_source_patrol.py",
+        "ai_pengawas_orchestrator.py",
+    ],
+    "must_keep_in_sync": [
+        "gudang-db/_index/ai_index.json",
+        "dashboard/dashboard_summary.json",
+        "dashboard/fiscal_ratio_annual.json",
+        "dashboard/pre_github_readiness.json",
+        "dashboard/ai_agent_tasks.json",
+        "dashboard/ai_agent_source_patrol.json",
+        "dashboard/ai_orchestrator_status.json",
+        "gudang-db/_queue/ai_pengawas_candidates.json",
+    ],
+    "cashflow_rule": "Setiap Rp 1 APBN/APBD harus diarahkan ke modul, periode, nominal, sumber, evidence, dan status verifikasi.",
+}
 
 OFFICIAL_CATEGORIES = {
     "OFFICIAL_AUDIT",
@@ -358,6 +385,7 @@ def summarize(candidates: list[dict], new_count: int, failures: list[dict], gene
         "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
         "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
         "mode": "scheduled_github_actions_or_backend_worker",
+        "daily_flow_controller": DAILY_FLOW_CONTROLLER,
         "safety": {
             "auto_publish_final_data": False,
             "write_public_claims_directly": False,
@@ -404,6 +432,7 @@ def write_report(status: dict) -> None:
         "- Output otomatis masuk draft queue, bukan data final.",
         "- Data final tetap harus lolos policy guard, evidence, dan review.",
         "- Hardcode: Tim AI Pengumpul DB wajib mencari 10-15 tahun data historis; tahun berjalan boleh on-process.",
+        f"- Koordinator harian: {status['daily_flow_controller']['name']} mengatur urutan build, validasi, patrol, dan sinkron dashboard.",
         "",
         "## Status",
         "",
@@ -413,9 +442,19 @@ def write_report(status: dict) -> None:
         f"- Historical backfill tasks: {status['task_counts']['historical_backfill']}",
         f"- Historical backfill candidates: {status['historical_backfill_candidates']}",
         "",
+        "## Daily Flow Controller",
+        "",
+        f"- ID: {status['daily_flow_controller']['id']}",
+        f"- Mission: {status['daily_flow_controller']['mission']}",
+        "- Hardcoded tasks:",
+    ]
+    for task in status["daily_flow_controller"]["daily_hardcoded_tasks"]:
+        lines.append(f"  - {task}")
+    lines.extend([
+        "",
         "## Module Coverage",
         "",
-    ]
+    ])
     for module, count in status["by_module"].items():
         lines.append(f"- {module}: {count}")
     lines.extend(["", "## Safety Guard", ""])

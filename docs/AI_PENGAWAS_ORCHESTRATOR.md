@@ -22,6 +22,7 @@ GitHub Actions schedule
 -> generate_ai_index.py
 -> validate_gudang_db.py
 -> build_dashboard_summary.py
+-> build_fiscal_ratio_summary.py
 -> pre_github_readiness.py --write
 -> build_source_patrol.py
 -> ai_pengawas_orchestrator.py
@@ -33,6 +34,7 @@ Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
 
 - `gudang-db/_index/ai_index.json`
 - `dashboard/dashboard_summary.json`
+- `dashboard/fiscal_ratio_annual.json`
 - `dashboard/pre_github_readiness.json`
 - `dashboard/ai_agent_tasks.json`
 - `dashboard/ai_agent_source_patrol.json`
@@ -44,6 +46,7 @@ Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
 - `dashboard/ai_agent_tasks.json`: modul yang butuh pencarian.
 - `dashboard/ai_agent_source_patrol.json`: daftar query/source patrol.
 - `dashboard/ai_orchestrator_status.json`: ringkasan publik status orkestrator.
+- `dashboard/fiscal_ratio_annual.json`: agregasi tahunan Belanja APBN vs Pajak vs SDA untuk grafik dashboard.
 - `gudang-db/_queue/ai_pengawas_candidates.json`: kandidat DB hasil patrol.
 - `gudang-db/_queue/ai_pengawas_candidates.csv`: versi CSV untuk review.
 - `docs/AI_ORCHESTRATOR_24_7_REPORT.md`: laporan run terakhir.
@@ -58,6 +61,8 @@ Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
 ## Integrasi Ke Menu
 
 Dashboard membaca `dashboard/ai_orchestrator_status.json` melalui `dashboard/app.js`.
+
+Grafik `Perbandingan Tahun ke Tahun: Belanja APBN vs Pendapatan Pajak vs Hasil SDA` membaca `dashboard/fiscal_ratio_annual.json`. Grafik ini wajib tetap menampilkan minimum 10 tahun karena hanya agregasi tahunan, bukan detail bulanan/harian. Jika Gudang DB belum punya nilai tahun tertentu, tahun itu tetap tampil sebagai `Kosong` dan otomatis terisi saat CSV Gudang DB diperbarui lalu workflow berjalan.
 
 Menu dan fitur lain tetap memakai Gudang DB sebagai source of truth. Kandidat dari `_queue` baru boleh dipindahkan ke CSV sektor setelah:
 
@@ -78,3 +83,18 @@ Orchestrator tidak boleh:
 - menulis token ke HTML atau repo;
 - membuat angka atau sumber palsu;
 - memakai satu media/agregator sebagai bukti final.
+
+## AI Koordinator Alur Harian
+
+Satu role hardcode mengatur urutan kerja sistem setiap hari: `AI_KOORDINATOR_ALUR_HARIAN`.
+
+Tugas permanen:
+
+- regenerate index Gudang DB;
+- validasi Gudang DB dan immutable ledger;
+- build `dashboard_summary.json`;
+- build `fiscal_ratio_annual.json`;
+- build readiness dan task backfill historis;
+- build source patrol;
+- jalankan AI Pengawas Orchestrator;
+- pastikan semua output dashboard/queue sinkron sebelum commit otomatis.

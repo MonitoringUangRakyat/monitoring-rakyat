@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:56:30+07:00",
+  "generated_at": "2026-06-22T09:11:16+07:00",
   "purpose": "Daftar patroli proaktif Tim AI Agent untuk mencari DB kosong dari sumber resmi, media mainstream, dan agregator.",
   "historical_backfill_policy": {
     "hardcoded": true,
@@ -19,7 +19,7 @@
   "public_dashboard_limit": 500,
   "patrol": [
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -36,7 +36,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -53,7 +53,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -70,7 +70,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -87,7 +87,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -104,7 +104,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -121,7 +121,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -138,7 +138,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -155,7 +155,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -172,7 +172,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -189,7 +189,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -206,7 +206,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -223,7 +223,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -240,7 +240,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -257,7 +257,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -274,7 +274,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -291,7 +291,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -308,7 +308,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -325,7 +325,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -342,7 +342,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -359,7 +359,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -376,7 +376,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -393,7 +393,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -410,7 +410,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -427,7 +427,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -444,7 +444,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -461,7 +461,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -478,7 +478,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -495,7 +495,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -512,7 +512,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -529,7 +529,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -546,7 +546,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -563,7 +563,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -580,7 +580,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -597,7 +597,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -614,7 +614,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2026,
       "month": 6,
@@ -631,7 +631,7 @@
       "next_action": "Validasi endpoint/query, ambil judul-link-tanggal, cross-check minimal dua sumber atau satu sumber resmi sebelum draft CSV."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -648,7 +648,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -665,7 +665,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -682,7 +682,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -699,7 +699,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -716,7 +716,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -733,7 +733,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -750,7 +750,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -767,7 +767,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -784,7 +784,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -801,7 +801,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -818,7 +818,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -835,7 +835,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -852,7 +852,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -869,7 +869,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -886,7 +886,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -903,7 +903,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -920,7 +920,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -937,7 +937,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -954,7 +954,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -971,7 +971,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -988,7 +988,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1005,7 +1005,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1022,7 +1022,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1039,7 +1039,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1056,7 +1056,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1073,7 +1073,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1090,7 +1090,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1107,7 +1107,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1124,7 +1124,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1141,7 +1141,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1158,7 +1158,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1175,7 +1175,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1192,7 +1192,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1209,7 +1209,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1226,7 +1226,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2011,
       "month": 0,
@@ -1243,7 +1243,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1260,7 +1260,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1277,7 +1277,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1294,7 +1294,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1311,7 +1311,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1328,7 +1328,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1345,7 +1345,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1362,7 +1362,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1379,7 +1379,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1396,7 +1396,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1413,7 +1413,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1430,7 +1430,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1447,7 +1447,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1464,7 +1464,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1481,7 +1481,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1498,7 +1498,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1515,7 +1515,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1532,7 +1532,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1549,7 +1549,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1566,7 +1566,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1583,7 +1583,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1600,7 +1600,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1617,7 +1617,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1634,7 +1634,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1651,7 +1651,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1668,7 +1668,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1685,7 +1685,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1702,7 +1702,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1719,7 +1719,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1736,7 +1736,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1753,7 +1753,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1770,7 +1770,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1787,7 +1787,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1804,7 +1804,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1821,7 +1821,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1838,7 +1838,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2012,
       "month": 0,
@@ -1855,7 +1855,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1872,7 +1872,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1889,7 +1889,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1906,7 +1906,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1923,7 +1923,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1940,7 +1940,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1957,7 +1957,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1974,7 +1974,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -1991,7 +1991,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2008,7 +2008,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2025,7 +2025,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2042,7 +2042,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2059,7 +2059,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2076,7 +2076,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2093,7 +2093,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2110,7 +2110,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2127,7 +2127,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2144,7 +2144,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2161,7 +2161,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2178,7 +2178,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2195,7 +2195,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2212,7 +2212,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2229,7 +2229,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2246,7 +2246,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2263,7 +2263,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2280,7 +2280,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2297,7 +2297,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2314,7 +2314,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2331,7 +2331,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2348,7 +2348,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2365,7 +2365,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2382,7 +2382,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2399,7 +2399,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2416,7 +2416,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2433,7 +2433,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2450,7 +2450,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2013,
       "month": 0,
@@ -2467,7 +2467,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2484,7 +2484,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2501,7 +2501,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2518,7 +2518,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2535,7 +2535,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2552,7 +2552,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2569,7 +2569,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2586,7 +2586,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2603,7 +2603,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2620,7 +2620,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2637,7 +2637,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2654,7 +2654,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2671,7 +2671,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2688,7 +2688,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2705,7 +2705,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2722,7 +2722,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2739,7 +2739,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2756,7 +2756,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2773,7 +2773,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2790,7 +2790,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2807,7 +2807,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2824,7 +2824,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2841,7 +2841,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2858,7 +2858,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2875,7 +2875,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2892,7 +2892,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2909,7 +2909,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2926,7 +2926,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2943,7 +2943,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2960,7 +2960,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2977,7 +2977,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -2994,7 +2994,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -3011,7 +3011,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -3028,7 +3028,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -3045,7 +3045,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -3062,7 +3062,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2014,
       "month": 0,
@@ -3079,7 +3079,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3096,7 +3096,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3113,7 +3113,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3130,7 +3130,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3147,7 +3147,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3164,7 +3164,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3181,7 +3181,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3198,7 +3198,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3215,7 +3215,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3232,7 +3232,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3249,7 +3249,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3266,7 +3266,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3283,7 +3283,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3300,7 +3300,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3317,7 +3317,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3334,7 +3334,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3351,7 +3351,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3368,7 +3368,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3385,7 +3385,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3402,7 +3402,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3419,7 +3419,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3436,7 +3436,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3453,7 +3453,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3470,7 +3470,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3487,7 +3487,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3504,7 +3504,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3521,7 +3521,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3538,7 +3538,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3555,7 +3555,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3572,7 +3572,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3589,7 +3589,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3606,7 +3606,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3623,7 +3623,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3640,7 +3640,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3657,7 +3657,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3674,7 +3674,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2015,
       "month": 0,
@@ -3691,7 +3691,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3708,7 +3708,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3725,7 +3725,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3742,7 +3742,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3759,7 +3759,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3776,7 +3776,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3793,7 +3793,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3810,7 +3810,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3827,7 +3827,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3844,7 +3844,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3861,7 +3861,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3878,7 +3878,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3895,7 +3895,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3912,7 +3912,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3929,7 +3929,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3946,7 +3946,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3963,7 +3963,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3980,7 +3980,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -3997,7 +3997,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4014,7 +4014,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4031,7 +4031,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4048,7 +4048,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4065,7 +4065,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4082,7 +4082,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4099,7 +4099,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4116,7 +4116,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4133,7 +4133,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4150,7 +4150,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4167,7 +4167,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4184,7 +4184,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4201,7 +4201,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4218,7 +4218,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4235,7 +4235,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4252,7 +4252,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4269,7 +4269,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4286,7 +4286,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2016,
       "month": 0,
@@ -4303,7 +4303,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4320,7 +4320,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4337,7 +4337,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4354,7 +4354,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4371,7 +4371,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4388,7 +4388,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4405,7 +4405,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4422,7 +4422,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4439,7 +4439,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4456,7 +4456,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4473,7 +4473,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4490,7 +4490,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4507,7 +4507,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4524,7 +4524,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4541,7 +4541,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4558,7 +4558,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4575,7 +4575,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4592,7 +4592,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4609,7 +4609,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4626,7 +4626,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4643,7 +4643,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4660,7 +4660,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4677,7 +4677,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4694,7 +4694,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4711,7 +4711,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4728,7 +4728,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4745,7 +4745,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4762,7 +4762,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4779,7 +4779,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4796,7 +4796,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4813,7 +4813,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4830,7 +4830,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4847,7 +4847,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4864,7 +4864,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4881,7 +4881,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4898,7 +4898,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2017,
       "month": 0,
@@ -4915,7 +4915,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -4932,7 +4932,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -4949,7 +4949,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -4966,7 +4966,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -4983,7 +4983,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5000,7 +5000,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5017,7 +5017,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5034,7 +5034,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5051,7 +5051,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5068,7 +5068,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5085,7 +5085,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5102,7 +5102,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5119,7 +5119,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5136,7 +5136,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5153,7 +5153,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5170,7 +5170,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5187,7 +5187,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5204,7 +5204,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5221,7 +5221,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5238,7 +5238,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5255,7 +5255,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5272,7 +5272,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5289,7 +5289,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5306,7 +5306,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5323,7 +5323,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5340,7 +5340,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5357,7 +5357,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5374,7 +5374,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5391,7 +5391,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5408,7 +5408,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5425,7 +5425,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5442,7 +5442,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5459,7 +5459,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5476,7 +5476,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5493,7 +5493,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5510,7 +5510,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2018,
       "month": 0,
@@ -5527,7 +5527,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5544,7 +5544,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5561,7 +5561,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5578,7 +5578,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5595,7 +5595,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5612,7 +5612,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5629,7 +5629,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5646,7 +5646,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5663,7 +5663,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5680,7 +5680,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5697,7 +5697,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5714,7 +5714,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5731,7 +5731,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5748,7 +5748,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5765,7 +5765,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5782,7 +5782,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5799,7 +5799,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5816,7 +5816,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5833,7 +5833,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5850,7 +5850,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5867,7 +5867,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5884,7 +5884,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5901,7 +5901,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5918,7 +5918,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5935,7 +5935,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5952,7 +5952,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5969,7 +5969,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -5986,7 +5986,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6003,7 +6003,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6020,7 +6020,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6037,7 +6037,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6054,7 +6054,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6071,7 +6071,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6088,7 +6088,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6105,7 +6105,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6122,7 +6122,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2019,
       "month": 0,
@@ -6139,7 +6139,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6156,7 +6156,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6173,7 +6173,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6190,7 +6190,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6207,7 +6207,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6224,7 +6224,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6241,7 +6241,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6258,7 +6258,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6275,7 +6275,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6292,7 +6292,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6309,7 +6309,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6326,7 +6326,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6343,7 +6343,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6360,7 +6360,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6377,7 +6377,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6394,7 +6394,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6411,7 +6411,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6428,7 +6428,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6445,7 +6445,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6462,7 +6462,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6479,7 +6479,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6496,7 +6496,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6513,7 +6513,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6530,7 +6530,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6547,7 +6547,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6564,7 +6564,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6581,7 +6581,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6598,7 +6598,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6615,7 +6615,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6632,7 +6632,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6649,7 +6649,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6666,7 +6666,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6683,7 +6683,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6700,7 +6700,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6717,7 +6717,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6734,7 +6734,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2020,
       "month": 0,
@@ -6751,7 +6751,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6768,7 +6768,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6785,7 +6785,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6802,7 +6802,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6819,7 +6819,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6836,7 +6836,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6853,7 +6853,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6870,7 +6870,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6887,7 +6887,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6904,7 +6904,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6921,7 +6921,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6938,7 +6938,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6955,7 +6955,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6972,7 +6972,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -6989,7 +6989,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7006,7 +7006,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7023,7 +7023,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7040,7 +7040,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7057,7 +7057,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7074,7 +7074,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7091,7 +7091,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7108,7 +7108,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7125,7 +7125,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7142,7 +7142,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7159,7 +7159,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7176,7 +7176,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7193,7 +7193,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7210,7 +7210,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7227,7 +7227,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7244,7 +7244,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7261,7 +7261,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7278,7 +7278,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7295,7 +7295,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7312,7 +7312,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7329,7 +7329,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7346,7 +7346,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2021,
       "month": 0,
@@ -7363,7 +7363,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7380,7 +7380,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7397,7 +7397,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7414,7 +7414,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7431,7 +7431,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7448,7 +7448,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7465,7 +7465,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7482,7 +7482,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7499,7 +7499,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7516,7 +7516,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7533,7 +7533,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7550,7 +7550,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7567,7 +7567,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7584,7 +7584,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7601,7 +7601,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7618,7 +7618,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7635,7 +7635,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7652,7 +7652,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7669,7 +7669,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7686,7 +7686,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7703,7 +7703,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7720,7 +7720,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7737,7 +7737,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7754,7 +7754,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7771,7 +7771,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7788,7 +7788,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7805,7 +7805,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7822,7 +7822,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7839,7 +7839,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7856,7 +7856,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7873,7 +7873,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7890,7 +7890,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7907,7 +7907,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7924,7 +7924,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7941,7 +7941,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7958,7 +7958,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2022,
       "month": 0,
@@ -7975,7 +7975,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -7992,7 +7992,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8009,7 +8009,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8026,7 +8026,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8043,7 +8043,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8060,7 +8060,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8077,7 +8077,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8094,7 +8094,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8111,7 +8111,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8128,7 +8128,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8145,7 +8145,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8162,7 +8162,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8179,7 +8179,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8196,7 +8196,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8213,7 +8213,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8230,7 +8230,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8247,7 +8247,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8264,7 +8264,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8281,7 +8281,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8298,7 +8298,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8315,7 +8315,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8332,7 +8332,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8349,7 +8349,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8366,7 +8366,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8383,7 +8383,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8400,7 +8400,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8417,7 +8417,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8434,7 +8434,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8451,7 +8451,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8468,7 +8468,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8485,7 +8485,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,
@@ -8502,7 +8502,7 @@
       "next_action": "Backfill historis wajib: validasi arsip sumber, ambil judul-link-tanggal, nominal/periode, lalu draft CSV Gudang DB."
     },
     {
-      "created_at": "2026-06-22T08:56:30+07:00",
+      "created_at": "2026-06-22T09:11:16+07:00",
       "module": "akuntansi",
       "year": 2023,
       "month": 0,

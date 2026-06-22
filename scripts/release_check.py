@@ -16,11 +16,13 @@ REQUIRED = [
     "dashboard/app.js",
     "dashboard/active-period.json",
     "dashboard/dashboard_summary.json",
+    "dashboard/fiscal_ratio_annual.json",
     "gudang-db/index.html",
     "gudang-db/_index/ai_index.json",
     "scripts/validate_gudang_db.py",
     "scripts/generate_ai_index.py",
     "scripts/build_dashboard_summary.py",
+    "scripts/build_fiscal_ratio_summary.py",
     "scripts/pre_github_readiness.py",
     "scripts/build_source_patrol.py",
     "scripts/ai_pengawas_orchestrator.py",
@@ -88,6 +90,8 @@ def main() -> int:
     if run([sys.executable, "scripts/validate_immutable_db.py"]) != 0:
         return 1
     if run([sys.executable, "scripts/build_dashboard_summary.py"]) != 0:
+        return 1
+    if run([sys.executable, "scripts/build_fiscal_ratio_summary.py"]) != 0:
         return 1
     if run([sys.executable, "scripts/pre_github_readiness.py", "--write"]) != 0:
         return 1

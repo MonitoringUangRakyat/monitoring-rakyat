@@ -1,0 +1,315 @@
+{
+  "generated_at": "2026-06-22T09:11:15+07:00",
+  "source": "Gudang DB CSV yearly aggregation",
+  "policy": "Grafik dashboard boleh menampilkan minimum 10 tahun karena hanya agregasi tahunan, bukan detail bulanan/harian.",
+  "minimum_years": 10,
+  "trend_years": 20,
+  "year_range": [
+    2007,
+    2026
+  ],
+  "units": "IDR and Rp triliun",
+  "sync_contract": "Setiap update Gudang DB menjalankan script ini via release_check/GitHub Actions agar grafik otomatis sinkron.",
+  "data": [
+    {
+      "year": 2007,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2008,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2009,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2010,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2011,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2012,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2013,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2014,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2015,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2016,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2017,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2018,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2019,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2020,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2021,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2022,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2023,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2024,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2025,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    },
+    {
+      "year": 2026,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0
+      }
+    }
+  ]
+}

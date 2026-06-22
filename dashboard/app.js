@@ -3,11 +3,13 @@
 
   Contract:
   - Dashboard reads only dashboard_summary.json for public-facing totals.
+  - Fiscal ratio chart reads fiscal_ratio_annual.json, a lightweight yearly aggregate.
   - Raw CSV stays in gudang-db/ as the source of truth.
   - AI tools use gudang-db/_index/ai_index.json to find module/year files.
 */
 
 const SUMMARY_PATH = "dashboard_summary.json";
+const FISCAL_RATIO_PATH = "fiscal_ratio_annual.json";
 const READINESS_PATH = "pre_github_readiness.json";
 const AI_TASKS_PATH = "ai_agent_tasks.json";
 const SOURCE_PATROL_PATH = "ai_agent_source_patrol.json";
@@ -143,6 +145,7 @@ function renderOrchestratorStatus(status) {
   const top = Array.isArray(status.top_candidates) ? status.top_candidates.slice(0, 5) : [];
   const byStatus = status.by_status || {};
   const taskCounts = status.task_counts || {};
+  const controller = status.daily_flow_controller || {};
   const statusText = Object.entries(byStatus).map(([key, value]) => `${key}:${value}`).join(", ") || "draft queue kosong";
   return `
     <div style="margin-top:12px;border:1px solid #f59e0b66;border-radius:8px;padding:10px;background:#1f1304">
@@ -156,6 +159,11 @@ function renderOrchestratorStatus(status) {
         Task historis wajib: ${taskCounts.historical_backfill || 0}.
         Status: ${statusText}.
       </p>
+      ${controller.id ? `
+        <p style="margin:8px 0 0;color:#fde68a;font-size:11px;line-height:1.5">
+          Koordinator harian: <b>${controller.name || controller.id}</b>.
+          Tugas permanen: ${(controller.daily_hardcoded_tasks || []).slice(0, 4).join(", ")}.
+        </p>` : ""}
       ${top.length ? `
         <div style="display:grid;gap:6px;margin-top:8px">
           ${top.map((item) => `
@@ -167,6 +175,75 @@ function renderOrchestratorStatus(status) {
             </div>`).join("")}
         </div>` : ""}
     </div>`;
+}
+
+function formatTrillion(value) {
+  const n = Number(value || 0);
+  if (!n) return "Kosong";
+  return n.toFixed(n >= 100 ? 0 : 1).replace(".0", "");
+}
+
+function renderFiscalRatioChart(payload) {
+  const chart = document.getElementById("cmp-chart");
+  if (!chart || !payload || !Array.isArray(payload.data)) return false;
+
+  const minimumYears = Math.max(10, Number(payload.minimum_years || 10));
+  const rows = payload.data
+    .filter((row) => row && row.year)
+    .sort((a, b) => Number(a.year) - Number(b.year))
+    .slice(-Math.max(minimumYears, Number(payload.trend_years || minimumYears)));
+
+  if (!rows.length) return false;
+
+  const maxVal = Math.max(
+    ...rows.map((row) => Math.max(
+      Number(row.belanja_apbn_t || 0),
+      Number(row.pendapatan_pajak_t || 0),
+      Number(row.hasil_sda_t || 0)
+    )),
+    1
+  );
+  const barHeight = (value) => {
+    const n = Number(value || 0);
+    return n > 0 ? Math.max(4, Math.round((n / maxVal) * 200)) : 2;
+  };
+
+  chart.dataset.source = "fiscal_ratio_annual.json";
+  chart.dataset.minimumYears = String(minimumYears);
+  chart.innerHTML = rows.map((row) => {
+    const year = row.year;
+    const apbn = Number(row.belanja_apbn_t || 0);
+    const pajak = Number(row.pendapatan_pajak_t || 0);
+    const sda = Number(row.hasil_sda_t || 0);
+    return `
+      <div class="cmp-group" title="Sinkron Gudang DB ${year}: ${row.status || "UNKNOWN"}">
+        <div class="cmp-bars">
+          <div class="cmp-bar b-apbn" title="Belanja APBN ${year}: ${formatTrillion(apbn)} Rp T" style="height:${barHeight(apbn)}px;opacity:${apbn ? 1 : .28}"><span class="cmp-val">${formatTrillion(apbn)}</span></div>
+          <div class="cmp-bar b-pajak" title="Pendapatan Pajak ${year}: ${formatTrillion(pajak)} Rp T" style="height:${barHeight(pajak)}px;opacity:${pajak ? 1 : .28}"><span class="cmp-val">${formatTrillion(pajak)}</span></div>
+          <div class="cmp-bar b-sda" title="Hasil SDA ${year}: ${formatTrillion(sda)} Rp T" style="height:${barHeight(sda)}px;opacity:${sda ? 1 : .28}"><span class="cmp-val">${formatTrillion(sda)}</span></div>
+        </div>
+        <div class="cmp-year">${year}</div>
+      </div>`;
+  }).join("");
+
+  const desc = chart.closest(".sec")?.querySelector(".sec-desc");
+  if (desc && !desc.dataset.fiscalRatioSync) {
+    desc.dataset.fiscalRatioSync = "1";
+    desc.innerHTML += `<br><span style="color:#7dd3fc">Sinkron Gudang DB: ${payload.data.length} baris agregasi tahunan, minimum ${minimumYears} tahun. Tahun kosong bukan simulasi, melainkan menunggu CSV resmi.</span>`;
+  }
+  return true;
+}
+
+function installFiscalRatioRenderer(payload) {
+  if (!payload) return;
+  window.MR_FISCAL_RATIO_PAYLOAD = payload;
+  const oldRenderer = window.renderCmpChart;
+  window.renderCmpChart = function renderCmpChartFromGudangDb() {
+    if (!renderFiscalRatioChart(window.MR_FISCAL_RATIO_PAYLOAD) && typeof oldRenderer === "function") {
+      oldRenderer();
+    }
+  };
+  window.renderCmpChart();
 }
 
 function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestrator) {
@@ -209,8 +286,9 @@ function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestra
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const [summaryResult, aiIndexResult, readinessResult, tasksResult, patrolResult, orchestratorResult] = await Promise.allSettled([
+  const [summaryResult, fiscalRatioResult, aiIndexResult, readinessResult, tasksResult, patrolResult, orchestratorResult] = await Promise.allSettled([
     fetchJson(SUMMARY_PATH),
+    fetchJson(FISCAL_RATIO_PATH),
     fetchJson(AI_INDEX_PATH),
     fetchJson(READINESS_PATH),
     fetchJson(AI_TASKS_PATH),
@@ -226,4 +304,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     patrolResult.status === "fulfilled" ? patrolResult.value : null,
     orchestratorResult.status === "fulfilled" ? orchestratorResult.value : null
   );
+  if (fiscalRatioResult.status === "fulfilled") {
+    installFiscalRatioRenderer(fiscalRatioResult.value);
+  }
 });
