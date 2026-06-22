@@ -28,9 +28,10 @@ jobs:
           python scripts/build_dashboard_summary.py
           python scripts/pre_github_readiness.py --write
           python scripts/build_source_patrol.py
+          python scripts/ai_pengawas_orchestrator.py
 
       - name: Commit readiness updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(ai-agent): update readiness patrol"
-          file_pattern: "dashboard/dashboard_summary.json dashboard/pre_github_readiness.json dashboard/ai_agent_tasks.json dashboard/ai_agent_source_patrol.json docs/PRE_GITHUB_READINESS_REPORT.md gudang-db/_index/ai_index.json"
+          file_pattern: "dashboard/dashboard_summary.json dashboard/pre_github_readiness.json dashboard/ai_agent_tasks.json dashboard/ai_agent_source_patrol.json dashboard/ai_orchestrator_status.json docs/PRE_GITHUB_READINESS_REPORT.md docs/AI_ORCHESTRATOR_24_7_REPORT.md gudang-db/_index/ai_index.json gudang-db/_queue/ai_pengawas_candidates.json gudang-db/_queue/ai_pengawas_candidates.csv"

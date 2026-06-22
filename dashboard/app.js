@@ -11,6 +11,7 @@ const SUMMARY_PATH = "dashboard_summary.json";
 const READINESS_PATH = "pre_github_readiness.json";
 const AI_TASKS_PATH = "ai_agent_tasks.json";
 const SOURCE_PATROL_PATH = "ai_agent_source_patrol.json";
+const AI_ORCHESTRATOR_PATH = "ai_orchestrator_status.json";
 const AI_INDEX_PATH = "../gudang-db/_index/ai_index.json";
 const GUDANG_DB_REPO_LINK = "../gudang-db/index.html";
 
@@ -136,7 +137,36 @@ function renderSourcePatrol(patrolPayload) {
     </div>`;
 }
 
-function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol) {
+function renderOrchestratorStatus(status) {
+  if (!status) return "";
+  const top = Array.isArray(status.top_candidates) ? status.top_candidates.slice(0, 5) : [];
+  const byStatus = status.by_status || {};
+  const statusText = Object.entries(byStatus).map(([key, value]) => `${key}:${value}`).join(", ") || "draft queue kosong";
+  return `
+    <div style="margin-top:12px;border:1px solid #f59e0b66;border-radius:8px;padding:10px;background:#1f1304">
+      <div style="display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+        <b style="color:#fbbf24;font-size:12px">AI Pengawas Orchestrator 24/7</b>
+        <span style="color:#fde68a;font-size:11px">${status.total_candidates || 0} kandidat DB</span>
+      </div>
+      <p style="margin:8px 0 0;color:#cbd5e1;font-size:11px;line-height:1.5">
+        Scope: ${status.cashflow_scope || "ALL_APBN_APBD_RP1_TRACE"}.
+        Kandidat baru run terakhir: ${status.new_candidates_this_run || 0}.
+        Status: ${statusText}.
+      </p>
+      ${top.length ? `
+        <div style="display:grid;gap:6px;margin-top:8px">
+          ${top.map((item) => `
+            <div style="border-top:1px solid #3b2a0b;padding-top:6px;color:#cbd5e1;font-size:11px;line-height:1.45">
+              <b style="color:#fff">${item.module || "-"}</b>
+              <span style="color:#fbbf24">${item.confidence || 0}</span>
+              <span style="color:#94a3b8">${item.status || "DRAFT_REVIEW"}</span><br>
+              ${(item.title || "").slice(0, 130)}
+            </div>`).join("")}
+        </div>` : ""}
+    </div>`;
+}
+
+function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestrator) {
   const panel = ensureGudangPanel();
   const moduleCount = aiIndex && aiIndex.modules ? Object.keys(aiIndex.modules).length : 0;
   const masterCount = aiIndex && Array.isArray(aiIndex.master_files) ? aiIndex.master_files.length : 0;
@@ -154,6 +184,7 @@ function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol) {
         ${renderReadiness(readiness)}
         ${renderAgentTasks(tasks)}
         ${renderSourcePatrol(patrol)}
+        ${renderOrchestratorStatus(orchestrator)}
         ${renderMiniTrend(summary && summary.history_akumulasi)}
       </div>
       <div style="border:1px solid #2e3248;border-radius:8px;padding:12px;background:#0f1117">
@@ -175,12 +206,13 @@ function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const [summaryResult, aiIndexResult, readinessResult, tasksResult, patrolResult] = await Promise.allSettled([
+  const [summaryResult, aiIndexResult, readinessResult, tasksResult, patrolResult, orchestratorResult] = await Promise.allSettled([
     fetchJson(SUMMARY_PATH),
     fetchJson(AI_INDEX_PATH),
     fetchJson(READINESS_PATH),
     fetchJson(AI_TASKS_PATH),
-    fetchJson(SOURCE_PATROL_PATH)
+    fetchJson(SOURCE_PATROL_PATH),
+    fetchJson(AI_ORCHESTRATOR_PATH)
   ]);
 
   renderGudangPanel(
@@ -188,6 +220,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     aiIndexResult.status === "fulfilled" ? aiIndexResult.value : null,
     readinessResult.status === "fulfilled" ? readinessResult.value : null,
     tasksResult.status === "fulfilled" ? tasksResult.value : null,
-    patrolResult.status === "fulfilled" ? patrolResult.value : null
+    patrolResult.status === "fulfilled" ? patrolResult.value : null,
+    orchestratorResult.status === "fulfilled" ? orchestratorResult.value : null
   );
 });

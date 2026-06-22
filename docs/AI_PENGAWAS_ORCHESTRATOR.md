@@ -1,0 +1,66 @@
+# AI Pengawas Orchestrator
+
+AI Pengawas Orchestrator adalah pola kerja 24/7 untuk membuat Monitoring Rakyat proaktif mencari kandidat DB uang rakyat dari sumber publik/resmi.
+
+Tujuan utamanya sederhana: setiap aliran APBN/APBD, sampai Rp 1, harus bisa ditelusuri ke program, instansi, vendor, bukti, status verifikasi, dan dampaknya ke cashflow negara.
+
+## Prinsip
+
+- Orchestrator adalah router, policy guard, source patrol, dan draft queue builder.
+- Output otomatis masuk queue, bukan langsung menjadi data final.
+- HTML publik tidak boleh menyimpan token GitHub, API key, cookie, atau secret.
+- Data sensitif tidak boleh menjadi klaim final tanpa sumber resmi atau dua sumber independen kredibel.
+- Jika sumber/API/feed gagal, sistem melaporkan apa adanya dan tidak membuat data palsu.
+
+## Alur 24/7
+
+```text
+GitHub Actions schedule
+-> generate_ai_index.py
+-> validate_gudang_db.py
+-> build_dashboard_summary.py
+-> pre_github_readiness.py --write
+-> build_source_patrol.py
+-> ai_pengawas_orchestrator.py
+-> commit dashboard status + draft queue
+-> GitHub Pages menampilkan status patroli
+```
+
+## Output
+
+- `dashboard/ai_agent_tasks.json`: modul yang butuh pencarian.
+- `dashboard/ai_agent_source_patrol.json`: daftar query/source patrol.
+- `dashboard/ai_orchestrator_status.json`: ringkasan publik status orkestrator.
+- `gudang-db/_queue/ai_pengawas_candidates.json`: kandidat DB hasil patrol.
+- `gudang-db/_queue/ai_pengawas_candidates.csv`: versi CSV untuk review.
+- `docs/AI_ORCHESTRATOR_24_7_REPORT.md`: laporan run terakhir.
+
+## Status Data
+
+- `AI_CLASSIFIED_NEEDS_VERIFICATION`: kandidat awal, perlu bukti tambahan.
+- `DRAFT_REVIEW`: kandidat layak review, belum final.
+- `VERIFIED_SOURCE_CANDIDATE`: berasal dari kategori resmi dan confidence tinggi, tetap perlu review sebelum masuk data rill.
+
+## Integrasi Ke Menu
+
+Dashboard membaca `dashboard/ai_orchestrator_status.json` melalui `dashboard/app.js`.
+
+Menu dan fitur lain tetap memakai Gudang DB sebagai source of truth. Kandidat dari `_queue` baru boleh dipindahkan ke CSV sektor setelah:
+
+- duplikasi dicek;
+- tahun/bulan/periode jelas;
+- nominal/cashflow jelas;
+- sumber resmi atau dua sumber independen tersedia;
+- status verifikasi sesuai kebijakan;
+- review lolos.
+
+## Batas Aman
+
+Orchestrator tidak boleh:
+
+- memvonis orang atau lembaga;
+- memindahkan kandidat menjadi `RILL_CURRENT_PERIOD` tanpa review;
+- menghapus data valid;
+- menulis token ke HTML atau repo;
+- membuat angka atau sumber palsu;
+- memakai satu media/agregator sebagai bukti final.
