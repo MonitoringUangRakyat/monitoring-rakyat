@@ -425,10 +425,8 @@ td:last-child:has(.btn-del), td.action-btns{display:none!important}
 .koruptor-ticker-title{margin:12px 0 6px;font-weight:800;color:#fca5a5;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .koruptor-ticker-title select{width:auto;min-width:92px;background:#0f1117;border:1px solid #7f1d1d;color:#fecaca;border-radius:6px;padding:4px 8px;font-size:.72rem;font-weight:700}
 .koruptor-ticker-title .ticker-year-label{font-size:.68rem;color:#fca5a5;text-transform:uppercase;letter-spacing:.8px}
-.koruptor-ticker{white-space:nowrap;display:inline-block;min-width:max-content;animation:mrTicker 180s linear infinite;color:#fecaca;animation-play-state:running!important;will-change:transform;pointer-events:none}
-.koruptor-ticker-wrap:hover .koruptor-ticker,
-.koruptor-ticker-wrap:focus-within .koruptor-ticker,
-.koruptor-ticker:hover{animation-play-state:running!important}
+.koruptor-ticker{white-space:nowrap;display:inline-block;min-width:max-content;animation:mrTicker 180s linear infinite;color:#fecaca;animation-play-state:running;will-change:transform;pointer-events:none}
+.koruptor-ticker-wrap.mr-ticker-paused .koruptor-ticker{animation-play-state:paused!important}
 @keyframes mrTicker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .korupsi-highlight{border:2px solid #991b1b!important;box-shadow:0 0 12px rgba(220,38,38,.25)}
 .mr-contribute-cta{
@@ -7077,7 +7075,7 @@ Prinsip:
    const title=document.createElement('div');
    title.id='koruptor-ticker-title';
    title.className='koruptor-ticker-title';
-   title.textContent='🚨 DAFTAR MALING UANG RAKYAT 🚨';
+   title.textContent='🚨 DAFTAR KASUS MALING UANG RAKYAT 🚨';
    box.innerHTML=`<div class="koruptor-ticker" id="koruptor-ticker"></div>`;
    dash.insertBefore(box,dash.firstChild.nextSibling);
    dash.insertBefore(title,box);
@@ -7248,11 +7246,41 @@ Prinsip:
 
   function keepTickerRunning(){
     const el=document.getElementById('koruptor-ticker');
+    const box=document.getElementById('koruptor-ticker-wrap');
     if(!el) return;
+    if(box) box.classList.remove('mr-ticker-paused');
     el.style.animationPlayState='running';
     if(!el.style.animation || el.style.animation==='none'){
       el.style.animation='mrTicker 180s linear infinite';
     }
+  }
+
+  let tickerPauseTimer=null;
+  let tickerPointerInside=false;
+
+  function pauseTicker(){
+    const box=document.getElementById('koruptor-ticker-wrap');
+    const el=document.getElementById('koruptor-ticker');
+    if(!box || !el) return;
+    box.classList.add('mr-ticker-paused');
+    el.style.animationPlayState='paused';
+  }
+
+  function scheduleTickerPause(delay=450){
+    clearTimeout(tickerPauseTimer);
+    if(!tickerPointerInside) return;
+    tickerPauseTimer=setTimeout(()=>{ if(tickerPointerInside) pauseTicker(); }, delay);
+  }
+
+  function bindTickerMotionControls(){
+    const box=document.getElementById('koruptor-ticker-wrap');
+    if(!box || box.dataset.motionBound==='1') return;
+    box.dataset.motionBound='1';
+    box.addEventListener('mouseenter',()=>{ tickerPointerInside=true; scheduleTickerPause(120); });
+    box.addEventListener('mousemove',()=>{ tickerPointerInside=true; keepTickerRunning(); scheduleTickerPause(); });
+    box.addEventListener('pointermove',()=>{ tickerPointerInside=true; keepTickerRunning(); scheduleTickerPause(); });
+    box.addEventListener('wheel',()=>{ tickerPointerInside=true; keepTickerRunning(); scheduleTickerPause(700); }, {passive:true});
+    box.addEventListener('mouseleave',()=>{ tickerPointerInside=false; clearTimeout(tickerPauseTimer); keepTickerRunning(); });
   }
 
   function setTickerTitle(){
@@ -7264,7 +7292,7 @@ Prinsip:
       existing.value=current;
       return;
     }
-    title.innerHTML='<span>🚨 DAFTAR MALING UANG RAKYAT 🚨</span><span class="ticker-year-label">Tahun</span><select id="koruptor-ticker-year" title="Pilih tahun running text koruptor"><option value="">Semua</option></select>';
+    title.innerHTML='<span>🚨 DAFTAR KASUS MALING UANG RAKYAT 🚨</span><span class="ticker-year-label">Tahun</span><select id="koruptor-ticker-year" title="Pilih tahun running text koruptor"><option value="">Semua</option></select>';
     const sel=document.getElementById('koruptor-ticker-year');
     if(sel) sel.value=current;
   }
@@ -7340,7 +7368,7 @@ Prinsip:
       const title=document.createElement('div');
       title.id='koruptor-ticker-title';
       title.className='koruptor-ticker-title';
-      title.textContent='🚨 DAFTAR MALING UANG RAKYAT 🚨';
+      title.textContent='🚨 DAFTAR KASUS MALING UANG RAKYAT 🚨';
       box.innerHTML='<div class="koruptor-ticker" id="koruptor-ticker"></div>';
       const hero=dash.querySelector('.hero');
       if(hero && hero.nextSibling) dash.insertBefore(box, hero.nextSibling);
@@ -7362,14 +7390,16 @@ Prinsip:
         title.id='koruptor-ticker-title';
         title.className='koruptor-ticker-title';
       }
-      title.textContent='🚨 DAFTAR MALING UANG RAKYAT 🚨';
+      title.textContent='🚨 DAFTAR KASUS MALING UANG RAKYAT 🚨';
       if(title.parentElement!==dash || title.nextElementSibling!==box) dash.insertBefore(title, box);
     }
     if(!box.querySelector('#koruptor-ticker')){
       box.innerHTML='<div class="koruptor-ticker" id="koruptor-ticker"></div>';
     }
     setTickerTitle();
+    bindTickerMotionControls();
     keepTickerRunning();
+    scheduleTickerPause();
     return box;
   }
 
@@ -7406,6 +7436,7 @@ Prinsip:
     el.textContent=text + '   ✦   ' + text;
     el.title=`Sumber: Gudang DB master_koruptor.csv. Filter: ${selectedYear||'Semua tahun'} (${data.length}/${allCount} baris). Tambah baris baru dengan status HOT_NEWS/BARU/PROSES agar otomatis naik di ticker.`;
     keepTickerRunning();
+    scheduleTickerPause();
   }
 
   async function loadKoruptorCSV(){
@@ -7455,26 +7486,26 @@ Prinsip:
     load:loadKoruptorCSV,
     render:renderTicker,
     updateSummary:updateKorupsiSummary,
-    keepRunning:keepTickerRunning
+    keepRunning:keepTickerRunning,
+    pause:pauseTicker
   };
 
   document.addEventListener('DOMContentLoaded',()=>{
-    ['mouseenter','mouseleave','mouseover','wheel','scroll','pointermove','focusin'].forEach(evt=>{
-      document.addEventListener(evt, keepTickerRunning, {passive:true, capture:true});
-    });
-    window.addEventListener('scroll', keepTickerRunning, {passive:true});
-    window.addEventListener('pageshow', keepTickerRunning);
+    window.addEventListener('scroll',()=>{ if(tickerPointerInside){ keepTickerRunning(); scheduleTickerPause(700); } }, {passive:true});
+    window.addEventListener('pageshow',()=>{ keepTickerRunning(); scheduleTickerPause(); });
     document.addEventListener('visibilitychange', keepTickerRunning);
     setTimeout(async()=>{
       await loadKoruptorCSV();
       updateKorupsiSummary();
       keepTickerRunning();
+      scheduleTickerPause();
     },500);
   });
   setInterval(async()=>{
     await loadKoruptorCSV();
     updateKorupsiSummary();
     keepTickerRunning();
+    scheduleTickerPause();
   },120000);
 })();
 </script>
