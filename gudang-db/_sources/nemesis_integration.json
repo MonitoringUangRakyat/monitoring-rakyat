@@ -1,0 +1,40 @@
+{
+  "id": "NEMESIS_PROCUREMENT_SIGNAL",
+  "name": "Nemesis Procurement Signal",
+  "source_url": "https://nemesis.assai.id",
+  "repo_url": "https://github.com/assai-id/nemesis",
+  "transparency_url": "https://nemesis.assai.id/algoritma",
+  "dataset_scope": "LKPP / SiRUP procurement analysis, currently strongest for TA 2026",
+  "role_in_monitoring_rakyat": "Akselerator mapping pengadaan untuk draft Gudang DB, red flag, vendor, program, satker, wilayah, dan potensi pemborosan.",
+  "trust_policy": {
+    "source_class": "AGGREGATOR_AI",
+    "allowed_as_final_evidence": false,
+    "default_status": "DRAFT_REVIEW",
+    "required_crosscheck": [
+      "LKPP/SiRUP original package record",
+      "LPSE or K/L/PD page when available",
+      "BPK/audit/putusan/media mainstream only as enrichment where relevant"
+    ],
+    "rule": "Nemesis mempercepat mapping, tetapi tidak boleh menjadi bukti final tunggal."
+  },
+  "import_contract": {
+    "intake_folder": "gudang-db/_intake/nemesis",
+    "accepted_formats": ["jsonl", "json", "csv"],
+    "script": "scripts/import_nemesis_procurement.py",
+    "queue_json": "gudang-db/_queue/nemesis_procurement_candidates.json",
+    "queue_csv": "gudang-db/_queue/nemesis_procurement_candidates.csv",
+    "status_json": "dashboard/nemesis_integration_status.json"
+  },
+  "field_mapping": {
+    "package_id": ["id", "Id", "paket.id", "Paket.Id", "kode_rup", "rup_id"],
+    "package_name": ["paket", "Paket", "nama_paket", "nama paket"],
+    "agency": ["lembaga", "K/L/PD", "klpd", "k_l_pd"],
+    "satker": ["satker", "SatuanKerja", "satuan_kerja"],
+    "location": ["lokasi", "Lokasi", "kab_kota", "provinsi"],
+    "budget": ["pagu", "Pagu", "nilai", "anggaran"],
+    "funding_source": ["sumberDana", "sumber_dana", "Detail.SumberDana"],
+    "waste_potential": ["potensiPemborosan", "potensi_pemborosan"],
+    "risk_label": ["tags.isInappropriate", "isInappropriate", "risk_label"],
+    "risk_reason": ["tags.inappropriateReason", "inappropriateReason", "alasan"]
+  }
+}

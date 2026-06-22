@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-06-22T09:11:17+07:00 Asia/Jakarta
+Generated: 2026-06-22T09:29:33+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -28,6 +28,7 @@ Generated: 2026-06-22T09:11:17+07:00 Asia/Jakarta
   - validate_immutable_db.py
   - build_dashboard_summary.py
   - build_fiscal_ratio_summary.py
+  - import_nemesis_procurement.py
   - pre_github_readiness.py --write
   - build_source_patrol.py
   - ai_pengawas_orchestrator.py

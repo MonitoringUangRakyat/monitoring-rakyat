@@ -19,6 +19,10 @@ venv/
 *.db-shm
 monitoring-rakyat-data-*.json
 
+# Large external source dumps stay local; import scripts turn them into small draft queues.
+gudang-db/_intake/nemesis/*
+!gudang-db/_intake/nemesis/.gitkeep
+
 # Secrets/config that should not be committed
 .env
 .env.*

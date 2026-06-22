@@ -29,6 +29,7 @@ Tujuan: Tim AI Agent tidak pasif ketika Gudang DB tahun/bulan berjalan kosong.
 - ESDM/KLHK/KKP untuk SDA.
 - Media mainstream seperti Kompas, Detik, Tempo, Metro TV, CNN Indonesia, CNBC Indonesia, dan Tirto untuk sinyal awal dan kronologi publik.
 - Nemesis dapat dipakai sebagai salah satu acuan awal pengadaan/redflag 2026, tetapi bukan satu-satunya sumber dan harus berstatus `DRAFT_REVIEW`.
+- Import terstruktur Nemesis memakai `scripts/import_nemesis_procurement.py`; dump lokal ditaruh di `gudang-db/_intake/nemesis/` dan output masuk `_queue`, bukan langsung final.
 
 ## Status Data
 
@@ -44,6 +45,8 @@ Tujuan: Tim AI Agent tidak pasif ketika Gudang DB tahun/bulan berjalan kosong.
 - `dashboard/ai_agent_tasks.json`: daftar tugas aktif.
 - `dashboard/pre_github_readiness.json`: status gate publik.
 - `dashboard/fiscal_ratio_annual.json`: agregasi tahunan Belanja APBN vs Pajak vs SDA untuk dashboard minimum 10 tahun.
+- `dashboard/nemesis_integration_status.json`: status intake Nemesis dan jumlah kandidat pengadaan yang masuk draft queue.
+- `gudang-db/_queue/nemesis_procurement_candidates.json`: kandidat mapping pengadaan dari Nemesis untuk cross-check LKPP/SiRUP.
 - `docs/PRE_GITHUB_READINESS_REPORT.md`: laporan siap baca.
 
 ## Aturan Publik

@@ -17,12 +17,15 @@ REQUIRED = [
     "dashboard/active-period.json",
     "dashboard/dashboard_summary.json",
     "dashboard/fiscal_ratio_annual.json",
+    "dashboard/nemesis_integration_status.json",
     "gudang-db/index.html",
     "gudang-db/_index/ai_index.json",
+    "gudang-db/_sources/nemesis_integration.json",
     "scripts/validate_gudang_db.py",
     "scripts/generate_ai_index.py",
     "scripts/build_dashboard_summary.py",
     "scripts/build_fiscal_ratio_summary.py",
+    "scripts/import_nemesis_procurement.py",
     "scripts/pre_github_readiness.py",
     "scripts/build_source_patrol.py",
     "scripts/ai_pengawas_orchestrator.py",
@@ -92,6 +95,8 @@ def main() -> int:
     if run([sys.executable, "scripts/build_dashboard_summary.py"]) != 0:
         return 1
     if run([sys.executable, "scripts/build_fiscal_ratio_summary.py"]) != 0:
+        return 1
+    if run([sys.executable, "scripts/import_nemesis_procurement.py"]) != 0:
         return 1
     if run([sys.executable, "scripts/pre_github_readiness.py", "--write"]) != 0:
         return 1

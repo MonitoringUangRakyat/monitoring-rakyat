@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T09:11:17+07:00",
+  "generated_at": "2026-06-22T09:29:33+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -15,6 +15,7 @@
       "validate_immutable_db.py",
       "build_dashboard_summary.py",
       "build_fiscal_ratio_summary.py",
+      "import_nemesis_procurement.py",
       "pre_github_readiness.py --write",
       "build_source_patrol.py",
       "ai_pengawas_orchestrator.py"
@@ -23,11 +24,13 @@
       "gudang-db/_index/ai_index.json",
       "dashboard/dashboard_summary.json",
       "dashboard/fiscal_ratio_annual.json",
+      "dashboard/nemesis_integration_status.json",
       "dashboard/pre_github_readiness.json",
       "dashboard/ai_agent_tasks.json",
       "dashboard/ai_agent_source_patrol.json",
       "dashboard/ai_orchestrator_status.json",
-      "gudang-db/_queue/ai_pengawas_candidates.json"
+      "gudang-db/_queue/ai_pengawas_candidates.json",
+      "gudang-db/_queue/nemesis_procurement_candidates.json"
     ],
     "cashflow_rule": "Setiap Rp 1 APBN/APBD harus diarahkan ke modul, periode, nominal, sumber, evidence, dan status verifikasi."
   },

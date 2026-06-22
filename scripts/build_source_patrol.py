@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FEEDS = ROOT / "gudang-db" / "master" / "master_source_feeds.csv"
 TASKS = ROOT / "dashboard" / "ai_agent_tasks.json"
 OUT = ROOT / "dashboard" / "ai_agent_source_patrol.json"
+NEMESIS_MANIFEST = ROOT / "gudang-db" / "_sources" / "nemesis_integration.json"
 HISTORICAL_BACKFILL_TASK = "HISTORICAL_BACKFILL_REQUIRED"
 MAX_PUBLIC_PATROL_ROWS = 500
 
@@ -95,6 +96,7 @@ def main() -> None:
     payload = {
         "generated_at": now.isoformat(timespec="seconds"),
         "purpose": "Daftar patroli proaktif Tim AI Agent untuk mencari DB kosong dari sumber resmi, media mainstream, dan agregator.",
+        "nemesis_integration": read_json(NEMESIS_MANIFEST) if NEMESIS_MANIFEST.exists() else {},
         "historical_backfill_policy": {
             "hardcoded": True,
             "mandate": "Tim AI Pengumpul DB wajib mencari dan mengisi 10-15 tahun data historis ke Gudang DB.",
@@ -105,6 +107,7 @@ def main() -> None:
             "Media mainstream adalah sinyal awal 70-75, bukan bukti final tunggal.",
             "Sumber resmi/audit/putusan punya prioritas tertinggi.",
             "Nemesis hanya salah satu acuan red flag, bukan sumber tunggal.",
+            "Nemesis punya jalur intake terstruktur melalui scripts/import_nemesis_procurement.py untuk draft pengadaan 2026.",
             "Semua hasil crawl masuk DRAFT_REVIEW sampai evidence lolos audit.",
         ],
         "patrol_count": total_count,

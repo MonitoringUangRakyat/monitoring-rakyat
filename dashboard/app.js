@@ -10,6 +10,7 @@
 
 const SUMMARY_PATH = "dashboard_summary.json";
 const FISCAL_RATIO_PATH = "fiscal_ratio_annual.json";
+const NEMESIS_STATUS_PATH = "nemesis_integration_status.json";
 const READINESS_PATH = "pre_github_readiness.json";
 const AI_TASKS_PATH = "ai_agent_tasks.json";
 const SOURCE_PATROL_PATH = "ai_agent_source_patrol.json";
@@ -140,6 +141,25 @@ function renderSourcePatrol(patrolPayload) {
     </div>`;
 }
 
+function renderNemesisStatus(status) {
+  if (!status) return "";
+  const color = status.input_present ? "#22c55e" : "#f59e0b";
+  const note = status.input_present
+    ? `${status.candidates_written || 0} kandidat pengadaan masuk draft queue.`
+    : "Belum ada dump lokal di intake, tetapi jalur import sudah siap.";
+  return `
+    <div style="margin-top:12px;border:1px solid ${color}66;border-radius:8px;padding:10px;background:#0f1117">
+      <div style="display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+        <b style="color:${color};font-size:12px">Nemesis Procurement Signal</b>
+        <span style="color:#cbd5e1;font-size:11px">${status.input_present ? "INTAKE_READY" : "WAITING_INTAKE"}</span>
+      </div>
+      <p style="margin:8px 0 0;color:#94a3b8;font-size:11px;line-height:1.5">
+        ${note} Status default: ${status.default_status || "DRAFT_REVIEW"}.
+        Guard: klasifikasi AI harus cross-check LKPP/SiRUP sebelum menjadi data final.
+      </p>
+    </div>`;
+}
+
 function renderOrchestratorStatus(status) {
   if (!status) return "";
   const top = Array.isArray(status.top_candidates) ? status.top_candidates.slice(0, 5) : [];
@@ -246,7 +266,7 @@ function installFiscalRatioRenderer(payload) {
   window.renderCmpChart();
 }
 
-function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestrator) {
+function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestrator, nemesisStatus) {
   const panel = ensureGudangPanel();
   const moduleCount = aiIndex && aiIndex.modules ? Object.keys(aiIndex.modules).length : 0;
   const masterCount = aiIndex && Array.isArray(aiIndex.master_files) ? aiIndex.master_files.length : 0;
@@ -264,6 +284,7 @@ function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestra
         ${renderReadiness(readiness)}
         ${renderAgentTasks(tasks)}
         ${renderSourcePatrol(patrol)}
+        ${renderNemesisStatus(nemesisStatus)}
         ${renderOrchestratorStatus(orchestrator)}
         ${renderMiniTrend(summary && summary.history_akumulasi)}
       </div>
@@ -286,9 +307,10 @@ function renderGudangPanel(summary, aiIndex, readiness, tasks, patrol, orchestra
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const [summaryResult, fiscalRatioResult, aiIndexResult, readinessResult, tasksResult, patrolResult, orchestratorResult] = await Promise.allSettled([
+  const [summaryResult, fiscalRatioResult, nemesisResult, aiIndexResult, readinessResult, tasksResult, patrolResult, orchestratorResult] = await Promise.allSettled([
     fetchJson(SUMMARY_PATH),
     fetchJson(FISCAL_RATIO_PATH),
+    fetchJson(NEMESIS_STATUS_PATH),
     fetchJson(AI_INDEX_PATH),
     fetchJson(READINESS_PATH),
     fetchJson(AI_TASKS_PATH),
@@ -302,7 +324,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     readinessResult.status === "fulfilled" ? readinessResult.value : null,
     tasksResult.status === "fulfilled" ? tasksResult.value : null,
     patrolResult.status === "fulfilled" ? patrolResult.value : null,
-    orchestratorResult.status === "fulfilled" ? orchestratorResult.value : null
+    orchestratorResult.status === "fulfilled" ? orchestratorResult.value : null,
+    nemesisResult.status === "fulfilled" ? nemesisResult.value : null
   );
   if (fiscalRatioResult.status === "fulfilled") {
     installFiscalRatioRenderer(fiscalRatioResult.value);

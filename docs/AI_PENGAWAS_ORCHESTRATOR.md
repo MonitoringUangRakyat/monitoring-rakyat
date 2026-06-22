@@ -23,6 +23,7 @@ GitHub Actions schedule
 -> validate_gudang_db.py
 -> build_dashboard_summary.py
 -> build_fiscal_ratio_summary.py
+-> import_nemesis_procurement.py
 -> pre_github_readiness.py --write
 -> build_source_patrol.py
 -> ai_pengawas_orchestrator.py
@@ -35,6 +36,7 @@ Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
 - `gudang-db/_index/ai_index.json`
 - `dashboard/dashboard_summary.json`
 - `dashboard/fiscal_ratio_annual.json`
+- `dashboard/nemesis_integration_status.json`
 - `dashboard/pre_github_readiness.json`
 - `dashboard/ai_agent_tasks.json`
 - `dashboard/ai_agent_source_patrol.json`
@@ -47,6 +49,8 @@ Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
 - `dashboard/ai_agent_source_patrol.json`: daftar query/source patrol.
 - `dashboard/ai_orchestrator_status.json`: ringkasan publik status orkestrator.
 - `dashboard/fiscal_ratio_annual.json`: agregasi tahunan Belanja APBN vs Pajak vs SDA untuk grafik dashboard.
+- `dashboard/nemesis_integration_status.json`: status intake Nemesis.
+- `gudang-db/_queue/nemesis_procurement_candidates.json`: kandidat pengadaan hasil import Nemesis untuk review.
 - `gudang-db/_queue/ai_pengawas_candidates.json`: kandidat DB hasil patrol.
 - `gudang-db/_queue/ai_pengawas_candidates.csv`: versi CSV untuk review.
 - `docs/AI_ORCHESTRATOR_24_7_REPORT.md`: laporan run terakhir.
@@ -63,6 +67,8 @@ Saat ada data baru di Gudang DB atau draft queue, workflow wajib memperbarui:
 Dashboard membaca `dashboard/ai_orchestrator_status.json` melalui `dashboard/app.js`.
 
 Grafik `Perbandingan Tahun ke Tahun: Belanja APBN vs Pendapatan Pajak vs Hasil SDA` membaca `dashboard/fiscal_ratio_annual.json`. Grafik ini wajib tetap menampilkan minimum 10 tahun karena hanya agregasi tahunan, bukan detail bulanan/harian. Jika Gudang DB belum punya nilai tahun tertentu, tahun itu tetap tampil sebagai `Kosong` dan otomatis terisi saat CSV Gudang DB diperbarui lalu workflow berjalan.
+
+Nemesis dipakai sebagai akselerator mapping pengadaan 2026. Import terstruktur ada di `scripts/import_nemesis_procurement.py`, manifest di `gudang-db/_sources/nemesis_integration.json`, dan output masuk queue dengan status `DRAFT_REVIEW`. Kandidat Nemesis harus cross-check LKPP/SiRUP sebelum menjadi data final.
 
 Menu dan fitur lain tetap memakai Gudang DB sebagai source of truth. Kandidat dari `_queue` baru boleh dipindahkan ke CSV sektor setelah:
 
@@ -94,6 +100,7 @@ Tugas permanen:
 - validasi Gudang DB dan immutable ledger;
 - build `dashboard_summary.json`;
 - build `fiscal_ratio_annual.json`;
+- import kandidat Nemesis jika dump intake tersedia;
 - build readiness dan task backfill historis;
 - build source patrol;
 - jalankan AI Pengawas Orchestrator;
