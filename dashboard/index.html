@@ -426,6 +426,23 @@ td:last-child:has(.btn-del), td.action-btns{display:none!important}
 .koruptor-ticker{white-space:nowrap;display:inline-block;min-width:max-content;animation:mrTicker 180s linear infinite;color:#fecaca}
 @keyframes mrTicker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .korupsi-highlight{border:2px solid #991b1b!important;box-shadow:0 0 12px rgba(220,38,38,.25)}
+.mr-contribute-cta{
+  margin-top:14px;
+  border:1px solid #f59e0b66;
+  background:#1f1304;
+  color:#fbbf24;
+  border-radius:8px;
+  padding:9px 12px;
+  font-size:.78rem;
+  font-weight:900;
+  cursor:pointer;
+}
+.mr-contribute-cta:hover{background:#f59e0b;color:#111827}
+.mr-contribute-note{color:#cbd5e1;font-size:.78rem;line-height:1.55}
+.mr-contribute-note ol{margin:10px 0 0 18px;padding:0}
+.mr-contribute-note li{margin:6px 0}
+.mr-contribute-note a{color:#7dd3fc;font-weight:800;text-decoration:none}
+.mr-contribute-note a:hover{text-decoration:underline}
 </style>
 
 
@@ -7091,9 +7108,38 @@ Prinsip:
    <div class="sec-desc">
    Dashboard menonjolkan total kasus korupsi, total kerugian negara, recovery asset, dan tren akumulasi 5-10 tahun.
    Saat Gudang DB aktif, angka akan dihitung otomatis dari repository.
-   </div>`;
+   </div>
+   <button class="mr-contribute-cta" type="button" onclick="MR_KONTRIBUSI_DB.show()">
+     Berikan Kontribusimu Mengawasi Uang Rakyat Klik di sini
+   </button>`;
    dash.insertBefore(div,dash.firstChild.nextSibling);
  }
+ window.MR_KONTRIBUSI_DB = {
+   show(){
+     const modal=document.getElementById('modal');
+     const title=document.getElementById('modal-title');
+     const fields=document.getElementById('modal-fields');
+     if(!modal || !title || !fields) return;
+     title.textContent='Cara Berkontribusi Mengawasi Uang Rakyat';
+     fields.innerHTML=`
+       <div class="mr-contribute-note">
+         <p>Data dari rakyat boleh masuk sebagai bahan audit, tetapi tidak langsung dianggap final. Semua kontribusi wajib bisa dicek ulang oleh publik.</p>
+         <ol>
+           <li>Siapkan data DB: nama modul, tahun/bulan, instansi, nilai uang, uraian kasus/program, dan status awal.</li>
+           <li>Lampirkan sumber publik resmi, atau minimal dua sumber independen yang kredibel untuk klaim sensitif.</li>
+           <li>Gunakan status aman seperti DRAFT_PUBLIC_SUBMISSION, DRAFT_REVIEW, atau NEEDS_MORE_EVIDENCE sampai diverifikasi.</li>
+           <li>Masukkan usulan lewat issue atau pull request di GitHub. Tim/AI Agent akan cek duplikasi, validasi sumber, lalu menaruh data ke Gudang DB jika lolos review.</li>
+           <li>Jangan kirim fitnah, opini tanpa bukti, data pribadi berbahaya, atau klaim final tanpa dokumen publik.</li>
+         </ol>
+         <p style="margin-top:12px">
+           <a href="https://github.com/MonitoringUangRakyat/monitoring-rakyat/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Buka panduan kontribusi</a>
+           &nbsp;|&nbsp;
+           <a href="https://github.com/MonitoringUangRakyat/monitoring-rakyat/tree/main/gudang-db" target="_blank" rel="noopener">Buka Gudang DB</a>
+         </p>
+       </div>`;
+     modal.classList.add('open');
+   }
+ };
  document.addEventListener('DOMContentLoaded',()=>{
    setTimeout(()=>{
       buildTicker();
