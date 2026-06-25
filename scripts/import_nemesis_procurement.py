@@ -260,8 +260,7 @@ def main() -> int:
             break
 
     candidates = sorted(candidates_by_id.values(), key=lambda item: (item["year"], item["agency"], item["package_name"]))
-    if candidates:
-        write_queue(candidates, now, manifest)
+    write_queue(candidates, now, manifest)
 
     status = {
         "generated_at": now,

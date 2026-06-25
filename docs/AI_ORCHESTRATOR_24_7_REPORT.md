@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-06-22T09:29:33+07:00 Asia/Jakarta
+Generated: 2026-06-25T17:52:09+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -12,11 +12,11 @@ Generated: 2026-06-22T09:29:33+07:00 Asia/Jakarta
 
 ## Status
 
-- Total candidates: 3
+- Total candidates: 19
 - New candidates this run: 0
 - High confidence candidates: 0
 - Historical backfill tasks: 225
-- Historical backfill candidates: 0
+- Historical backfill candidates: 15
 
 ## Daily Flow Controller
 
@@ -35,8 +35,21 @@ Generated: 2026-06-22T09:29:33+07:00 Asia/Jakarta
 
 ## Module Coverage
 
-- korupsi: 2
-- prog_legislatif: 1
+- akuntansi: 1
+- audit: 1
+- audittrail: 1
+- bea_cukai: 1
+- bumn: 1
+- korupsi: 3
+- pajak: 1
+- parpol: 1
+- prog_daerah: 1
+- prog_eksekutif: 1
+- prog_legislatif: 3
+- redflag: 1
+- risknas: 1
+- sda: 1
+- vendor: 1
 
 ## Safety Guard
 
