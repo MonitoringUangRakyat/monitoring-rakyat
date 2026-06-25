@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T17:52:09+07:00",
+  "generated_at": "2026-06-26T02:26:59+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -530,9 +530,24 @@
       "error": "Remote end closed connection without response"
     },
     {
+      "source": "Tempo",
+      "feed_url": "https://rss.tempo.co/nasional",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "source": "Metro TV",
       "feed_url": "https://www.metrotvnews.com/rss",
       "error": "not well-formed (invalid token): line 25, column 18"
+    },
+    {
+      "source": "CNN Indonesia",
+      "feed_url": "https://www.cnnindonesia.com/nasional/rss",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "CNBC Indonesia",
+      "feed_url": "https://www.cnbcindonesia.com/news/rss",
+      "error": "HTTP Error 403: Forbidden"
     }
   ]
 }
