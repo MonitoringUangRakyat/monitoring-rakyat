@@ -1,0 +1,26 @@
+{
+  "schema": "monitoring-rakyat.immutable-index.v1",
+  "generated_at": "2026-06-14T00:47:03.778879+00:00",
+  "policy": "VERIFIED/INKRACHT records must not be deleted. Use DISPUTED/RETRACTED with evidence instead.",
+  "protected_count": 3,
+  "records": [
+    {
+      "record_id": "KOR-MASTER-002",
+      "file_path": "gudang-db/master/master_koruptor.csv",
+      "row_hash": "36bb75c0e58165b6bc00fb42b7e53ab83e52f538e2b45751e16dc132dc0912ff",
+      "status_snapshot": "DRAFT_REVIEW - Inkracht   Inkracht "
+    },
+    {
+      "record_id": "KOR-MASTER-003",
+      "file_path": "gudang-db/master/master_koruptor.csv",
+      "row_hash": "649034191d83d685b0a8c0bc1764b547e090578526cf542d91ba7fe46cc68741",
+      "status_snapshot": "DRAFT_REVIEW - Inkracht   Inkracht "
+    },
+    {
+      "record_id": "KOR-MASTER-004",
+      "file_path": "gudang-db/master/master_koruptor.csv",
+      "row_hash": "d43f1fa37c766bd9651ccc3ca7d521a67d6d10f06ffada1240019411dc8f2e46",
+      "status_snapshot": "DRAFT_REVIEW - Inkracht   Inkracht "
+    }
+  ]
+}

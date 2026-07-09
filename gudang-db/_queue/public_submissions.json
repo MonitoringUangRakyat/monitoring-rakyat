@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-07-09T07:17:02+07:00",
+  "source": "anonymous public intake endpoint / repository_dispatch",
+  "repo": "MonitoringUangRakyat/monitoring-rakyat",
+  "input_present": false,
+  "count": 0,
+  "default_status": "DRAFT_PUBLIC_SUBMISSION",
+  "hardcoded_rule": "Masukan publik anonim hanya diterima lewat endpoint anonim; kontribusi lama dari jalur akun publik sudah disapu bersih.",
+  "privacy_rule": "Tidak menyimpan username pengirim, URL issue mentah, atau kontribusi yang memunculkan akun publik.",
+  "note": "Public contribution queue purged until anonymous endpoint is active.",
+  "candidates": []
+}

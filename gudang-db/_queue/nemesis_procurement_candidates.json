@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-09T03:45:06+07:00",
+  "source": "Nemesis Procurement Signal",
+  "source_class": "AGGREGATOR_AI",
+  "allowed_as_final_evidence": false,
+  "default_status": "DRAFT_REVIEW",
+  "required_crosscheck": [
+    "LKPP/SiRUP original package record",
+    "LPSE or K/L/PD page when available",
+    "BPK/audit/putusan/media mainstream only as enrichment where relevant"
+  ],
+  "count": 0,
+  "candidates": []
+}

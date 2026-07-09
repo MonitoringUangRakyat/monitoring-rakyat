@@ -1,0 +1,39 @@
+{
+  "tahun": 2026,
+  "bulan": 6,
+  "bulan_nama": "Juni",
+  "kerugian_total": 127600000000,
+  "recovery_total": 0,
+  "jumlah_kasus": 5,
+  "jumlah_koruptor": 0,
+  "jumlah_kasus_historis": 36,
+  "jumlah_koruptor_historis": 27,
+  "jumlah_kasus_historis_by_module": {
+    "korupsi": 9,
+    "master_koruptor": 27
+  },
+  "history_akumulasi": {
+    "2007": 0,
+    "2008": 73180000000000,
+    "2009": 0,
+    "2010": 0,
+    "2011": 4710200000000,
+    "2012": 22780000000000,
+    "2013": 0,
+    "2014": 0,
+    "2015": 1500000000000000,
+    "2016": 0,
+    "2017": 0,
+    "2018": 1355900000000000,
+    "2019": 9980000000000,
+    "2020": 32410000000000,
+    "2021": 0,
+    "2022": 0,
+    "2023": 0,
+    "2024": 1000000000000,
+    "2025": 5750000000,
+    "2026": 127600000000
+  },
+  "data_rows_terisi": 396,
+  "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
+}

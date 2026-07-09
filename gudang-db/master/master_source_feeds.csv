@@ -1,0 +1,13 @@
+id,nama_sumber,kategori,domain,feed_url,search_query_template,confidence_awal,status,catatan
+FEED-001,Kompas,MAINSTREAM_MEDIA,kompas.com,,site:kompas.com {keyword} {tahun},70,CANDIDATE,Jika RSS/tag tidak tersedia gunakan pencarian web dan halaman tag
+FEED-002,Detik,MAINSTREAM_MEDIA,detik.com,https://rss.detik.com/index.php/detikcom_nasional,site:detik.com {keyword} {tahun},70,CANDIDATE,Endpoint kandidat wajib divalidasi sebelum ingestion
+FEED-003,Tempo,MAINSTREAM_MEDIA,tempo.co,https://rss.tempo.co/nasional,site:tempo.co {keyword} {tahun},75,CANDIDATE,Endpoint kandidat wajib divalidasi sebelum ingestion
+FEED-004,Metro TV,MAINSTREAM_MEDIA,metrotvnews.com,https://www.metrotvnews.com/rss,site:metrotvnews.com {keyword} {tahun},70,CANDIDATE,Endpoint kandidat wajib divalidasi sebelum ingestion
+FEED-005,CNN Indonesia,MAINSTREAM_MEDIA,cnnindonesia.com,https://www.cnnindonesia.com/nasional/rss,site:cnnindonesia.com {keyword} {tahun},70,CANDIDATE,Endpoint kandidat wajib divalidasi sebelum ingestion
+FEED-006,CNBC Indonesia,MAINSTREAM_MEDIA,cnbcindonesia.com,https://www.cnbcindonesia.com/news/rss,site:cnbcindonesia.com {keyword} {tahun},70,CANDIDATE,Endpoint kandidat wajib divalidasi sebelum ingestion
+FEED-007,Tirto,MAINSTREAM_MEDIA,tirto.id,,site:tirto.id {keyword} {tahun},70,CANDIDATE,Jika RSS tidak tersedia gunakan pencarian web dan halaman tag
+FEED-008,Nemesis,AGGREGATOR_AI,nemesis.assai.id,,site:nemesis.assai.id {keyword} {tahun},60,CANDIDATE,Acuan awal red flag pengadaan bukan bukti final tunggal
+FEED-009,LKPP SiRUP,OFFICIAL_PROCUREMENT,sirup.lkpp.go.id,,site:sirup.lkpp.go.id {keyword} {tahun},90,CANDIDATE,Sumber resmi pengadaan
+FEED-010,BPK,OFFICIAL_AUDIT,bpk.go.id,,site:bpk.go.id {keyword} {tahun},95,CANDIDATE,Sumber resmi audit
+FEED-011,KPK,OFFICIAL_ENFORCEMENT,kpk.go.id,,site:kpk.go.id {keyword} {tahun},95,CANDIDATE,Sumber resmi penindakan
+FEED-012,Kejaksaan RI,OFFICIAL_ENFORCEMENT,kejaksaan.go.id,,site:kejaksaan.go.id {keyword} {tahun},95,CANDIDATE,Sumber resmi penindakan

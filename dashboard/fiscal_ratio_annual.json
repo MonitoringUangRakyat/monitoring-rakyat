@@ -1,0 +1,415 @@
+{
+  "generated_at": "2026-07-09T07:17:14+07:00",
+  "source": "Gudang DB CSV yearly aggregation",
+  "policy": "Grafik dashboard boleh menampilkan minimum 10 tahun karena hanya agregasi tahunan, bukan detail bulanan/harian.",
+  "minimum_years": 10,
+  "trend_years": 20,
+  "year_range": [
+    2007,
+    2026
+  ],
+  "units": "IDR and Rp triliun",
+  "sync_contract": "Setiap update Gudang DB menjalankan script ini via release_check/GitHub Actions agar grafik otomatis sinkron.",
+  "data": [
+    {
+      "year": 2007,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2008,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2009,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2010,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2011,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 55100000000,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.055,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 2
+      }
+    },
+    {
+      "year": 2012,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2013,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2014,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_GUDANG_DB",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2015,
+      "belanja_apbn": 1806500000000000,
+      "pendapatan_pajak": 1060800000000000,
+      "hasil_sda": 100900000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 1806.5,
+      "pendapatan_pajak_t": 1060.8,
+      "hasil_sda_t": 100.9,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2016,
+      "belanja_apbn": 1864300000000000,
+      "pendapatan_pajak": 1105800000000000,
+      "hasil_sda": 64900000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 1864.3,
+      "pendapatan_pajak_t": 1105.8,
+      "hasil_sda_t": 64.9,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2017,
+      "belanja_apbn": 2007400000000000,
+      "pendapatan_pajak": 1343500000000000,
+      "hasil_sda": 111100000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 2007.4,
+      "pendapatan_pajak_t": 1343.5,
+      "hasil_sda_t": 111.1,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2018,
+      "belanja_apbn": 2213100000000000,
+      "pendapatan_pajak": 1518800000000000,
+      "hasil_sda": 180600000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 2213.1,
+      "pendapatan_pajak_t": 1518.8,
+      "hasil_sda_t": 180.6,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2019,
+      "belanja_apbn": 2309300000000000,
+      "pendapatan_pajak": 1546100000000000,
+      "hasil_sda": 154900000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 2309.3,
+      "pendapatan_pajak_t": 1546.1,
+      "hasil_sda_t": 154.9,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2020,
+      "belanja_apbn": 2589900000000000,
+      "pendapatan_pajak": 1285100000000000,
+      "hasil_sda": 97200000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 2589.9,
+      "pendapatan_pajak_t": 1285.1,
+      "hasil_sda_t": 97.2,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2021,
+      "belanja_apbn": 2786400000000000,
+      "pendapatan_pajak": 1547800000000000,
+      "hasil_sda": 149500000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 2786.4,
+      "pendapatan_pajak_t": 1547.8,
+      "hasil_sda_t": 149.5,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2022,
+      "belanja_apbn": 3096300000000000,
+      "pendapatan_pajak": 2034600000000000,
+      "hasil_sda": 268800000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 3096.3,
+      "pendapatan_pajak_t": 2034.6,
+      "hasil_sda_t": 268.8,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2023,
+      "belanja_apbn": 3121900000000000,
+      "pendapatan_pajak": 2155400000000000,
+      "hasil_sda": 223300000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 3121.9,
+      "pendapatan_pajak_t": 2155.4,
+      "hasil_sda_t": 223.3,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2024,
+      "belanja_apbn": 3350300000000000,
+      "pendapatan_pajak": 2309900000000000,
+      "hasil_sda": 204900000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 3350.3,
+      "pendapatan_pajak_t": 2309.9,
+      "hasil_sda_t": 204.9,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2025,
+      "belanja_apbn": 3621300000000000,
+      "pendapatan_pajak": 2490900000000000,
+      "hasil_sda": 217300000000000,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 3621.3,
+      "pendapatan_pajak_t": 2490.9,
+      "hasil_sda_t": 217.3,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0.0,
+      "korupsi_vs_pajak_pct": 0.0,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 1,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 0
+      }
+    },
+    {
+      "year": 2026,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 2026000000000000,
+      "hasil_sda": 2026000000000000,
+      "kerugian_korupsi": 63800000000,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 2026.0,
+      "hasil_sda_t": 2026.0,
+      "kerugian_korupsi_t": 0.064,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0.003,
+      "status": "HAS_DB_VALUE",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 1,
+        "sda": 1,
+        "korupsi": 3
+      }
+    }
+  ]
+}

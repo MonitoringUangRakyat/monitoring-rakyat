@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-07-09T07:17:02+07:00",
+  "repo": "MonitoringUangRakyat/monitoring-rakyat",
+  "input_present": false,
+  "public_submissions_captured": 0,
+  "queue_json": "gudang-db/_queue/public_submissions.json",
+  "queue_csv": "gudang-db/_queue/public_submissions.csv",
+  "note": "Public contribution input purged; anonymous endpoint required before accepting new uploads."
+}

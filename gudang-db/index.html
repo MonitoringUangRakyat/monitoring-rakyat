@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gudang DB Nasional - Monitoring Rakyat</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0f1117;--card:#1a1d27;--line:#2e3248;--text:#f1f5f9;--muted:#94a3b8;--gold:#f59e0b;--blue:#38bdf8;--green:#10b981}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
+    header{padding:24px;position:sticky;top:0;background:#080b12;border-bottom:1px solid var(--line);z-index:2}
+    h1{margin:0;font-size:24px}
+    p{color:var(--muted);line-height:1.6}
+    main{padding:20px 24px 40px}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    input,select{background:#111827;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:10px;min-width:180px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .name{font-weight:800;color:#fff;margin-bottom:8px}
+    .meta{color:var(--muted);font-size:12px;margin-bottom:10px}
+    .years{display:flex;gap:6px;flex-wrap:wrap}
+    a.year{color:#00111f;background:var(--blue);text-decoration:none;border-radius:999px;padding:5px 8px;font-size:12px;font-weight:800}
+    .master a{display:inline-block;margin:4px 6px 4px 0;color:#00111f;background:var(--green);text-decoration:none;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:800}
+    .note{border:1px solid #f59e0b44;background:#3b2a0b33;border-radius:8px;padding:12px;margin:14px 0;color:#f8d48a}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gudang DB Nasional</h1>
+    <p>CSV mentah Monitoring Rakyat. Dashboard hanya menampilkan ringkasan; audit forensik membuka file per modul dan tahun dari sini.</p>
+    <div class="toolbar">
+      <input id="q" placeholder="Cari modul, contoh: korupsi, parpol, bumn">
+      <select id="era"><option value="">Semua era</option></select>
+      <select id="year"><option value="">Semua tahun</option></select>
+    </div>
+  </header>
+  <main>
+    <section class="note">Catatan: sebagian CSV awal masih template/header. Data faktual wajib dilengkapi sumber resmi dan status verifikasi.</section>
+    <section class="card master">
+      <div class="name">Master Files</div>
+      <div id="masters"></div>
+    </section>
+    <div style="height:14px"></div>
+    <section id="modules" class="grid"></section>
+  </main>
+  <script>
+    const q = document.getElementById("q");
+    const era = document.getElementById("era");
+    const year = document.getElementById("year");
+    const modules = document.getElementById("modules");
+    const masters = document.getElementById("masters");
+    let indexData = null;
+
+    function eraFromYear(y){
+      y = Number(y);
+      if(y >= 1966 && y <= 1998) return "1_era_orba_1966_1998";
+      if(y >= 1999 && y <= 2010) return "2_era_reformasi_1999_2010";
+      return "3_era_modern_2011_2026";
+    }
+
+    function render(){
+      if(!indexData) return;
+      const text = q.value.trim().toLowerCase();
+      const eraVal = era.value;
+      const yearVal = year.value;
+      const entries = Object.entries(indexData.modules || {}).filter(([name, info]) => {
+        const years = Object.keys(info.years || {});
+        return (!text || name.toLowerCase().includes(text)) &&
+          (!yearVal || years.includes(yearVal)) &&
+          (!eraVal || years.some(y => eraFromYear(y) === eraVal));
+      });
+      modules.innerHTML = entries.map(([name, info]) => {
+        const ys = Object.keys(info.years || {}).sort((a,b)=>Number(b)-Number(a))
+          .filter(y => !yearVal || y === yearVal)
+          .filter(y => !eraVal || eraFromYear(y) === eraVal);
+        return `<article class="card">
+          <div class="name">${name}</div>
+          <div class="meta">${(info.kolom || []).slice(0,6).join(", ")}${(info.kolom || []).length > 6 ? " ..." : ""}</div>
+          <div class="years">${ys.map(y => `<a class="year" href="../${info.years[y]}">${y}</a>`).join("")}</div>
+        </article>`;
+      }).join("");
+    }
+
+    fetch("_index/ai_index.json", {cache:"no-store"})
+      .then(r => r.json())
+      .then(data => {
+        indexData = data;
+        masters.innerHTML = (data.master_files || []).map(path => `<a href="../${path}">${path.split("/").pop()}</a>`).join("");
+        era.innerHTML += Object.keys(data.eras || {}).map(e => `<option value="${e}">${e}</option>`).join("");
+        const years = new Set();
+        Object.values(data.modules || {}).forEach(info => Object.keys(info.years || {}).forEach(y => years.add(y)));
+        year.innerHTML += [...years].sort((a,b)=>Number(b)-Number(a)).map(y => `<option value="${y}">${y}</option>`).join("");
+        render();
+      });
+    [q, era, year].forEach(el => el.addEventListener("input", render));
+  </script>
+</body>
+</html>

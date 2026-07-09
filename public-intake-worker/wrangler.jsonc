@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "monitoring-rakyat-public-intake",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "vars": {
+    "ALLOWED_ORIGIN": "https://monitoringuangrakyat.github.io",
+    "GITHUB_REPO": "MonitoringUangRakyat/monitoring-rakyat"
+  }
+}

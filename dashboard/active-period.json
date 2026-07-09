@@ -1,0 +1,7 @@
+{
+  "year": 2026,
+  "month": 6,
+  "month_name": "Juni",
+  "trend_years": 20,
+  "policy": "Dashboard publik hanya menampilkan tahun dan bulan berjalan agar ringan dan responsif. Data historis di luar periode berjalan diarahkan ke Gudang DB secara load-on-demand. Tim AI Pengumpul DB wajib melakukan hardcode backfill 10-15 tahun ke belakang karena data historis lebih matang/valid; tahun tanpa sumber DB ditampilkan Kosong/0 sampai Gudang DB dilengkapi."
+}
