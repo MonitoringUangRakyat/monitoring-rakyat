@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T07:17:14+07:00",
+  "generated_at": "2026-07-09T17:30:15+07:00",
   "source": "Gudang DB CSV yearly aggregation",
   "policy": "Grafik dashboard boleh menampilkan minimum 10 tahun karena hanya agregasi tahunan, bukan detail bulanan/harian.",
   "minimum_years": 10,
@@ -176,19 +176,19 @@
       "belanja_apbn": 1806500000000000,
       "pendapatan_pajak": 1060800000000000,
       "hasil_sda": 100900000000000,
-      "kerugian_korupsi": 0,
+      "kerugian_korupsi": 6081200000000,
       "belanja_apbn_t": 1806.5,
       "pendapatan_pajak_t": 1060.8,
       "hasil_sda_t": 100.9,
-      "kerugian_korupsi_t": 0.0,
-      "korupsi_vs_belanja_pct": 0.0,
-      "korupsi_vs_pajak_pct": 0.0,
+      "kerugian_korupsi_t": 6.081,
+      "korupsi_vs_belanja_pct": 0.337,
+      "korupsi_vs_pajak_pct": 0.573,
       "status": "HAS_DB_VALUE",
       "source_rows": {
         "akuntansi": 1,
         "pajak": 1,
         "sda": 1,
-        "korupsi": 0
+        "korupsi": 4
       }
     },
     {

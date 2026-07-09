@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-09T07:17:02+07:00",
+  "generated_at": "2026-07-09T17:30:09+07:00",
   "source": "anonymous public intake endpoint / repository_dispatch",
   "repo": "MonitoringUangRakyat/monitoring-rakyat",
   "input_present": false,
   "count": 0,
   "default_status": "DRAFT_PUBLIC_SUBMISSION",
-  "hardcoded_rule": "Masukan publik anonim hanya diterima lewat endpoint anonim; kontribusi lama dari jalur akun publik sudah disapu bersih.",
-  "privacy_rule": "Tidak menyimpan username pengirim, URL issue mentah, atau kontribusi yang memunculkan akun publik.",
-  "note": "Public contribution queue purged until anonymous endpoint is active.",
+  "hardcoded_rule": "Masukan publik anonim tidak ditelan pasif; setiap repository_dispatch public_submission masuk queue audit AI dan dipetakan ke Gudang DB.",
+  "privacy_rule": "Kontribusi publik tidak boleh memakai GitHub Issue fallback karena nama akun pengirim akan tampil. Semua rujukan publik memakai ANON_PUBLIC_SUBMISSION.",
+  "note": "No new anonymous public-intake dispatch submissions; retained existing anonymized queue.",
   "candidates": []
 }

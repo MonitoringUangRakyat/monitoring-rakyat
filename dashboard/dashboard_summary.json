@@ -6,10 +6,10 @@
   "recovery_total": 0,
   "jumlah_kasus": 5,
   "jumlah_koruptor": 0,
-  "jumlah_kasus_historis": 36,
+  "jumlah_kasus_historis": 42,
   "jumlah_koruptor_historis": 27,
   "jumlah_kasus_historis_by_module": {
-    "korupsi": 9,
+    "korupsi": 15,
     "master_koruptor": 27
   },
   "history_akumulasi": {
@@ -21,7 +21,7 @@
     "2012": 22780000000000,
     "2013": 0,
     "2014": 0,
-    "2015": 1500000000000000,
+    "2015": 1512162400000000,
     "2016": 0,
     "2017": 0,
     "2018": 1355900000000000,
@@ -34,6 +34,6 @@
     "2025": 5750000000,
     "2026": 127600000000
   },
-  "data_rows_terisi": 396,
+  "data_rows_terisi": 458,
   "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
 }
