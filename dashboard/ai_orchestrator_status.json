@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T17:30:10+07:00",
+  "generated_at": "2026-07-10T01:15:13+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -127,9 +127,9 @@
     "html_policy": "HTML publik hanya menampilkan tahun/bulan berjalan; periode lama diarahkan ke Gudang DB."
   },
   "task_counts": {
-    "total": 226,
+    "total": 225,
     "current_period": 13,
-    "historical_backfill": 213
+    "historical_backfill": 212
   },
   "queue_files": {
     "json": "gudang-db/_queue/ai_pengawas_candidates.json",

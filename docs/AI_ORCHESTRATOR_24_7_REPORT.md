@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-07-09T17:30:10+07:00 Asia/Jakarta
+Generated: 2026-07-10T01:15:13+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -18,7 +18,7 @@ Generated: 2026-07-09T17:30:10+07:00 Asia/Jakarta
 - Total candidates: 128
 - New candidates this run: 0
 - High confidence candidates: 4
-- Historical backfill tasks: 213
+- Historical backfill tasks: 212
 - Historical backfill candidates: 40
 - Public submissions pending audit: 0
 - Autonomous mode: FULL_MANDIRI_PROAKTIF_24_7
