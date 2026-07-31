@@ -1,12 +1,12 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-07-31T22:29:15+07:00 Asia/Jakarta
+Generated: 2026-08-01T00:52:51+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
 - Dashboard active period: Juni 2026
-- Current Asia/Jakarta: 7 / 2026
+- Current Asia/Jakarta: 8 / 2026
 - Current period rows: 249
 - Current period rill rows with source + nominal: 4
 - AI Agent search tasks: 225

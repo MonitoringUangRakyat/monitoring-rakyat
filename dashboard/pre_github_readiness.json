@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T22:29:15+07:00",
+  "generated_at": "2026-08-01T00:52:51+07:00",
   "active_period": {
     "year": 2026,
     "month": 6,
@@ -9,7 +9,7 @@
   },
   "current_jakarta": {
     "year": 2026,
-    "month": 7
+    "month": 8
   },
   "status": "NEEDS_WORK",
   "blockers": [
