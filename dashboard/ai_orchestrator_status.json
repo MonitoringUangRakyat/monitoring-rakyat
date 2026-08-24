@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:03:57+07:00",
+  "generated_at": "2026-08-24T22:00:54+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -135,36 +135,36 @@
     "json": "gudang-db/_queue/ai_pengawas_candidates.json",
     "csv": "gudang-db/_queue/ai_pengawas_candidates.csv"
   },
-  "total_candidates": 128,
-  "new_candidates_this_run": 0,
-  "high_confidence_candidates": 4,
-  "historical_backfill_candidates": 40,
+  "total_candidates": 133,
+  "new_candidates_this_run": 5,
+  "high_confidence_candidates": 5,
+  "historical_backfill_candidates": 42,
   "public_submissions_pending_audit": 0,
   "by_module": {
     "akuntansi": 9,
     "audit": 6,
     "audittrail": 6,
-    "bea_cukai": 8,
+    "bea_cukai": 10,
     "bumn": 6,
     "korupsi": 15,
     "pajak": 11,
     "parpol": 6,
-    "prog_daerah": 9,
+    "prog_daerah": 11,
     "prog_eksekutif": 6,
     "prog_legislatif": 20,
-    "redflag": 6,
+    "redflag": 7,
     "risknas": 6,
     "sda": 6,
     "vendor": 8
   },
   "by_status": {
-    "AI_CLASSIFIED_NEEDS_VERIFICATION": 61,
-    "DRAFT_REVIEW": 67
+    "AI_CLASSIFIED_NEEDS_VERIFICATION": 62,
+    "DRAFT_REVIEW": 71
   },
   "by_source": {
     "CNBC Indonesia": 72,
     "CNN Indonesia": 39,
-    "Tempo": 17
+    "Tempo": 22
   },
   "top_candidates": [
     {
@@ -288,6 +288,35 @@
       "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
     },
     {
+      "id": "MR-AI-B8B32B2BE5A9686C",
+      "created_at": "2026-08-24T22:00:54+07:00",
+      "module": "bea_cukai",
+      "year": 2011,
+      "month": 0,
+      "task_type": "HISTORICAL_BACKFILL_REQUIRED",
+      "historical_mandate": true,
+      "title": "Penyelundupan 2,6 Ton Sabu Cair dari MV Ocean Porter di Kepri Berhasil Digagalkan",
+      "link": "https://nasional.tempo.co/read/2118028/penyelundupan-26-ton-sabu-cair-dari-mv-ocean-porter-di-kepri-berhasil-digagalkan",
+      "published": "2026-08-21T16:53:15+07:00",
+      "source_id": "FEED-003",
+      "source": "Tempo",
+      "source_category": "MAINSTREAM_MEDIA",
+      "source_domain": "tempo.co",
+      "confidence": 81,
+      "status": "DRAFT_REVIEW",
+      "risk_level": "green",
+      "match_reasons": [
+        "keyword:bea cukai",
+        "keyword:penyelundupan",
+        "cashflow_hint",
+        "media_signal"
+      ],
+      "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
+      "summary": "Bea Cukai bersama BNN RI dan Polda Kepulauan Riau akan terus melakukan pengembangan terhadap temuan tersebut",
+      "next_action": "Backfill historis wajib: cek arsip resmi, duplikasi Gudang DB, nominal/periode, status verifikasi, lalu draft CSV/PR.",
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+    },
+    {
       "id": "MR-AI-75CFAA4465830F38",
       "created_at": "2026-07-06T07:08:25+07:00",
       "module": "korupsi",
@@ -342,6 +371,35 @@
       ],
       "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
       "summary": "KPK menyita aset milik Japto Soerjosoemarno terkait dugaan korupsi mantan Bupati Kutai Kartanegara. Aset yang disita uang senilai Rp56 miliar hingga 11 mobil.",
+      "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+    },
+    {
+      "id": "MR-AI-5C581C114604389B",
+      "created_at": "2026-08-24T22:00:54+07:00",
+      "module": "prog_daerah",
+      "year": 2026,
+      "month": 6,
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false,
+      "title": "5 Benefit untuk Pemda dalam Apresiasi Pemerintah Daerah Berprestasi 2026",
+      "link": "https://nasional.tempo.co/read/2118119/5-benefit-untuk-pemda-dalam-apresiasi-pemerintah-daerah-berprestasi-2026",
+      "published": "2026-08-23T09:19:30+07:00",
+      "source_id": "FEED-003",
+      "source": "Tempo",
+      "source_category": "MAINSTREAM_MEDIA",
+      "source_domain": "tempo.co",
+      "confidence": 75,
+      "status": "DRAFT_REVIEW",
+      "risk_level": "green",
+      "match_reasons": [
+        "keyword:pemda",
+        "keyword:2026",
+        "year_match",
+        "media_signal"
+      ],
+      "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
+      "summary": "Apresiasi Pemerintah Daerah Berprestasi 2026 menjadi sebuah pengakuan kinerja terbaik sekaligus mendorong pembangunan daerah.",
       "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
       "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
     },
@@ -547,64 +605,6 @@
       "summary": "Orang tua calon mahasiswa Universitas Jember tidak lagi bekerja setelah terkena PHK sejak Oktober 2024. Dapat UKT Kelompok Tinggi.",
       "next_action": "Backfill historis wajib: cek arsip resmi, duplikasi Gudang DB, nominal/periode, status verifikasi, lalu draft CSV/PR.",
       "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
-    },
-    {
-      "id": "MR-AI-100B9B230983A843",
-      "created_at": "2026-06-25T17:50:56+07:00",
-      "module": "audittrail",
-      "year": 2024,
-      "month": 0,
-      "task_type": "HISTORICAL_BACKFILL_REQUIRED",
-      "historical_mandate": true,
-      "title": "Ortu Tak Kerja, Calon Mahasiswa Unej Dapat UKT Rp 6 Juta",
-      "link": "https://nasional.tempo.co/read/2110336/ortu-tak-kerja-calon-mahasiswa-unej-dapat-ukt-rp-6-juta",
-      "published": "2026-06-25T14:32:31+07:00",
-      "source_id": "FEED-003",
-      "source": "Tempo",
-      "source_category": "MAINSTREAM_MEDIA",
-      "source_domain": "tempo.co",
-      "confidence": 70,
-      "status": "AI_CLASSIFIED_NEEDS_VERIFICATION",
-      "risk_level": "green",
-      "match_reasons": [
-        "keyword:2024",
-        "year_match",
-        "cashflow_hint",
-        "media_signal"
-      ],
-      "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
-      "summary": "Orang tua calon mahasiswa Universitas Jember tidak lagi bekerja setelah terkena PHK sejak Oktober 2024. Dapat UKT Kelompok Tinggi.",
-      "next_action": "Backfill historis wajib: cek arsip resmi, duplikasi Gudang DB, nominal/periode, status verifikasi, lalu draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
-    },
-    {
-      "id": "MR-AI-06AF2041E9A50381",
-      "created_at": "2026-06-25T17:50:56+07:00",
-      "module": "bea_cukai",
-      "year": 2024,
-      "month": 0,
-      "task_type": "HISTORICAL_BACKFILL_REQUIRED",
-      "historical_mandate": true,
-      "title": "Ortu Tak Kerja, Calon Mahasiswa Unej Dapat UKT Rp 6 Juta",
-      "link": "https://nasional.tempo.co/read/2110336/ortu-tak-kerja-calon-mahasiswa-unej-dapat-ukt-rp-6-juta",
-      "published": "2026-06-25T14:32:31+07:00",
-      "source_id": "FEED-003",
-      "source": "Tempo",
-      "source_category": "MAINSTREAM_MEDIA",
-      "source_domain": "tempo.co",
-      "confidence": 70,
-      "status": "DRAFT_REVIEW",
-      "risk_level": "green",
-      "match_reasons": [
-        "keyword:2024",
-        "year_match",
-        "cashflow_hint",
-        "media_signal"
-      ],
-      "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
-      "summary": "Orang tua calon mahasiswa Universitas Jember tidak lagi bekerja setelah terkena PHK sejak Oktober 2024. Dapat UKT Kelompok Tinggi.",
-      "next_action": "Backfill historis wajib: cek arsip resmi, duplikasi Gudang DB, nominal/periode, status verifikasi, lalu draft CSV/PR.",
-      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
     }
   ],
   "failures": [
@@ -612,11 +612,6 @@
       "source": "Detik",
       "feed_url": "https://rss.detik.com/index.php/detikcom_nasional",
       "error": "Remote end closed connection without response"
-    },
-    {
-      "source": "Tempo",
-      "feed_url": "https://rss.tempo.co/nasional",
-      "error": "HTTP Error 403: Forbidden"
     },
     {
       "source": "Metro TV",

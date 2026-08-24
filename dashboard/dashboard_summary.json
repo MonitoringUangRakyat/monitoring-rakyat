@@ -34,6 +34,6 @@
     "2025": 5750000000,
     "2026": 127600000000
   },
-  "data_rows_terisi": 458,
+  "data_rows_terisi": 473,
   "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
 }

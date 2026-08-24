@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-08-24T21:03:57+07:00 Asia/Jakarta
+Generated: 2026-08-24T22:00:54+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -15,11 +15,11 @@ Generated: 2026-08-24T21:03:57+07:00 Asia/Jakarta
 
 ## Status
 
-- Total candidates: 128
-- New candidates this run: 0
-- High confidence candidates: 4
+- Total candidates: 133
+- New candidates this run: 5
+- High confidence candidates: 5
 - Historical backfill tasks: 212
-- Historical backfill candidates: 40
+- Historical backfill candidates: 42
 - Public submissions pending audit: 0
 - Autonomous mode: FULL_MANDIRI_PROAKTIF_24_7
 - Artificial source limit: False
@@ -68,15 +68,15 @@ Generated: 2026-08-24T21:03:57+07:00 Asia/Jakarta
 - akuntansi: 9
 - audit: 6
 - audittrail: 6
-- bea_cukai: 8
+- bea_cukai: 10
 - bumn: 6
 - korupsi: 15
 - pajak: 11
 - parpol: 6
-- prog_daerah: 9
+- prog_daerah: 11
 - prog_eksekutif: 6
 - prog_legislatif: 20
-- redflag: 6
+- redflag: 7
 - risknas: 6
 - sda: 6
 - vendor: 8
