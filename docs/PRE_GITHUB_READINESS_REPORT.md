@@ -1,13 +1,13 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-08-24T22:00:54+07:00 Asia/Jakarta
+Generated: 2026-08-24T22:56:08+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
 - Dashboard active period: Juni 2026
 - Current Asia/Jakarta: 8 / 2026
-- Current period rows: 249
+- Current period rows: 258
 - Current period rill rows with source + nominal: 4
 - AI Agent search tasks: 225
 - Historical backfill hardcode: last 15 years, minimum 10 years
@@ -33,15 +33,15 @@ Status: **NEEDS_WORK**
 | akuntansi | 61/61 | 11 | 11 | 11 | 0 | 0 | OK / HAS_EVIDENCE |
 | audit | 61/61 | 6 | 0 | 0 | 4 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | audittrail | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
-| bea_cukai | 61/61 | 8 | 8 | 1 | 4 | 1 | OK / HAS_EVIDENCE |
+| bea_cukai | 61/61 | 10 | 10 | 1 | 4 | 1 | OK / HAS_EVIDENCE |
 | bumn | 61/61 | 6 | 0 | 0 | 4 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | korupsi | 61/61 | 15 | 15 | 9 | 5 | 3 | OK / HAS_EVIDENCE |
 | pajak | 61/61 | 22 | 0 | 12 | 9 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | parpol | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
-| prog_daerah | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| prog_daerah | 61/61 | 11 | 0 | 0 | 9 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | prog_eksekutif | 61/61 | 6 | 0 | 0 | 4 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | prog_legislatif | 61/61 | 20 | 0 | 0 | 18 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| redflag | 61/61 | 6 | 0 | 0 | 4 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| redflag | 61/61 | 7 | 0 | 0 | 5 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | risknas | 61/61 | 6 | 0 | 0 | 4 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | sda | 61/61 | 17 | 0 | 12 | 4 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | vendor | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
