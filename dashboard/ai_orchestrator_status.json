@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:11:39+07:00",
+  "generated_at": "2026-08-25T21:04:43+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -612,6 +612,11 @@
       "source": "Detik",
       "feed_url": "https://rss.detik.com/index.php/detikcom_nasional",
       "error": "Remote end closed connection without response"
+    },
+    {
+      "source": "Tempo",
+      "feed_url": "https://rss.tempo.co/nasional",
+      "error": "The read operation timed out"
     },
     {
       "source": "Metro TV",
