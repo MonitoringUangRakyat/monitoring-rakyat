@@ -18,6 +18,10 @@ body{background:#ffffff;font-family:var(--fb);color:var(--tl);scroll-behavior:sm
 #topbar{position:fixed;top:0;left:0;right:0;z-index:200;background:#080b12;border-bottom:1px solid #2e3248;display:flex;align-items:center;height:52px}
 #nav-tabs{display:flex;overflow-x:auto;flex:1;height:100%;scrollbar-width:none}
 #nav-tabs::-webkit-scrollbar{display:none}
+.nav-scroll-btn{width:42px;height:100%;border:0;border-right:1px solid #2e3248;background:#0d111b;color:var(--acc);font-size:1rem;font-weight:900;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .18s;flex:0 0 42px}
+.nav-scroll-btn.next{border-left:1px solid #2e3248;border-right:0}
+.nav-scroll-btn:hover{background:#1a1d27;color:#fff}
+.nav-scroll-btn:focus-visible{outline:2px solid var(--acc);outline-offset:-3px}
 .nav-tab{padding:0 14px;height:100%;border:none;background:none;font-family:var(--fb);font-size:.75rem;font-weight:500;color:var(--tm);cursor:pointer;border-right:1px solid #2e3248;white-space:nowrap;transition:all .2s;position:relative}
 .nav-tab:hover{color:var(--tl);background:#1a1d27}
 .nav-tab.active{color:var(--acc);background:#1a1d27}
@@ -554,6 +558,7 @@ td:last-child:has(.btn-del), td.action-btns{display:none!important}
 
 <!-- TOPBAR -->
 <div id="topbar">
+  <button class="nav-scroll-btn prev" type="button" title="Menu sebelumnya" aria-label="Menu sebelumnya" onclick="MR_TOPBAR_NAV.go(-1)">◀</button>
   <div id="nav-tabs">
     <button class="nav-tab active" onclick="showPage('dashboard')">📊 Dashboard</button>
     <button class="nav-tab" onclick="showPage('eksekutif')">👔 Eksekutif</button>
@@ -585,6 +590,7 @@ td:last-child:has(.btn-del), td.action-btns{display:none!important}
     <button class="nav-tab" onclick="showPage('risknas')" style="color:#fbbf24;font-weight:700">📡 Risk Nasional</button>
     <button class="nav-tab" onclick="showPage('evidence')" style="color:#34d399;font-weight:700">📎 Evidence</button>
   </div>
+  <button class="nav-scroll-btn next" type="button" title="Menu berikutnya" aria-label="Menu berikutnya" onclick="MR_TOPBAR_NAV.go(1)">▶</button>
 </div>
 
 
@@ -8234,7 +8240,7 @@ window.MR_KONTRIBUSI_DB = {
 /* V5.5 PATCH - Current-period public dashboard guard */
 (function(){
   const ACTIVE_YEAR = 2026;
-  const ACTIVE_MONTH = 6;
+  const ACTIVE_MONTH = 8;
   const TREND_YEARS = 20;
   const historicalPages = new Set(['dashboard','risknas','transparansi-algoritma','source-catalog','evidence-vault','investigation-ledger','ai-settings']);
 
@@ -8299,7 +8305,7 @@ window.MR_KONTRIBUSI_DB = {
       const note=document.createElement('div');
       note.className='mr-active-period-note';
       note.style.cssText='margin-top:14px;border:1px solid #38bdf844;background:#082f4940;color:#bae6fd;border-radius:8px;padding:10px 12px;font-size:.78rem;line-height:1.5';
-      note.innerHTML=`Mode publik ringan: default awal adalah periode berjalan <b>Juni ${ACTIVE_YEAR}</b>, tetapi filter tahun/bulan bisa dipilih manual. Jika DB periode pilihan belum bersumber, sistem memakai fallback historis/Gudang DB dengan label review. Silakan beri masukan atau sumber resmi jika punya data. <button class="mr-track-db-btn" style="margin-left:8px" onclick="window.MR_DB_LINK&&MR_DB_LINK.openRepo()">Track Gudang DB</button>`;
+      note.innerHTML=`Mode publik ringan: default awal adalah periode berjalan <b>Agustus ${ACTIVE_YEAR}</b>, tetapi filter tahun/bulan bisa dipilih manual. Jika DB periode pilihan belum bersumber, sistem memakai fallback historis/Gudang DB dengan label review. Silakan beri masukan atau sumber resmi jika punya data. <button class="mr-track-db-btn" style="margin-left:8px" onclick="window.MR_DB_LINK&&MR_DB_LINK.openRepo()">Track Gudang DB</button>`;
       hero.appendChild(note);
     });
   }
@@ -8935,6 +8941,49 @@ window.MR_KONTRIBUSI_DB = {
   }, true);
   document.addEventListener('DOMContentLoaded',()=>setTimeout(applyActivePeriodFilters,1200));
   window.MR_PERIOD_FILTERS={apply:applyActivePeriodFilters, tables:TABLES};
+})();
+</script>
+<script>
+/* TOPBAR NAV ARROWS - move to previous/next visible menu */
+(function(){
+  function tabs(){
+    return Array.from(document.querySelectorAll('#nav-tabs .nav-tab'));
+  }
+  function pageIdFromTab(tab){
+    const raw = tab?.getAttribute('onclick') || '';
+    const match = raw.match(/showPage\(['"]([^'"]+)['"]\)/);
+    return match ? match[1] : '';
+  }
+  function activeIndex(list){
+    const idx = list.findIndex(tab => tab.classList.contains('active'));
+    return idx >= 0 ? idx : 0;
+  }
+  function keepVisible(tab){
+    const rail = document.getElementById('nav-tabs');
+    if(!rail || !tab) return;
+    const left = tab.offsetLeft - rail.clientWidth * 0.35;
+    rail.scrollTo({left: Math.max(0, left), behavior: 'smooth'});
+  }
+  function go(direction){
+    const list = tabs();
+    if(!list.length) return;
+    const nextIndex = (activeIndex(list) + direction + list.length) % list.length;
+    const target = list[nextIndex];
+    const pageId = pageIdFromTab(target);
+    if(pageId && typeof window.showPage === 'function'){
+      window.showPage(pageId);
+    }else{
+      target.click();
+    }
+    setTimeout(() => keepVisible(target), 60);
+  }
+  function sync(){
+    const list = tabs();
+    const current = list[activeIndex(list)];
+    keepVisible(current);
+  }
+  window.MR_TOPBAR_NAV = {go, sync};
+  document.addEventListener('DOMContentLoaded', () => setTimeout(sync, 600));
 })();
 </script>
 <script src="app.js"></script>
