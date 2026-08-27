@@ -2,7 +2,7 @@
   {
     "module": "akuntansi",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -107,7 +107,7 @@
   {
     "module": "audit",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -475,7 +475,7 @@
   {
     "module": "audittrail",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -807,6 +807,30 @@
       "K/L pemilik program"
     ],
     "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+  },
+  {
+    "module": "bea_cukai",
+    "year": 2026,
+    "month": 8,
+    "task_type": "CURRENT_PERIOD_SEARCH",
+    "status": "SEARCH_REQUIRED",
+    "priority": "HIGH",
+    "fallback": {
+      "status": "NO_FALLBACK",
+      "file": "",
+      "rows": 0,
+      "year": 0
+    },
+    "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+    "source_priorities": [
+      "Kemenkeu/DJBC",
+      "BPK",
+      "KPK",
+      "Kejaksaan",
+      "putusan pengadilan",
+      "Kompas/Detik/Tempo/Metro TV"
+    ],
+    "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
   },
   {
     "module": "bea_cukai",
@@ -1171,7 +1195,7 @@
   {
     "module": "bumn",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -1851,7 +1875,7 @@
   {
     "module": "pajak",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -2203,7 +2227,7 @@
   {
     "module": "parpol",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -2571,7 +2595,7 @@
   {
     "module": "prog_daerah",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -2939,7 +2963,7 @@
   {
     "module": "prog_eksekutif",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -3307,7 +3331,7 @@
   {
     "module": "prog_legislatif",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -3675,7 +3699,7 @@
   {
     "module": "redflag",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -4043,7 +4067,7 @@
   {
     "module": "risknas",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -4427,7 +4451,7 @@
   {
     "module": "sda",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -4795,7 +4819,7 @@
   {
     "module": "vendor",
     "year": 2026,
-    "month": 6,
+    "month": 8,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",

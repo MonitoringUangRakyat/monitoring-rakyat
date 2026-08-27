@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-27T06:34:13+07:00",
+  "generated_at": "2026-08-27T16:50:35+07:00",
   "active_period": {
     "year": 2026,
-    "month": 6,
-    "month_name": "Juni",
+    "month": 8,
+    "month_name": "Agustus",
     "trend_years": 20,
     "policy": "Dashboard publik hanya menampilkan tahun dan bulan berjalan agar ringan dan responsif. Data historis di luar periode berjalan diarahkan ke Gudang DB secara load-on-demand. Tim AI Pengumpul DB wajib melakukan hardcode backfill 10-15 tahun ke belakang karena data historis lebih matang/valid; tahun tanpa sumber DB ditampilkan Kosong/0 sampai Gudang DB dilengkapi."
   },
@@ -13,16 +13,15 @@
   },
   "status": "NEEDS_WORK",
   "blockers": [
-    "dashboard/active-period.json tidak sama dengan tanggal Asia/Jakarta saat ini",
     "hardcode backfill 10 tahun historis belum lengkap untuk modul inti"
   ],
   "modules_count": 35,
   "core_modules_count": 15,
   "missing_core_modules": [],
   "structural_missing_modules": [],
-  "current_period_rows": 258,
-  "current_period_rill_rows": 4,
-  "ai_agent_tasks_count": 225,
+  "current_period_rows": 150,
+  "current_period_rill_rows": 3,
+  "ai_agent_tasks_count": 226,
   "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
   "historical_backfill_policy": {
     "hardcoded": true,
@@ -1407,8 +1406,8 @@
       "rows_total": 10,
       "rows_with_source": 10,
       "rows_with_money": 1,
-      "active_rows": 4,
-      "active_rill_rows": 1,
+      "active_rows": 0,
+      "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
         2012,
@@ -2680,7 +2679,7 @@
       "rows_total": 22,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 9,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -5648,7 +5647,7 @@
       "rows_total": 17,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 4,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -6922,7 +6921,7 @@
       "rows_total": 133,
       "rows_with_source": 0,
       "rows_with_money": 28,
-      "active_rows": 91,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -9478,8 +9477,8 @@
       "rows_total": 10,
       "rows_with_source": 10,
       "rows_with_money": 1,
-      "active_rows": 4,
-      "active_rill_rows": 1,
+      "active_rows": 0,
+      "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
         2012,
@@ -16263,7 +16262,7 @@
       "rows_total": 22,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 9,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -19231,7 +19230,7 @@
       "rows_total": 17,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 4,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -21348,7 +21347,7 @@
     {
       "module": "akuntansi",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -21453,7 +21452,7 @@
     {
       "module": "audit",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -21821,7 +21820,7 @@
     {
       "module": "audittrail",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -22153,6 +22152,30 @@
         "K/L pemilik program"
       ],
       "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
+    },
+    {
+      "module": "bea_cukai",
+      "year": 2026,
+      "month": 8,
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "status": "SEARCH_REQUIRED",
+      "priority": "HIGH",
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
+      "source_priorities": [
+        "Kemenkeu/DJBC",
+        "BPK",
+        "KPK",
+        "Kejaksaan",
+        "putusan pengadilan",
+        "Kompas/Detik/Tempo/Metro TV"
+      ],
+      "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
     },
     {
       "module": "bea_cukai",
@@ -22517,7 +22540,7 @@
     {
       "module": "bumn",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -23197,7 +23220,7 @@
     {
       "module": "pajak",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -23549,7 +23572,7 @@
     {
       "module": "parpol",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -23917,7 +23940,7 @@
     {
       "module": "prog_daerah",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -24285,7 +24308,7 @@
     {
       "module": "prog_eksekutif",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -24653,7 +24676,7 @@
     {
       "module": "prog_legislatif",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -25021,7 +25044,7 @@
     {
       "module": "redflag",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -25389,7 +25412,7 @@
     {
       "module": "risknas",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -25773,7 +25796,7 @@
     {
       "module": "sda",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -26141,7 +26164,7 @@
     {
       "module": "vendor",
       "year": 2026,
-      "month": 6,
+      "month": 8,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
