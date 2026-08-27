@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:50:35+07:00",
+  "generated_at": "2026-08-28T03:31:13+07:00",
   "active_period": {
     "year": 2026,
     "month": 8,
@@ -76,8 +76,8 @@
   },
   "dashboard_summary": {
     "tahun": 2026,
-    "bulan": 6,
-    "bulan_nama": "Juni",
+    "bulan": 8,
+    "bulan_nama": "Agustus",
     "kerugian_total": 127600000000,
     "recovery_total": 0,
     "jumlah_kasus": 5,
