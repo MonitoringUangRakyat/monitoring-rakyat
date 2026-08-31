@@ -1,12 +1,12 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-08-31T20:53:03+07:00 Asia/Jakarta
+Generated: 2026-09-01T03:06:22+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
 - Dashboard active period: Agustus 2026
-- Current Asia/Jakarta: 8 / 2026
+- Current Asia/Jakarta: 9 / 2026
 - Current period rows: 150
 - Current period rill rows with source + nominal: 3
 - AI Agent search tasks: 226
@@ -14,6 +14,7 @@ Status: **NEEDS_WORK**
 
 ## Blockers
 
+- dashboard/active-period.json tidak sama dengan tanggal Asia/Jakarta saat ini
 - hardcode backfill 10 tahun historis belum lengkap untuk modul inti
 
 ## Historical Backfill Mandate

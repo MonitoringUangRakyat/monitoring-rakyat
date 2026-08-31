@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T20:53:03+07:00",
+  "generated_at": "2026-09-01T03:06:22+07:00",
   "active_period": {
     "year": 2026,
     "month": 8,
@@ -9,10 +9,11 @@
   },
   "current_jakarta": {
     "year": 2026,
-    "month": 8
+    "month": 9
   },
   "status": "NEEDS_WORK",
   "blockers": [
+    "dashboard/active-period.json tidak sama dengan tanggal Asia/Jakarta saat ini",
     "hardcode backfill 10 tahun historis belum lengkap untuk modul inti"
   ],
   "modules_count": 35,
