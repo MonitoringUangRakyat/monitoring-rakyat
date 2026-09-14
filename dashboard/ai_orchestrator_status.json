@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:22:28+07:00",
+  "generated_at": "2026-09-15T06:08:20+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -136,7 +136,7 @@
     "csv": "gudang-db/_queue/ai_pengawas_candidates.csv"
   },
   "total_candidates": 169,
-  "new_candidates_this_run": 1,
+  "new_candidates_this_run": 0,
   "high_confidence_candidates": 7,
   "historical_backfill_candidates": 42,
   "public_submissions_pending_audit": 0,

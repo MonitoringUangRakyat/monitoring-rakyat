@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:22:28+07:00",
+  "generated_at": "2026-09-15T06:08:19+07:00",
   "active_period": {
     "year": 2026,
     "month": 8,
@@ -20,7 +20,7 @@
   "core_modules_count": 15,
   "missing_core_modules": [],
   "structural_missing_modules": [],
-  "current_period_rows": 249,
+  "current_period_rows": 252,
   "current_period_rill_rows": 3,
   "ai_agent_tasks_count": 226,
   "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
@@ -111,7 +111,7 @@
       "2025": 5750000000,
       "2026": 127600000000
     },
-    "data_rows_terisi": 572,
+    "data_rows_terisi": 575,
     "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
   },
   "core_modules": {
@@ -4373,10 +4373,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 27,
+      "rows_total": 28,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 25,
+      "active_rows": 26,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -4776,14 +4776,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 25,
+          "rows_total": 26,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 25,
+      "latest_nonempty_rows": 26,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -6495,10 +6495,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 168,
+      "rows_total": 169,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 126,
+      "active_rows": 127,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -6898,14 +6898,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 126,
+          "rows_total": 127,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 126,
+      "latest_nonempty_rows": 127,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -6919,10 +6919,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 168,
+      "rows_total": 169,
       "rows_with_source": 0,
       "rows_with_money": 28,
-      "active_rows": 35,
+      "active_rows": 36,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -7322,14 +7322,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 126,
+          "rows_total": 127,
           "rows_with_source": 0,
           "rows_with_money": 22,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 126,
+      "latest_nonempty_rows": 127,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -17956,10 +17956,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 27,
+      "rows_total": 28,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 25,
+      "active_rows": 26,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -18359,14 +18359,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 25,
+          "rows_total": 26,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 25,
+      "latest_nonempty_rows": 26,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",

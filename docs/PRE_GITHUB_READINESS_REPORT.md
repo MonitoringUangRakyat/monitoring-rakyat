@@ -1,13 +1,13 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-09-15T02:22:28+07:00 Asia/Jakarta
+Generated: 2026-09-15T06:08:19+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
 - Dashboard active period: Agustus 2026
 - Current Asia/Jakarta: 9 / 2026
-- Current period rows: 249
+- Current period rows: 252
 - Current period rill rows with source + nominal: 3
 - AI Agent search tasks: 226
 - Historical backfill hardcode: last 15 years, minimum 10 years
@@ -40,7 +40,7 @@ Status: **NEEDS_WORK**
 | parpol | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
 | prog_daerah | 61/61 | 15 | 0 | 0 | 13 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | prog_eksekutif | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| prog_legislatif | 61/61 | 27 | 0 | 0 | 25 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| prog_legislatif | 61/61 | 28 | 0 | 0 | 26 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | redflag | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | risknas | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | sda | 61/61 | 19 | 0 | 12 | 2 | 0 | OK / HAS_ROWS_NO_EVIDENCE |

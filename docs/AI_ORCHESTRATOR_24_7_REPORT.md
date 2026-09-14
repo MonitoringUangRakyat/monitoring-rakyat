@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-09-15T02:22:28+07:00 Asia/Jakarta
+Generated: 2026-09-15T06:08:20+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -16,7 +16,7 @@ Generated: 2026-09-15T02:22:28+07:00 Asia/Jakarta
 ## Status
 
 - Total candidates: 169
-- New candidates this run: 1
+- New candidates this run: 0
 - High confidence candidates: 7
 - Historical backfill tasks: 212
 - Historical backfill candidates: 42
