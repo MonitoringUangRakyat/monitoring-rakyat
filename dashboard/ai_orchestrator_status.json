@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:04:29+07:00",
+  "generated_at": "2026-09-15T02:22:28+07:00",
   "engine": "MR_AI_PENGAWAS_ORCHESTRATOR",
   "purpose": "Patroli 24/7 untuk menemukan kandidat DB uang rakyat dari sumber publik dan resmi.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
@@ -135,8 +135,8 @@
     "json": "gudang-db/_queue/ai_pengawas_candidates.json",
     "csv": "gudang-db/_queue/ai_pengawas_candidates.csv"
   },
-  "total_candidates": 168,
-  "new_candidates_this_run": 35,
+  "total_candidates": 169,
+  "new_candidates_this_run": 1,
   "high_confidence_candidates": 7,
   "historical_backfill_candidates": 42,
   "public_submissions_pending_audit": 0,
@@ -151,19 +151,19 @@
     "parpol": 8,
     "prog_daerah": 15,
     "prog_eksekutif": 8,
-    "prog_legislatif": 27,
+    "prog_legislatif": 28,
     "redflag": 9,
     "risknas": 8,
     "sda": 8,
     "vendor": 10
   },
   "by_status": {
-    "AI_CLASSIFIED_NEEDS_VERIFICATION": 79,
+    "AI_CLASSIFIED_NEEDS_VERIFICATION": 80,
     "DRAFT_REVIEW": 89
   },
   "by_source": {
     "CNBC Indonesia": 72,
-    "Tempo": 57,
+    "Tempo": 58,
     "CNN Indonesia": 39
   },
   "top_candidates": [

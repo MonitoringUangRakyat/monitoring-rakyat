@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-09-14T21:04:29+07:00",
+  "generated_at": "2026-09-15T02:22:28+07:00",
   "purpose": "Draft queue hasil patroli AI Pengawas. Jangan dipublish sebagai data final sebelum review.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
   "candidates": [
+    {
+      "id": "MR-AI-8CE404B258826EF6",
+      "created_at": "2026-09-15T02:22:28+07:00",
+      "module": "prog_legislatif",
+      "year": 2026,
+      "month": 8,
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false,
+      "title": "Baleg Serap Masukan Perubahan Status Jakarta hingga Pengurangan Anggota DPRD untuk Prolegnas 2027",
+      "link": "https://nasional.tempo.co/read/2119560/baleg-serap-masukan-perubahan-status-jakarta-hingga-pengurangan-anggota-dprd-untuk-prolegnas-2027",
+      "published": "2026-09-14T21:01:28+07:00",
+      "source_id": "FEED-003",
+      "source": "Tempo",
+      "source_category": "MAINSTREAM_MEDIA",
+      "source_domain": "tempo.co",
+      "confidence": 71,
+      "status": "AI_CLASSIFIED_NEEDS_VERIFICATION",
+      "risk_level": "green",
+      "match_reasons": [
+        "keyword:dpr",
+        "keyword:dprd",
+        "media_signal"
+      ],
+      "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
+      "summary": "Baleg DPR RI menerima berbagai masukan untuk penyusunan Prolegnas Prioritas 2027, termasuk penyesuaian regulasi pasca perubahan status Jakarta dan wacana pengurangan jumlah anggota DPRD.",
+      "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+    },
     {
       "id": "MR-AI-4A8F42615F6A312A",
       "created_at": "2026-09-14T21:04:29+07:00",

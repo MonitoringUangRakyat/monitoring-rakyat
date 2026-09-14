@@ -1,6 +1,6 @@
 # AI Pengawas Orchestrator 24/7 Report
 
-Generated: 2026-09-14T21:04:29+07:00 Asia/Jakarta
+Generated: 2026-09-15T02:22:28+07:00 Asia/Jakarta
 
 ## Scope
 
@@ -15,8 +15,8 @@ Generated: 2026-09-14T21:04:29+07:00 Asia/Jakarta
 
 ## Status
 
-- Total candidates: 168
-- New candidates this run: 35
+- Total candidates: 169
+- New candidates this run: 1
 - High confidence candidates: 7
 - Historical backfill tasks: 212
 - Historical backfill candidates: 42
@@ -75,7 +75,7 @@ Generated: 2026-09-14T21:04:29+07:00 Asia/Jakarta
 - parpol: 8
 - prog_daerah: 15
 - prog_eksekutif: 8
-- prog_legislatif: 27
+- prog_legislatif: 28
 - redflag: 9
 - risknas: 8
 - sda: 8
