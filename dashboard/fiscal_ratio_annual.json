@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:27:05+07:00",
+  "generated_at": "2026-09-18T07:20:43+07:00",
   "source": "Gudang DB CSV yearly aggregation",
   "policy": "Grafik dashboard boleh menampilkan minimum 10 tahun karena hanya agregasi tahunan, bukan detail bulanan/harian.",
   "minimum_years": 10,
