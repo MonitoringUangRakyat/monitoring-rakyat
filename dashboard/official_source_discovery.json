@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-10-07T07:18:24+07:00",
+  "policy": "OFFICIAL_SOURCE_FIRST",
+  "counts": {
+    "LIVE": 2,
+    "DEGRADED": 1,
+    "DOWN": 1
+  },
+  "sources": [
+    {
+      "source_id": "FEED-009",
+      "name": "LKPP SiRUP",
+      "authority": 95,
+      "status": "DOWN",
+      "selected_url": null,
+      "attempts": [
+        {
+          "url": "https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex",
+          "status": "DOWN",
+          "http_status": null,
+          "latency_ms": 40,
+          "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+        },
+        {
+          "url": "https://sirup.lkpp.go.id/",
+          "status": "DOWN",
+          "http_status": null,
+          "latency_ms": 21,
+          "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
+      "checked_at": "2026-10-07T07:18:24+07:00"
+    },
+    {
+      "source_id": "FEED-010",
+      "name": "BPK",
+      "authority": 100,
+      "status": "DEGRADED",
+      "selected_url": null,
+      "attempts": [
+        {
+          "url": "https://www.bpk.go.id/ihps",
+          "status": "DEGRADED",
+          "http_status": 403,
+          "latency_ms": 163,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.bpk.go.id/news",
+          "status": "DEGRADED",
+          "http_status": 403,
+          "latency_ms": 27,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.bpk.go.id/",
+          "status": "DEGRADED",
+          "http_status": 403,
+          "latency_ms": 16,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "checked_at": "2026-10-07T07:18:24+07:00"
+    },
+    {
+      "source_id": "FEED-011",
+      "name": "KPK",
+      "authority": 100,
+      "status": "LIVE",
+      "selected_url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+      "attempts": [
+        {
+          "url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+          "status": "LIVE",
+          "http_status": 200,
+          "latency_ms": 3009,
+          "content_type": "text/html; charset=utf-8",
+          "content_hash": "4e6a747e7a972decd9e7773da1158a033dd5ae8687804e073dca461520996ce5",
+          "bytes_sampled": 236032
+        },
+        {
+          "url": "https://www.kpk.go.id/id",
+          "status": "LIVE",
+          "http_status": 200,
+          "latency_ms": 2886,
+          "content_type": "text/html; charset=utf-8",
+          "content_hash": "ce167b89bdec43016ec82accd257607b533d6c0b562a06a4209c03ba9b52f360",
+          "bytes_sampled": 262144
+        }
+      ],
+      "checked_at": "2026-10-07T07:18:24+07:00"
+    },
+    {
+      "source_id": "FEED-012",
+      "name": "Kejaksaan RI",
+      "authority": 100,
+      "status": "LIVE",
+      "selected_url": "https://www.kejaksaan.go.id/",
+      "attempts": [
+        {
+          "url": "https://www.kejaksaan.go.id/",
+          "status": "LIVE",
+          "http_status": 200,
+          "latency_ms": 1508,
+          "content_type": "text/html",
+          "content_hash": "1e59412195f54e9f6fb57df824a6ec03d5376e21a6669765675427b58dd8cba7",
+          "bytes_sampled": 245
+        },
+        {
+          "url": "https://kejaksaan.go.id/",
+          "status": "LIVE",
+          "http_status": 200,
+          "latency_ms": 1064,
+          "content_type": "text/html",
+          "content_hash": "53a6d929bec03787a9f6e797ab5989906a43b0c9d0c25cc05a4791c45bb2dab8",
+          "bytes_sampled": 245
+        }
+      ],
+      "checked_at": "2026-10-07T07:18:24+07:00"
+    }
+  ]
+}

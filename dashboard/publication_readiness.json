@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-10-07T07:18:34+07:00",
+  "status": "PASS",
+  "blockers": [],
+  "semantics": "RILL = explicit publishable status + evidence/source. Source+money alone is never sufficient.",
+  "core_modules": {
+    "akuntansi": {
+      "rows": 0,
+      "publishable": 0,
+      "quarantined": 0
+    },
+    "audit": {
+      "rows": 6,
+      "publishable": 0,
+      "quarantined": 6
+    },
+    "audittrail": {
+      "rows": 0,
+      "publishable": 0,
+      "quarantined": 0
+    },
+    "bea_cukai": {
+      "rows": 6,
+      "publishable": 0,
+      "quarantined": 6
+    },
+    "bumn": {
+      "rows": 6,
+      "publishable": 0,
+      "quarantined": 6
+    },
+    "korupsi": {
+      "rows": 5,
+      "publishable": 0,
+      "quarantined": 5
+    },
+    "pajak": {
+      "rows": 11,
+      "publishable": 0,
+      "quarantined": 11
+    },
+    "parpol": {
+      "rows": 0,
+      "publishable": 0,
+      "quarantined": 0
+    },
+    "prog_daerah": {
+      "rows": 13,
+      "publishable": 0,
+      "quarantined": 13
+    },
+    "prog_eksekutif": {
+      "rows": 6,
+      "publishable": 0,
+      "quarantined": 6
+    },
+    "prog_legislatif": {
+      "rows": 26,
+      "publishable": 0,
+      "quarantined": 26
+    },
+    "redflag": {
+      "rows": 7,
+      "publishable": 0,
+      "quarantined": 7
+    },
+    "risknas": {
+      "rows": 6,
+      "publishable": 0,
+      "quarantined": 6
+    },
+    "sda": {
+      "rows": 6,
+      "publishable": 0,
+      "quarantined": 6
+    },
+    "vendor": {
+      "rows": 8,
+      "publishable": 0,
+      "quarantined": 8
+    }
+  },
+  "quarantine_reasons": {
+    "blocked_status": 75,
+    "no_explicit_publishable_status": 31
+  }
+}

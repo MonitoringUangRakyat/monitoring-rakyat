@@ -1,20 +1,157 @@
 {
-  "generated_at": "2026-10-07T07:04:27+07:00",
-  "probe_enabled": false,
+  "generated_at": "2026-10-07T07:18:21+07:00",
+  "probe_enabled": true,
   "sources": [
-    {"source_id":"FEED-001","source":"Kompas","category":"MAINSTREAM_MEDIA","domain":"kompas.com","feed_url":"","status":"NO_ENDPOINT","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"41007e2561a8e1d8"},
-    {"source_id":"FEED-002","source":"Detik","category":"MAINSTREAM_MEDIA","domain":"detik.com","feed_url":"https://rss.detik.com/index.php/detikcom_nasional","status":"REGISTERED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"b22fdbb6e6a70627"},
-    {"source_id":"FEED-003","source":"Tempo","category":"MAINSTREAM_MEDIA","domain":"tempo.co","feed_url":"https://rss.tempo.co/nasional","status":"REGISTERED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"6ea24c65c047d71b"},
-    {"source_id":"FEED-004","source":"Metro TV","category":"MAINSTREAM_MEDIA","domain":"metrotvnews.com","feed_url":"https://www.metrotvnews.com/rss","status":"REGISTERED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"6c52c3ec8c093718"},
-    {"source_id":"FEED-005","source":"CNN Indonesia","category":"MAINSTREAM_MEDIA","domain":"cnnindonesia.com","feed_url":"https://www.cnnindonesia.com/nasional/rss","status":"REGISTERED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"ef88b2c253452cf1"},
-    {"source_id":"FEED-006","source":"CNBC Indonesia","category":"MAINSTREAM_MEDIA","domain":"cnbcindonesia.com","feed_url":"https://www.cnbcindonesia.com/news/rss","status":"REGISTERED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"8b0b4931d0cea865"},
-    {"source_id":"FEED-007","source":"Tirto","category":"MAINSTREAM_MEDIA","domain":"tirto.id","feed_url":"","status":"NO_ENDPOINT","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"aaf4c0afc981c2ad"},
-    {"source_id":"FEED-008","source":"Nemesis","category":"AGGREGATOR_AI","domain":"nemesis.assai.id","feed_url":"","status":"NO_ENDPOINT","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"e17ddb6d391a7f2e"},
-    {"source_id":"FEED-009","source":"LKPP SiRUP","category":"OFFICIAL_PROCUREMENT","domain":"sirup.lkpp.go.id","feed_url":"","status":"DISCOVERY_REQUIRED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"75bb8502d628ee6a"},
-    {"source_id":"FEED-010","source":"BPK","category":"OFFICIAL_AUDIT","domain":"bpk.go.id","feed_url":"","status":"DISCOVERY_REQUIRED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"94b95e207ab43784"},
-    {"source_id":"FEED-011","source":"KPK","category":"OFFICIAL_ENFORCEMENT","domain":"kpk.go.id","feed_url":"","status":"DISCOVERY_REQUIRED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"307bd2d0ea06c0c4"},
-    {"source_id":"FEED-012","source":"Kejaksaan RI","category":"OFFICIAL_ENFORCEMENT","domain":"kejaksaan.go.id","feed_url":"","status":"DISCOVERY_REQUIRED","checked_at":"2026-10-07T07:04:27+07:00","latency_ms":null,"error_reason":"","registry_fingerprint":"62ea4e5e332581e6"}
+    {
+      "source_id": "FEED-001",
+      "source": "Kompas",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "kompas.com",
+      "feed_url": "",
+      "status": "NO_ENDPOINT",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "41007e2561a8e1d8"
+    },
+    {
+      "source_id": "FEED-002",
+      "source": "Detik",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "detik.com",
+      "feed_url": "https://rss.detik.com/index.php/detikcom_nasional",
+      "status": "UNAVAILABLE",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": 581,
+      "error_reason": "RemoteDisconnected: Remote end closed connection without response",
+      "registry_fingerprint": "b22fdbb6e6a70627"
+    },
+    {
+      "source_id": "FEED-003",
+      "source": "Tempo",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "tempo.co",
+      "feed_url": "https://rss.tempo.co/nasional",
+      "status": "LIVE",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": 303,
+      "error_reason": "",
+      "registry_fingerprint": "6ea24c65c047d71b"
+    },
+    {
+      "source_id": "FEED-004",
+      "source": "Metro TV",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "metrotvnews.com",
+      "feed_url": "https://www.metrotvnews.com/rss",
+      "status": "LIVE",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": 2174,
+      "error_reason": "",
+      "registry_fingerprint": "6c52c3ec8c093718"
+    },
+    {
+      "source_id": "FEED-005",
+      "source": "CNN Indonesia",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "cnnindonesia.com",
+      "feed_url": "https://www.cnnindonesia.com/nasional/rss",
+      "status": "UNAVAILABLE",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": 51,
+      "error_reason": "HTTPError: HTTP Error 403: Forbidden",
+      "registry_fingerprint": "ef88b2c253452cf1"
+    },
+    {
+      "source_id": "FEED-006",
+      "source": "CNBC Indonesia",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "cnbcindonesia.com",
+      "feed_url": "https://www.cnbcindonesia.com/news/rss",
+      "status": "UNAVAILABLE",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": 39,
+      "error_reason": "HTTPError: HTTP Error 403: Forbidden",
+      "registry_fingerprint": "8b0b4931d0cea865"
+    },
+    {
+      "source_id": "FEED-007",
+      "source": "Tirto",
+      "category": "MAINSTREAM_MEDIA",
+      "domain": "tirto.id",
+      "feed_url": "",
+      "status": "NO_ENDPOINT",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "aaf4c0afc981c2ad"
+    },
+    {
+      "source_id": "FEED-008",
+      "source": "Nemesis",
+      "category": "AGGREGATOR_AI",
+      "domain": "nemesis.assai.id",
+      "feed_url": "",
+      "status": "NO_ENDPOINT",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "e17ddb6d391a7f2e"
+    },
+    {
+      "source_id": "FEED-009",
+      "source": "LKPP SiRUP",
+      "category": "OFFICIAL_PROCUREMENT",
+      "domain": "sirup.lkpp.go.id",
+      "feed_url": "",
+      "status": "DISCOVERY_REQUIRED",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "75bb8502d628ee6a"
+    },
+    {
+      "source_id": "FEED-010",
+      "source": "BPK",
+      "category": "OFFICIAL_AUDIT",
+      "domain": "bpk.go.id",
+      "feed_url": "",
+      "status": "DISCOVERY_REQUIRED",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "94b95e207ab43784"
+    },
+    {
+      "source_id": "FEED-011",
+      "source": "KPK",
+      "category": "OFFICIAL_ENFORCEMENT",
+      "domain": "kpk.go.id",
+      "feed_url": "",
+      "status": "DISCOVERY_REQUIRED",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "307bd2d0ea06c0c4"
+    },
+    {
+      "source_id": "FEED-012",
+      "source": "Kejaksaan RI",
+      "category": "OFFICIAL_ENFORCEMENT",
+      "domain": "kejaksaan.go.id",
+      "feed_url": "",
+      "status": "DISCOVERY_REQUIRED",
+      "checked_at": "2026-10-07T07:18:21+07:00",
+      "latency_ms": null,
+      "error_reason": "",
+      "registry_fingerprint": "62ea4e5e332581e6"
+    }
   ],
-  "counts": {"DISCOVERY_REQUIRED":4,"NO_ENDPOINT":3,"REGISTERED":5},
-  "recovery_tasks": 7
+  "counts": {
+    "DISCOVERY_REQUIRED": 4,
+    "LIVE": 2,
+    "NO_ENDPOINT": 3,
+    "UNAVAILABLE": 3
+  },
+  "recovery_tasks": 10
 }

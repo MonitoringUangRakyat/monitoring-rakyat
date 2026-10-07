@@ -1,1 +1,484 @@
-{"generated_at":"2026-10-07T07:02:38+07:00","source":"Gudang DB CSV yearly aggregation - verified/publication-gated only","policy":"DRAFT/REVIEW/UNVERIFIED/CANDIDATE excluded from public fiscal ratios.","minimum_years":10,"trend_years":20,"year_range":[2007,2026],"units":"IDR and Rp triliun","publication_gate":"DEFAULT_DENY_EVIDENCE_FIRST","data":[{"year":2007,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2008,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2009,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2010,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2011,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2012,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2013,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2014,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":0,"quarantine_reasons":{}},{"year":2015,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":9,"quarantine_reasons":{"blocked_status":9}},{"year":2016,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2017,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2018,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2019,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2020,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2021,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2022,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":5,"quarantine_reasons":{"blocked_status":3,"no_explicit_publishable_status":2}},{"year":2023,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2024,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":6,"quarantine_reasons":{"blocked_status":4,"no_explicit_publishable_status":2}},{"year":2025,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":3,"quarantine_reasons":{"blocked_status":3}},{"year":2026,"belanja_apbn":0,"pendapatan_pajak":0,"hasil_sda":0,"kerugian_korupsi":0,"belanja_apbn_t":0.0,"pendapatan_pajak_t":0.0,"hasil_sda_t":0.0,"kerugian_korupsi_t":0.0,"korupsi_vs_belanja_pct":0,"korupsi_vs_pajak_pct":0,"status":"KOSONG_MENUNGGU_VERIFIKASI","source_rows":{"akuntansi":0,"pajak":0,"sda":0,"korupsi":0},"quarantined_rows":22,"quarantine_reasons":{"blocked_status":5,"no_explicit_publishable_status":17}}]}
+{
+  "generated_at": "2026-10-07T07:18:34+07:00",
+  "source": "Gudang DB CSV yearly aggregation - verified/publication-gated only",
+  "policy": "DRAFT/REVIEW/UNVERIFIED/CANDIDATE excluded from public fiscal ratios.",
+  "minimum_years": 10,
+  "trend_years": 20,
+  "year_range": [
+    2007,
+    2026
+  ],
+  "units": "IDR and Rp triliun",
+  "publication_gate": "DEFAULT_DENY_EVIDENCE_FIRST",
+  "data": [
+    {
+      "year": 2007,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2008,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2009,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2010,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2011,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2012,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2013,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2014,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 0,
+      "quarantine_reasons": {}
+    },
+    {
+      "year": 2015,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 9,
+      "quarantine_reasons": {
+        "blocked_status": 9
+      }
+    },
+    {
+      "year": 2016,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2017,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2018,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2019,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2020,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2021,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2022,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 5,
+      "quarantine_reasons": {
+        "blocked_status": 3,
+        "no_explicit_publishable_status": 2
+      }
+    },
+    {
+      "year": 2023,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2024,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 6,
+      "quarantine_reasons": {
+        "blocked_status": 4,
+        "no_explicit_publishable_status": 2
+      }
+    },
+    {
+      "year": 2025,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 3,
+      "quarantine_reasons": {
+        "blocked_status": 3
+      }
+    },
+    {
+      "year": 2026,
+      "belanja_apbn": 0,
+      "pendapatan_pajak": 0,
+      "hasil_sda": 0,
+      "kerugian_korupsi": 0,
+      "belanja_apbn_t": 0.0,
+      "pendapatan_pajak_t": 0.0,
+      "hasil_sda_t": 0.0,
+      "kerugian_korupsi_t": 0.0,
+      "korupsi_vs_belanja_pct": 0,
+      "korupsi_vs_pajak_pct": 0,
+      "status": "KOSONG_MENUNGGU_VERIFIKASI",
+      "source_rows": {
+        "akuntansi": 0,
+        "pajak": 0,
+        "sda": 0,
+        "korupsi": 0
+      },
+      "quarantined_rows": 22,
+      "quarantine_reasons": {
+        "blocked_status": 5,
+        "no_explicit_publishable_status": 17
+      }
+    }
+  ]
+}

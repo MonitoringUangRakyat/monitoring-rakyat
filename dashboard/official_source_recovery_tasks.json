@@ -1,0 +1,33 @@
+[
+  {
+    "task_id": "OFFICIAL-FEED-009",
+    "task": "recover_official_source",
+    "source_id": "FEED-009",
+    "source": "LKPP SiRUP",
+    "status": "ACTIVE",
+    "priority": "CRITICAL",
+    "reason": "DOWN",
+    "next_retry": "2026-10-07T08:18:24+07:00",
+    "candidate_urls": [
+      "https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex",
+      "https://sirup.lkpp.go.id/"
+    ],
+    "rule": "Official source unavailable -> retry/recover/escalate. Never substitute AI-generated facts."
+  },
+  {
+    "task_id": "OFFICIAL-FEED-010",
+    "task": "recover_official_source",
+    "source_id": "FEED-010",
+    "source": "BPK",
+    "status": "ACTIVE",
+    "priority": "CRITICAL",
+    "reason": "DEGRADED",
+    "next_retry": "2026-10-07T08:18:24+07:00",
+    "candidate_urls": [
+      "https://www.bpk.go.id/ihps",
+      "https://www.bpk.go.id/news",
+      "https://www.bpk.go.id/"
+    ],
+    "rule": "Official source unavailable -> retry/recover/escalate. Never substitute AI-generated facts."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-07T07:18:33+07:00",
+  "policy": "EVERY_UNKNOWN_BECOMES_A_TASK",
+  "total": 555,
+  "active": 555,
+  "dead_letter": 0,
+  "critical": 6,
+  "sources": [
+    "dashboard/source_recovery_tasks.json",
+    "dashboard/official_source_recovery_tasks.json",
+    "dashboard/evidence_recovery_tasks.json",
+    "dashboard/ai_agent_tasks.json"
+  ]
+}

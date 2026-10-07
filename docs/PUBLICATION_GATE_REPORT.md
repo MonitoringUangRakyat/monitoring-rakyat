@@ -1,3 +1,8 @@
+# Publication Gate Report
+
+Status: **PASS**
+
+```json
 {
   "generated_at": "2026-10-07T07:18:34+07:00",
   "status": "PASS",
@@ -37,3 +42,4 @@
     }
   }
 }
+```
