@@ -1,14 +1,17 @@
 from __future__ import annotations
 
 import csv
+import json
+from datetime import datetime
 from pathlib import Path
-
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-DB = ROOT / "gudang-db" / "3_era_modern_2011_2026"
+OUT_DIR = ROOT / "gudang-db" / "_baseline"
+OUT = OUT_DIR / "fiscal_baseline_review.csv"
+STATUS = ROOT / "dashboard" / "fiscal_baseline_review_status.json"
 
-# Rp triliun. Baseline ringkas agar grafik dashboard tahunan tidak kosong.
-# Status tetap BASELINE_REVIEW: wajib dicross-check berkala ke BPS/Kemenkeu APBN KiTa/Nota Keuangan.
+# Reviewer reference only. These values are not canonical facts and may not populate public modules.
 BASELINE = {
     2015: {"belanja_apbn": 1806.5, "pendapatan_pajak": 1060.8, "hasil_sda": 100.9},
     2016: {"belanja_apbn": 1864.3, "pendapatan_pajak": 1105.8, "hasil_sda": 64.9},
@@ -22,94 +25,40 @@ BASELINE = {
     2024: {"belanja_apbn": 3350.3, "pendapatan_pajak": 2309.9, "hasil_sda": 204.9},
     2025: {"belanja_apbn": 3621.3, "pendapatan_pajak": 2490.9, "hasil_sda": 217.3},
 }
-
 SOURCE_NOTE = "BASELINE_REVIEW_BPS_KEMENKEU_APBN_KITA_NOTA_KEUANGAN"
 
-
-def rupiah_trillion(value: float) -> str:
-    return str(round(value * 1_000_000_000_000))
-
-
-def read_rows(path: Path) -> tuple[list[str], list[dict[str, str]]]:
-    with path.open("r", encoding="utf-8-sig", newline="") as handle:
-        reader = csv.DictReader(handle)
-        return list(reader.fieldnames or []), [dict(row) for row in reader]
-
-
-def write_rows(path: Path, fields: list[str], rows: list[dict[str, str]]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({field: row.get(field, "") for field in fields})
-
-
-def upsert(path: Path, row: dict[str, str], key: str = "col") -> bool:
-    fields, rows = read_rows(path)
-    if not fields:
-        raise ValueError(f"{path} has no header")
-    row = {field: row.get(field, "") for field in fields}
-    existing = next((item for item in rows if item.get(key) == row.get(key)), None)
-    if existing:
-        existing.update(row)
-        added = False
-    else:
-        rows.append(row)
-        added = True
-    write_rows(path, fields, rows)
-    return added
-
+def idr(trillion: float) -> int:
+    return round(trillion * 1_000_000_000_000)
 
 def main() -> int:
-    added = 0
-    updated = 0
-    for year, values in BASELINE.items():
-        akuntansi = {
-            "tahun": str(year),
-            "col": f"BASELINE-FISCAL-AKUNTANSI-{year}",
-            "Tanggal": f"{year}-12-31",
-            "Bulan": "12",
-            "Tahun": str(year),
-            "Sektor": "Belanja Negara",
-            "Keterangan": f"Baseline agregat tahunan Belanja APBN {year}",
-            "Debet_Rp": rupiah_trillion(values["belanja_apbn"]),
-            "Dokumen": SOURCE_NOTE,
-            "Status": "BASELINE_REVIEW",
-            "Aksi": "AUTO_SEED_FISCAL_BASELINE",
-            "Sektor_Program": "APBN",
-            "Pagu_APBN": rupiah_trillion(values["belanja_apbn"]),
-            "Realisasi": rupiah_trillion(values["belanja_apbn"]),
-        }
-        pajak = {
-            "tahun": str(year),
-            "col": f"BASELINE-FISCAL-PAJAK-{year}",
-            "Jenis_Pajak": "Penerimaan Perpajakan",
-            "Objek_Sasaran": f"Baseline agregat tahunan penerimaan pajak {year}; {SOURCE_NOTE}",
-            "Tahun": str(year),
-            "Bulan": "12",
-            "Nilai": rupiah_trillion(values["pendapatan_pajak"]),
-            "Aksi": "BASELINE_REVIEW",
-        }
-        sda = {
-            "tahun": str(year),
-            "col": f"BASELINE-FISCAL-SDA-{year}",
-            "Sektor": "PNBP Sumber Daya Alam",
-            "Komoditas_Sumber": "Agregat SDA",
-            "Keterangan": f"Baseline agregat tahunan hasil SDA {year}; {SOURCE_NOTE}",
-            "Tahun": str(year),
-            "Bulan": "12",
-            "Nilai_Ekonomi": rupiah_trillion(values["hasil_sda"]),
-            "Aksi": "BASELINE_REVIEW",
-        }
-        for module, row in (("akuntansi", akuntansi), ("pajak", pajak), ("sda", sda)):
-            path = DB / f"{module}_{year}.csv"
-            if upsert(path, row):
-                added += 1
-            else:
-                updated += 1
-    print(f"Fiscal baseline rows added={added} updated={updated}")
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    fields = ["year", "metric", "value_idr", "source_note", "verification_status", "public_allowed"]
+    rows = []
+    for year, metrics in BASELINE.items():
+        for metric, value in metrics.items():
+            rows.append({
+                "year": year,
+                "metric": metric,
+                "value_idr": idr(value),
+                "source_note": SOURCE_NOTE,
+                "verification_status": "BASELINE_REVIEW",
+                "public_allowed": "false",
+            })
+    with OUT.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+    status = {
+        "generated_at": datetime.now(ZoneInfo("Asia/Jakarta")).isoformat(timespec="seconds"),
+        "rows": len(rows),
+        "location": str(OUT.relative_to(ROOT)),
+        "verification_status": "BASELINE_REVIEW",
+        "public_allowed": False,
+        "rule": "Review-only fiscal baselines never populate canonical module CSVs; official evidence is required for promotion.",
+    }
+    STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote review-only fiscal baseline rows={len(rows)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())
