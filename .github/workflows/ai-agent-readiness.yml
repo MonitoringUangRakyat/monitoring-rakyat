@@ -45,16 +45,53 @@ jobs:
           python scripts/ai_pengawas_orchestrator.py
           python scripts/promote_ai_hunter_candidates.py
           python scripts/build_evidence_recovery_queue.py
+          python scripts/build_backfill_tasks.py
           python scripts/sanitize_public_submission_refs.py
           python scripts/generate_ai_index.py
           python scripts/build_dashboard_summary.py
           python scripts/build_fiscal_ratio_summary.py
+          python scripts/hardened_readiness.py
 
       - name: HARD GATE - verified evidence only
-        run: python scripts/validate_publication_gate.py --write --strict
+        run: |
+          python scripts/validate_publication_gate.py --write --strict
+          python scripts/watchdog.py --strict
 
       - name: Commit verified readiness updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(ai-agent): verified readiness patrol"
-          file_pattern: "dashboard/dashboard_summary.json dashboard/fiscal_ratio_annual.json dashboard/nemesis_integration_status.json dashboard/public_submission_status.json dashboard/pre_github_readiness.json dashboard/ai_agent_tasks.json dashboard/ai_agent_source_patrol.json dashboard/ai_orchestrator_status.json dashboard/ai_hunter_promotion_status.json dashboard/publication_gate_status.json dashboard/source_health.json dashboard/source_recovery_tasks.json dashboard/evidence_recovery_tasks.json dashboard/verification_inventory.json docs/PRE_GITHUB_READINESS_REPORT.md docs/AI_ORCHESTRATOR_24_7_REPORT.md docs/PUBLICATION_GATE_REPORT.md gudang-db/_index/ai_index.json gudang-db/_intake/public_submissions.csv gudang-db/_queue/ai_pengawas_candidates.json gudang-db/_queue/ai_pengawas_candidates.csv gudang-db/_queue/nemesis_procurement_candidates.json gudang-db/_queue/nemesis_procurement_candidates.csv gudang-db/_queue/public_submissions.json gudang-db/_queue/public_submissions.csv gudang-db/3_era_modern_2011_2026/*.csv"
+          file_pattern: >-
+            dashboard/dashboard_summary.json
+            dashboard/fiscal_ratio_annual.json
+            dashboard/nemesis_integration_status.json
+            dashboard/public_submission_status.json
+            dashboard/pre_github_readiness.json
+            dashboard/publication_readiness.json
+            dashboard/ai_agent_tasks.json
+            dashboard/ai_agent_source_patrol.json
+            dashboard/ai_orchestrator_status.json
+            dashboard/ai_hunter_promotion_status.json
+            dashboard/publication_gate_status.json
+            dashboard/source_health.json
+            dashboard/source_recovery_tasks.json
+            dashboard/evidence_recovery_tasks.json
+            dashboard/verification_inventory.json
+            dashboard/backfill_tasks.json
+            dashboard/backfill_status.json
+            dashboard/fiscal_baseline_review_status.json
+            dashboard/watchdog_status.json
+            dashboard/promotion_gate.json
+            docs/PRE_GITHUB_READINESS_REPORT.md
+            docs/AI_ORCHESTRATOR_24_7_REPORT.md
+            docs/PUBLICATION_GATE_REPORT.md
+            gudang-db/_baseline/fiscal_baseline_review.csv
+            gudang-db/_index/ai_index.json
+            gudang-db/_intake/public_submissions.csv
+            gudang-db/_queue/ai_pengawas_candidates.json
+            gudang-db/_queue/ai_pengawas_candidates.csv
+            gudang-db/_queue/nemesis_procurement_candidates.json
+            gudang-db/_queue/nemesis_procurement_candidates.csv
+            gudang-db/_queue/public_submissions.json
+            gudang-db/_queue/public_submissions.csv
+            gudang-db/3_era_modern_2011_2026/*.csv
