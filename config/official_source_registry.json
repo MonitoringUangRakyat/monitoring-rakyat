@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "source_id": "FEED-009",
+      "name": "LKPP SiRUP",
+      "authority": 95,
+      "domains": ["sirup.lkpp.go.id"],
+      "candidate_urls": ["https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex", "https://sirup.lkpp.go.id/"],
+      "keywords": ["pengadaan", "sirup", "paket", "rencana umum pengadaan"]
+    },
+    {
+      "source_id": "FEED-010",
+      "name": "BPK",
+      "authority": 100,
+      "domains": ["bpk.go.id", "www.bpk.go.id"],
+      "candidate_urls": ["https://www.bpk.go.id/ihps", "https://www.bpk.go.id/news", "https://www.bpk.go.id/"],
+      "keywords": ["ihps", "laporan hasil pemeriksaan", "kerugian", "pemeriksaan"]
+    },
+    {
+      "source_id": "FEED-011",
+      "name": "KPK",
+      "authority": 100,
+      "domains": ["kpk.go.id", "www.kpk.go.id"],
+      "candidate_urls": ["https://www.kpk.go.id/id/ruang-informasi/berita", "https://www.kpk.go.id/"],
+      "keywords": ["korupsi", "penindakan", "penyidikan", "tersangka"]
+    },
+    {
+      "source_id": "FEED-012",
+      "name": "Kejaksaan RI",
+      "authority": 100,
+      "domains": ["kejaksaan.go.id", "www.kejaksaan.go.id"],
+      "candidate_urls": ["https://www.kejaksaan.go.id/", "https://kejaksaan.go.id/"],
+      "keywords": ["korupsi", "penyidikan", "penuntutan", "pemulihan aset"]
+    }
+  ]
+}
