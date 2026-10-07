@@ -3,6 +3,14 @@ name: Autonomous Recovery Loop
 on:
   schedule:
     - cron: "41 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "config/official_source_registry.json"
+      - "public-intake-worker/**"
+      - "supabase/migrations/**"
+      - ".github/workflows/autonomous-recovery.yml"
   workflow_dispatch:
 
 permissions:
