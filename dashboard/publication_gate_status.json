@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-07T07:04:28+07:00",
+  "status": "PASS",
+  "errors": [],
+  "recomputed": {
+    "verified_current_period_loss": 0,
+    "verified_current_period_recovery": 0,
+    "verified_current_period_cases": 0,
+    "corruption_rows_scanned": 42,
+    "corruption_rows_publishable": 0,
+    "corruption_rows_quarantined": 42,
+    "quarantine_reasons": {"blocked_status": 42}
+  },
+  "active_period": {"year": 2026, "month": 10, "month_name": "Oktober", "trend_years": 20},
+  "summary_checked": {
+    "kerugian_total": 0,
+    "recovery_total": 0,
+    "jumlah_kasus": 0,
+    "publication_gate": {
+      "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
+      "rows_scanned": 575,
+      "rows_published": 0,
+      "rows_quarantined": 575,
+      "quarantine_reasons": {"blocked_status": 513, "no_explicit_publishable_status": 62},
+      "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
+    }
+  }
+}
