@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T04:38:05+07:00",
+  "generated_at": "2026-10-07T08:33:11+07:00",
   "active_period": {
     "year": 2026,
-    "month": 8,
-    "month_name": "Agustus",
+    "month": 10,
+    "month_name": "Oktober",
     "trend_years": 20,
     "policy": "Dashboard publik hanya menampilkan tahun dan bulan berjalan agar ringan dan responsif. Data historis di luar periode berjalan diarahkan ke Gudang DB secara load-on-demand. Tim AI Pengumpul DB wajib melakukan hardcode backfill 10-15 tahun ke belakang karena data historis lebih matang/valid; tahun tanpa sumber DB ditampilkan Kosong/0 sampai Gudang DB dilengkapi."
   },
@@ -13,14 +13,13 @@
   },
   "status": "NEEDS_WORK",
   "blockers": [
-    "dashboard/active-period.json tidak sama dengan tanggal Asia/Jakarta saat ini",
     "hardcode backfill 10 tahun historis belum lengkap untuk modul inti"
   ],
   "modules_count": 35,
   "core_modules_count": 15,
   "missing_core_modules": [],
   "structural_missing_modules": [],
-  "current_period_rows": 252,
+  "current_period_rows": 210,
   "current_period_rill_rows": 3,
   "ai_agent_tasks_count": 226,
   "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
@@ -77,42 +76,50 @@
   },
   "dashboard_summary": {
     "tahun": 2026,
-    "bulan": 8,
-    "bulan_nama": "Agustus",
-    "kerugian_total": 127600000000,
+    "bulan": 10,
+    "bulan_nama": "Oktober",
+    "kerugian_total": 0,
     "recovery_total": 0,
-    "jumlah_kasus": 5,
+    "jumlah_kasus": 0,
     "jumlah_koruptor": 0,
-    "jumlah_kasus_historis": 42,
-    "jumlah_koruptor_historis": 27,
-    "jumlah_kasus_historis_by_module": {
-      "korupsi": 15,
-      "master_koruptor": 27
-    },
+    "jumlah_kasus_historis": 0,
+    "jumlah_koruptor_historis": 0,
+    "jumlah_kasus_historis_by_module": {},
     "history_akumulasi": {
       "2007": 0,
-      "2008": 73180000000000,
+      "2008": 0,
       "2009": 0,
       "2010": 0,
-      "2011": 4710200000000,
-      "2012": 22780000000000,
+      "2011": 0,
+      "2012": 0,
       "2013": 0,
       "2014": 0,
-      "2015": 1512162400000000,
+      "2015": 0,
       "2016": 0,
       "2017": 0,
-      "2018": 1355900000000000,
-      "2019": 9980000000000,
-      "2020": 32410000000000,
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
       "2021": 0,
       "2022": 0,
       "2023": 0,
-      "2024": 1000000000000,
-      "2025": 5750000000,
-      "2026": 127600000000
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
     },
-    "data_rows_terisi": 575,
-    "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
+    "data_rows_terisi": 0,
+    "publication_gate": {
+      "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
+      "rows_scanned": 575,
+      "rows_published": 0,
+      "rows_quarantined": 575,
+      "quarantine_reasons": {
+        "blocked_status": 513,
+        "no_explicit_publishable_status": 62
+      },
+      "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
+    },
+    "catatan": "Auto-generated hanya dari record yang lolos publication evidence gate. DRAFT/REVIEW/UNVERIFIED/CANDIDATE tidak boleh memengaruhi angka publik."
   },
   "core_modules": {
     "akuntansi": {
@@ -1407,7 +1414,7 @@
       "rows_total": 12,
       "rows_with_source": 12,
       "rows_with_money": 1,
-      "active_rows": 2,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -2680,7 +2687,7 @@
       "rows_total": 24,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 2,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -5648,7 +5655,7 @@
       "rows_total": 19,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 2,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -6922,7 +6929,7 @@
       "rows_total": 169,
       "rows_with_source": 0,
       "rows_with_money": 28,
-      "active_rows": 36,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -9478,7 +9485,7 @@
       "rows_total": 12,
       "rows_with_source": 12,
       "rows_with_money": 1,
-      "active_rows": 2,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -16263,7 +16270,7 @@
       "rows_total": 24,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 2,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -19231,7 +19238,7 @@
       "rows_total": 19,
       "rows_with_source": 0,
       "rows_with_money": 12,
-      "active_rows": 2,
+      "active_rows": 0,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -21348,7 +21355,7 @@
     {
       "module": "akuntansi",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -21453,7 +21460,7 @@
     {
       "module": "audit",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -21821,7 +21828,7 @@
     {
       "module": "audittrail",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -22157,7 +22164,7 @@
     {
       "module": "bea_cukai",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -22541,7 +22548,7 @@
     {
       "module": "bumn",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -23221,7 +23228,7 @@
     {
       "module": "pajak",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -23573,7 +23580,7 @@
     {
       "module": "parpol",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -23941,7 +23948,7 @@
     {
       "module": "prog_daerah",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -24309,7 +24316,7 @@
     {
       "module": "prog_eksekutif",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -24677,7 +24684,7 @@
     {
       "module": "prog_legislatif",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -25045,7 +25052,7 @@
     {
       "module": "redflag",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -25413,7 +25420,7 @@
     {
       "module": "risknas",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "MEDIUM",
@@ -25797,7 +25804,7 @@
     {
       "module": "sda",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",
@@ -26165,7 +26172,7 @@
     {
       "module": "vendor",
       "year": 2026,
-      "month": 8,
+      "month": 10,
       "task_type": "CURRENT_PERIOD_SEARCH",
       "status": "SEARCH_REQUIRED",
       "priority": "HIGH",

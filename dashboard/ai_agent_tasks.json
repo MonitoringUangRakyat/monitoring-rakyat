@@ -2,7 +2,7 @@
   {
     "module": "akuntansi",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -107,7 +107,7 @@
   {
     "module": "audit",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -475,7 +475,7 @@
   {
     "module": "audittrail",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -811,7 +811,7 @@
   {
     "module": "bea_cukai",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -1195,7 +1195,7 @@
   {
     "module": "bumn",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -1875,7 +1875,7 @@
   {
     "module": "pajak",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -2227,7 +2227,7 @@
   {
     "module": "parpol",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -2595,7 +2595,7 @@
   {
     "module": "prog_daerah",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -2963,7 +2963,7 @@
   {
     "module": "prog_eksekutif",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -3331,7 +3331,7 @@
   {
     "module": "prog_legislatif",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -3699,7 +3699,7 @@
   {
     "module": "redflag",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -4067,7 +4067,7 @@
   {
     "module": "risknas",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "MEDIUM",
@@ -4451,7 +4451,7 @@
   {
     "module": "sda",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",
@@ -4819,7 +4819,7 @@
   {
     "module": "vendor",
     "year": 2026,
-    "month": 8,
+    "month": 10,
     "task_type": "CURRENT_PERIOD_SEARCH",
     "status": "SEARCH_REQUIRED",
     "priority": "HIGH",

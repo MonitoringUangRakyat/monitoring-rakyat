@@ -1,20 +1,19 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-10-07T04:38:05+07:00 Asia/Jakarta
+Generated: 2026-10-07T08:33:11+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
-- Dashboard active period: Agustus 2026
+- Dashboard active period: Oktober 2026
 - Current Asia/Jakarta: 10 / 2026
-- Current period rows: 252
+- Current period rows: 210
 - Current period rill rows with source + nominal: 3
 - AI Agent search tasks: 226
 - Historical backfill hardcode: last 15 years, minimum 10 years
 
 ## Blockers
 
-- dashboard/active-period.json tidak sama dengan tanggal Asia/Jakarta saat ini
 - hardcode backfill 10 tahun historis belum lengkap untuk modul inti
 
 ## Historical Backfill Mandate
@@ -33,17 +32,17 @@ Status: **NEEDS_WORK**
 | akuntansi | 61/61 | 11 | 11 | 11 | 0 | 0 | OK / HAS_EVIDENCE |
 | audit | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | audittrail | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
-| bea_cukai | 61/61 | 12 | 12 | 1 | 2 | 0 | OK / HAS_EVIDENCE |
+| bea_cukai | 61/61 | 12 | 12 | 1 | 0 | 0 | OK / HAS_EVIDENCE |
 | bumn | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | korupsi | 61/61 | 15 | 15 | 9 | 5 | 3 | OK / HAS_EVIDENCE |
-| pajak | 61/61 | 24 | 0 | 12 | 2 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| pajak | 61/61 | 24 | 0 | 12 | 0 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | parpol | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
 | prog_daerah | 61/61 | 15 | 0 | 0 | 13 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | prog_eksekutif | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | prog_legislatif | 61/61 | 28 | 0 | 0 | 26 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | redflag | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | risknas | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| sda | 61/61 | 19 | 0 | 12 | 2 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| sda | 61/61 | 19 | 0 | 12 | 0 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | vendor | 61/61 | 10 | 0 | 0 | 8 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 
 ## Fallback & AI Agent
