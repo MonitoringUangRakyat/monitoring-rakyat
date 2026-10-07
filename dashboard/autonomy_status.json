@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-07T07:25:13+07:00",
+  "generated_at": "2026-10-07T13:25:21+07:00",
   "policy": "EVERY_UNKNOWN_AND_EVIDENCE_GAP_BECOMES_A_TASK",
-  "total": 656,
-  "active": 656,
+  "total": 657,
+  "active": 657,
   "dead_letter": 0,
   "critical": 11,
   "by_task": {
     "UNKNOWN": 0,
     "backfill_official_evidence": 96,
     "recover_official_source": 2,
-    "recover_source": 3,
+    "recover_source": 4,
     "resolve_evidence_and_verification": 317,
     "resolve_source_endpoint": 7,
     "validate_official_evidence_candidate": 5
