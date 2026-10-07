@@ -1,39 +1,47 @@
 {
   "tahun": 2026,
-  "bulan": 8,
-  "bulan_nama": "Agustus",
-  "kerugian_total": 127600000000,
+  "bulan": 10,
+  "bulan_nama": "Oktober",
+  "kerugian_total": 0,
   "recovery_total": 0,
-  "jumlah_kasus": 5,
+  "jumlah_kasus": 0,
   "jumlah_koruptor": 0,
-  "jumlah_kasus_historis": 42,
-  "jumlah_koruptor_historis": 27,
-  "jumlah_kasus_historis_by_module": {
-    "korupsi": 15,
-    "master_koruptor": 27
-  },
+  "jumlah_kasus_historis": 0,
+  "jumlah_koruptor_historis": 0,
+  "jumlah_kasus_historis_by_module": {},
   "history_akumulasi": {
     "2007": 0,
-    "2008": 73180000000000,
+    "2008": 0,
     "2009": 0,
     "2010": 0,
-    "2011": 4710200000000,
-    "2012": 22780000000000,
+    "2011": 0,
+    "2012": 0,
     "2013": 0,
     "2014": 0,
-    "2015": 1512162400000000,
+    "2015": 0,
     "2016": 0,
     "2017": 0,
-    "2018": 1355900000000000,
-    "2019": 9980000000000,
-    "2020": 32410000000000,
+    "2018": 0,
+    "2019": 0,
+    "2020": 0,
     "2021": 0,
     "2022": 0,
     "2023": 0,
-    "2024": 1000000000000,
-    "2025": 5750000000,
-    "2026": 127600000000
+    "2024": 0,
+    "2025": 0,
+    "2026": 0
   },
-  "data_rows_terisi": 575,
-  "catatan": "Auto-generated dari Gudang DB. Jika nilai masih 0, CSV terkait masih berupa template/header atau belum memiliki kolom nominal terisi."
+  "data_rows_terisi": 0,
+  "publication_gate": {
+    "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
+    "rows_scanned": 575,
+    "rows_published": 0,
+    "rows_quarantined": 575,
+    "quarantine_reasons": {
+      "blocked_status": 513,
+      "no_explicit_publishable_status": 62
+    },
+    "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
+  },
+  "catatan": "Auto-generated hanya dari record yang lolos publication evidence gate. DRAFT/REVIEW/UNVERIFIED/CANDIDATE tidak boleh memengaruhi angka publik."
 }
