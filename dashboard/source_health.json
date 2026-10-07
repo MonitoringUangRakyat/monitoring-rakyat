@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T07:18:21+07:00",
+  "generated_at": "2026-10-07T07:24:54+07:00",
   "probe_enabled": true,
   "sources": [
     {
@@ -9,7 +9,7 @@
       "domain": "kompas.com",
       "feed_url": "",
       "status": "NO_ENDPOINT",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "41007e2561a8e1d8"
@@ -21,8 +21,8 @@
       "domain": "detik.com",
       "feed_url": "https://rss.detik.com/index.php/detikcom_nasional",
       "status": "UNAVAILABLE",
-      "checked_at": "2026-10-07T07:18:21+07:00",
-      "latency_ms": 581,
+      "checked_at": "2026-10-07T07:24:54+07:00",
+      "latency_ms": 1149,
       "error_reason": "RemoteDisconnected: Remote end closed connection without response",
       "registry_fingerprint": "b22fdbb6e6a70627"
     },
@@ -33,8 +33,8 @@
       "domain": "tempo.co",
       "feed_url": "https://rss.tempo.co/nasional",
       "status": "LIVE",
-      "checked_at": "2026-10-07T07:18:21+07:00",
-      "latency_ms": 303,
+      "checked_at": "2026-10-07T07:24:54+07:00",
+      "latency_ms": 323,
       "error_reason": "",
       "registry_fingerprint": "6ea24c65c047d71b"
     },
@@ -45,8 +45,8 @@
       "domain": "metrotvnews.com",
       "feed_url": "https://www.metrotvnews.com/rss",
       "status": "LIVE",
-      "checked_at": "2026-10-07T07:18:21+07:00",
-      "latency_ms": 2174,
+      "checked_at": "2026-10-07T07:24:54+07:00",
+      "latency_ms": 2751,
       "error_reason": "",
       "registry_fingerprint": "6c52c3ec8c093718"
     },
@@ -57,8 +57,8 @@
       "domain": "cnnindonesia.com",
       "feed_url": "https://www.cnnindonesia.com/nasional/rss",
       "status": "UNAVAILABLE",
-      "checked_at": "2026-10-07T07:18:21+07:00",
-      "latency_ms": 51,
+      "checked_at": "2026-10-07T07:24:54+07:00",
+      "latency_ms": 102,
       "error_reason": "HTTPError: HTTP Error 403: Forbidden",
       "registry_fingerprint": "ef88b2c253452cf1"
     },
@@ -69,8 +69,8 @@
       "domain": "cnbcindonesia.com",
       "feed_url": "https://www.cnbcindonesia.com/news/rss",
       "status": "UNAVAILABLE",
-      "checked_at": "2026-10-07T07:18:21+07:00",
-      "latency_ms": 39,
+      "checked_at": "2026-10-07T07:24:54+07:00",
+      "latency_ms": 97,
       "error_reason": "HTTPError: HTTP Error 403: Forbidden",
       "registry_fingerprint": "8b0b4931d0cea865"
     },
@@ -81,7 +81,7 @@
       "domain": "tirto.id",
       "feed_url": "",
       "status": "NO_ENDPOINT",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "aaf4c0afc981c2ad"
@@ -93,7 +93,7 @@
       "domain": "nemesis.assai.id",
       "feed_url": "",
       "status": "NO_ENDPOINT",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "e17ddb6d391a7f2e"
@@ -105,7 +105,7 @@
       "domain": "sirup.lkpp.go.id",
       "feed_url": "",
       "status": "DISCOVERY_REQUIRED",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "75bb8502d628ee6a"
@@ -117,7 +117,7 @@
       "domain": "bpk.go.id",
       "feed_url": "",
       "status": "DISCOVERY_REQUIRED",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "94b95e207ab43784"
@@ -129,7 +129,7 @@
       "domain": "kpk.go.id",
       "feed_url": "",
       "status": "DISCOVERY_REQUIRED",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "307bd2d0ea06c0c4"
@@ -141,7 +141,7 @@
       "domain": "kejaksaan.go.id",
       "feed_url": "",
       "status": "DISCOVERY_REQUIRED",
-      "checked_at": "2026-10-07T07:18:21+07:00",
+      "checked_at": "2026-10-07T07:24:54+07:00",
       "latency_ms": null,
       "error_reason": "",
       "registry_fingerprint": "62ea4e5e332581e6"

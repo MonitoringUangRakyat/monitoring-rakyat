@@ -1,14 +1,25 @@
 {
-  "generated_at": "2026-10-07T07:18:33+07:00",
-  "policy": "EVERY_UNKNOWN_BECOMES_A_TASK",
-  "total": 555,
-  "active": 555,
+  "generated_at": "2026-10-07T07:25:13+07:00",
+  "policy": "EVERY_UNKNOWN_AND_EVIDENCE_GAP_BECOMES_A_TASK",
+  "total": 656,
+  "active": 656,
   "dead_letter": 0,
-  "critical": 6,
+  "critical": 11,
+  "by_task": {
+    "UNKNOWN": 0,
+    "backfill_official_evidence": 96,
+    "recover_official_source": 2,
+    "recover_source": 3,
+    "resolve_evidence_and_verification": 317,
+    "resolve_source_endpoint": 7,
+    "validate_official_evidence_candidate": 5
+  },
   "sources": [
     "dashboard/source_recovery_tasks.json",
     "dashboard/official_source_recovery_tasks.json",
     "dashboard/evidence_recovery_tasks.json",
+    "dashboard/backfill_tasks.json",
+    "gudang-db/_queue/official_evidence_candidates.json",
     "dashboard/ai_agent_tasks.json"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-07T07:25:13+07:00",
+  "year_range": [
+    2015,
+    2026
+  ],
+  "modules": [
+    "akuntansi",
+    "audit",
+    "bea_cukai",
+    "bumn",
+    "korupsi",
+    "pajak",
+    "sda",
+    "vendor"
+  ],
+  "missing_verified_module_years": 96,
+  "policy": "MISSING_HISTORY_BECOMES_A_TASK_NOT_A_FAKE_BASELINE"
+}

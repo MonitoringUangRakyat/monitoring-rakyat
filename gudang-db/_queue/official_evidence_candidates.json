@@ -1,0 +1,72 @@
+[
+  {
+    "candidate_id": "OFFEV-13CD005161A090BD80",
+    "source_id": "FEED-011",
+    "source_name": "KPK",
+    "source_authority": 100,
+    "url": "https://www.kpk.go.id/id/layanan/pengaduan-dugaan-tindak-pidana-korupsi",
+    "title": "Pengaduan Dugaan Tindak Pidana Korupsi",
+    "parent_url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+    "captured_at": "2026-10-07T07:25:10+07:00",
+    "candidate_hash": "13cd005161a090bd80e56e45dafb6dd533c734d98df7bbfa09e1d8312ad21d15",
+    "status": "DRAFT_OFFICIAL_SOURCE_CANDIDATE",
+    "promotion_allowed": false,
+    "next_action": "Fetch/validate the referenced official document or page, bind citations/entities, then pass evidence gate."
+  },
+  {
+    "candidate_id": "OFFEV-3C69207D283896EB91",
+    "source_id": "FEED-011",
+    "source_name": "KPK",
+    "source_authority": 100,
+    "url": "https://www.kpk.go.id/id/ruang-informasi/berita/kpk-perluas-gerakan-antikorupsi-di-lampung-sasar-kampus-hingga-komunitas",
+    "title": "KPK Perluas Gerakan Antikorupsi di Lampung, Sasar Kampus hingga Komunitas",
+    "parent_url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+    "captured_at": "2026-10-07T07:25:10+07:00",
+    "candidate_hash": "3c69207d283896eb91ea5929fdfc915b29b7a20f28bcd06c52904a615c711b54",
+    "status": "DRAFT_OFFICIAL_SOURCE_CANDIDATE",
+    "promotion_allowed": false,
+    "next_action": "Fetch/validate the referenced official document or page, bind citations/entities, then pass evidence gate."
+  },
+  {
+    "candidate_id": "OFFEV-C5786496F589A1E026",
+    "source_id": "FEED-011",
+    "source_name": "KPK",
+    "source_authority": 100,
+    "url": "https://www.kpk.go.id/id/ruang-informasi/berita/dari-gagasan-jadi-gerakan-kpk-perkuat-pemahaman-antikorupsi-di-semarang-dan-salatiga",
+    "title": "Dari Gagasan Jadi Gerakan, KPK Perkuat Pemahaman Antikorupsi di Semarang dan Salatiga",
+    "parent_url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+    "captured_at": "2026-10-07T07:25:10+07:00",
+    "candidate_hash": "c5786496f589a1e0267c6a57729326ff7b2d4a9b8527e12291d9e0c0737e02e8",
+    "status": "DRAFT_OFFICIAL_SOURCE_CANDIDATE",
+    "promotion_allowed": false,
+    "next_action": "Fetch/validate the referenced official document or page, bind citations/entities, then pass evidence gate."
+  },
+  {
+    "candidate_id": "OFFEV-D4938B152D71A2AC27",
+    "source_id": "FEED-011",
+    "source_name": "KPK",
+    "source_authority": 100,
+    "url": "https://www.kpk.go.id/id/ruang-informasi/berita/spi-pendidikan-menakar-integritas-perkuat-karakter-antikorupsi-dari-ruang-kelas-1",
+    "title": "SPI Pendidikan: Menakar Integritas, Perkuat Karakter Antikorupsi dari Ruang Kelas",
+    "parent_url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+    "captured_at": "2026-10-07T07:25:10+07:00",
+    "candidate_hash": "d4938b152d71a2ac27a97a1f5197b44b029ba7f28e9d464d975b19bf669bc46a",
+    "status": "DRAFT_OFFICIAL_SOURCE_CANDIDATE",
+    "promotion_allowed": false,
+    "next_action": "Fetch/validate the referenced official document or page, bind citations/entities, then pass evidence gate."
+  },
+  {
+    "candidate_id": "OFFEV-FF3A824E9AAD491722",
+    "source_id": "FEED-011",
+    "source_name": "KPK",
+    "source_authority": 100,
+    "url": "https://www.kpk.go.id/id/ruang-informasi/berita/cetak-pemimpin-berintegritas-kpk-bersama-lemhannas-gelar-workshop-penguatan-integritas-dan-antikorupsi",
+    "title": "Cetak Pemimpin Berintegritas, KPK Bersama Lemhannas Gelar Workshop Penguatan Integritas dan Antikorupsi",
+    "parent_url": "https://www.kpk.go.id/id/ruang-informasi/berita",
+    "captured_at": "2026-10-07T07:25:10+07:00",
+    "candidate_hash": "ff3a824e9aad491722ba16a88f40c7dea37f0887134b0f68325b1fea7b3c474c",
+    "status": "DRAFT_OFFICIAL_SOURCE_CANDIDATE",
+    "promotion_allowed": false,
+    "next_action": "Fetch/validate the referenced official document or page, bind citations/entities, then pass evidence gate."
+  }
+]

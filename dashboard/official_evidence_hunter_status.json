@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-10-07T07:25:10+07:00",
+  "policy": "OFFICIAL_CANDIDATE_IS_STILL_A_CLAIM_UNTIL_DOCUMENT_VALIDATION",
+  "total_candidates": 5,
+  "sources": [
+    {
+      "source_id": "FEED-009",
+      "status": "SKIPPED_NOT_LIVE",
+      "candidates": 0
+    },
+    {
+      "source_id": "FEED-010",
+      "status": "SKIPPED_NOT_LIVE",
+      "candidates": 0
+    },
+    {
+      "source_id": "FEED-011",
+      "status": "OK",
+      "candidates": 5
+    },
+    {
+      "source_id": "FEED-012",
+      "status": "OK",
+      "candidates": 0
+    }
+  ]
+}
