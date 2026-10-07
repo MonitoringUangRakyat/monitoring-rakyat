@@ -21,14 +21,31 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Rebuild verified public read models
+        run: |
+          python scripts/build_dashboard_summary.py
+          python scripts/build_fiscal_ratio_summary.py
+
+      - name: HARD GATE - block unsafe publication
+        run: python scripts/validate_publication_gate.py --strict
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload static site
+      - name: Upload verified static site
         uses: actions/upload-pages-artifact@v3
         with:
           path: .

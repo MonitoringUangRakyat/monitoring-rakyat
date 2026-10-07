@@ -1,0 +1,39 @@
+name: Evidence Quality Gates
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile hardening scripts
+        run: |
+          python -m py_compile scripts/evidence_policy.py scripts/ai_hunter_money_parser.py scripts/build_dashboard_summary.py scripts/build_fiscal_ratio_summary.py scripts/validate_publication_gate.py scripts/source_health_watchdog.py scripts/build_evidence_recovery_queue.py
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build verified public read models
+        run: |
+          python scripts/build_dashboard_summary.py
+          python scripts/build_fiscal_ratio_summary.py
+          python scripts/source_health_watchdog.py
+          python scripts/build_evidence_recovery_queue.py
+
+      - name: Publication gate
+        run: python scripts/validate_publication_gate.py --strict
