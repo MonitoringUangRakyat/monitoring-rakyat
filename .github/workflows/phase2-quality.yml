@@ -1,0 +1,29 @@
+name: Phase2 Autonomous Quality
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  phase2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Phase2
+        run: |
+          python -m py_compile scripts/official_source_discovery.py scripts/autonomous_task_engine.py scripts/hardened_readiness.py scripts/watchdog.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate intake worker syntax
+        run: node --check public-intake-worker/src/index.js
+      - name: Validate registry JSON
+        run: python -c "import json; json.load(open('config/official_source_registry.json', encoding='utf-8'))"
+      - name: Validate Supabase migration presence
+        run: test -s supabase/migrations/202610070001_evidence_first_foundation.sql

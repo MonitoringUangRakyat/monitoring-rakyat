@@ -1,0 +1,62 @@
+name: Autonomous Recovery Loop
+
+on:
+  schedule:
+    - cron: "41 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autonomous-recovery
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile
+        run: |
+          python -m py_compile scripts/official_source_discovery.py scripts/autonomous_task_engine.py scripts/hardened_readiness.py scripts/watchdog.py
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+      - name: Rebuild evidence queues
+        run: |
+          python scripts/source_health_watchdog.py --probe
+          python scripts/official_source_discovery.py
+          python scripts/build_evidence_recovery_queue.py
+          python scripts/autonomous_task_engine.py
+      - name: Build verified read models
+        run: |
+          python scripts/build_dashboard_summary.py
+          python scripts/build_fiscal_ratio_summary.py
+          python scripts/hardened_readiness.py
+          python scripts/validate_publication_gate.py --write --strict
+      - name: Watchdog hard gate
+        run: python scripts/watchdog.py --strict
+      - name: Commit operational state
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(autonomy): refresh recovery state"
+          file_pattern: >-
+            dashboard/source_health.json
+            dashboard/source_recovery_tasks.json
+            dashboard/official_source_discovery.json
+            dashboard/official_source_recovery_tasks.json
+            dashboard/evidence_recovery_tasks.json
+            dashboard/verification_inventory.json
+            dashboard/autonomous_tasks.json
+            dashboard/autonomy_status.json
+            dashboard/publication_readiness.json
+            dashboard/publication_gate_status.json
+            dashboard/watchdog_status.json
+            dashboard/promotion_gate.json
+            dashboard/dashboard_summary.json
+            dashboard/fiscal_ratio_annual.json
+            docs/PUBLICATION_GATE_REPORT.md
