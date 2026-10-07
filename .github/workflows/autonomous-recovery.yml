@@ -31,14 +31,22 @@ jobs:
           python-version: "3.12"
       - name: Compile
         run: |
-          python -m py_compile scripts/official_source_discovery.py scripts/autonomous_task_engine.py scripts/hardened_readiness.py scripts/watchdog.py
+          python -m py_compile \
+            scripts/official_source_discovery.py \
+            scripts/official_evidence_hunter.py \
+            scripts/build_backfill_tasks.py \
+            scripts/autonomous_task_engine.py \
+            scripts/hardened_readiness.py \
+            scripts/watchdog.py
       - name: Tests
         run: python -m unittest discover -s tests -v
-      - name: Rebuild evidence queues
+      - name: Rebuild source and evidence work
         run: |
           python scripts/source_health_watchdog.py --probe
           python scripts/official_source_discovery.py
+          python scripts/official_evidence_hunter.py
           python scripts/build_evidence_recovery_queue.py
+          python scripts/build_backfill_tasks.py
           python scripts/autonomous_task_engine.py
       - name: Build verified read models
         run: |
@@ -57,8 +65,11 @@ jobs:
             dashboard/source_recovery_tasks.json
             dashboard/official_source_discovery.json
             dashboard/official_source_recovery_tasks.json
+            dashboard/official_evidence_hunter_status.json
             dashboard/evidence_recovery_tasks.json
             dashboard/verification_inventory.json
+            dashboard/backfill_tasks.json
+            dashboard/backfill_status.json
             dashboard/autonomous_tasks.json
             dashboard/autonomy_status.json
             dashboard/publication_readiness.json
@@ -67,4 +78,5 @@ jobs:
             dashboard/promotion_gate.json
             dashboard/dashboard_summary.json
             dashboard/fiscal_ratio_annual.json
+            gudang-db/_queue/official_evidence_candidates.json
             docs/PUBLICATION_GATE_REPORT.md
