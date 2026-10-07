@@ -1,0 +1,36 @@
+name: Phase3 Evidence Closure Quality
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  phase3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Phase3
+        run: |
+          python -m py_compile \
+            scripts/official_evidence_hunter.py \
+            scripts/build_backfill_tasks.py \
+            scripts/autonomous_task_engine.py \
+            scripts/seed_fiscal_baseline.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify review-only baseline isolation
+        run: |
+          python scripts/seed_fiscal_baseline.py
+          test -s gudang-db/_baseline/fiscal_baseline_review.csv
+          python -c "import json; x=json.load(open('dashboard/fiscal_baseline_review_status.json')); assert x['public_allowed'] is False"
+      - name: Build backfill queue
+        run: |
+          python scripts/build_backfill_tasks.py
+          python -c "import json; x=json.load(open('dashboard/backfill_status.json')); assert x['policy']=='MISSING_HISTORY_BECOMES_A_TASK_NOT_A_FAKE_BASELINE'"
