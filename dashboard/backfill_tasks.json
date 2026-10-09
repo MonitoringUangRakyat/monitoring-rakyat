@@ -10,7 +10,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-50EDB9C91196515A",
@@ -23,7 +23,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-746B6872248FAA88",
@@ -36,7 +36,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-4ED93D1AD15C29F7",
@@ -49,7 +49,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-C17AD32679956197",
@@ -62,7 +62,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-C8B8888FBF95D57D",
@@ -75,7 +75,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-506455CB7C0E17E1",
@@ -88,7 +88,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-9AB9AE2888A6A75B",
@@ -101,7 +101,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-69B5867B17C49E9F",
@@ -114,7 +114,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-FF4489F0AE56BD8A",
@@ -127,7 +127,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-4FC7501B7950EA5E",
@@ -140,7 +140,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-267C3D9FBD71910C",
@@ -153,7 +153,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-4C987A5133B26792",
@@ -166,7 +166,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-85C60A1AA6444208",
@@ -179,7 +179,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-740E1AC61B16E167",
@@ -192,7 +192,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-70857496BE81BFF4",
@@ -205,7 +205,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-65455597338A61AA",
@@ -218,7 +218,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B03BDF7C220544BE",
@@ -231,7 +231,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-37A8462D3D2E84C1",
@@ -244,7 +244,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-9D23E516A9E8E2D6",
@@ -257,7 +257,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-66DA6667BDC8515A",
@@ -270,7 +270,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-279917B8AFCDD5C5",
@@ -283,7 +283,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-CA483E04FB15EE07",
@@ -296,7 +296,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-0AF787BA551D0882",
@@ -309,7 +309,7 @@
     "existing_unverified_rows": 6,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-DAEE3568788F70D7",
@@ -322,7 +322,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-9C81224713577A7E",
@@ -335,7 +335,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-844EDC2A0C836D61",
@@ -348,7 +348,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-90D0C1840DE28593",
@@ -361,7 +361,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-341DA504E4F6857F",
@@ -374,7 +374,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-A8B9F2D0CD0DE934",
@@ -387,7 +387,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-A53C313FE74B8B73",
@@ -400,7 +400,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-5FAC55794C35102C",
@@ -413,7 +413,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-BD13CF276DB9A92E",
@@ -426,7 +426,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-C83DDEF56433BE4B",
@@ -439,7 +439,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-8589FDA9D733642D",
@@ -452,7 +452,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-DC56E932C4AF6E2E",
@@ -465,7 +465,7 @@
     "existing_unverified_rows": 6,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-EA0D393DE2E5CCD2",
@@ -478,7 +478,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-9710C3F87FE93DBE",
@@ -491,7 +491,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-3FCE941A70918E0B",
@@ -504,7 +504,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-994DB5AF076CF243",
@@ -517,7 +517,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B3005C45877B5DD5",
@@ -530,7 +530,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-75BA9326934A000E",
@@ -543,7 +543,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-FDC567C73D4979AD",
@@ -556,7 +556,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-494E60C8E6838146",
@@ -569,7 +569,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-8335546621FFD7F0",
@@ -582,7 +582,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-8F6FE52CCC2F847E",
@@ -595,7 +595,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-1F2D3A103AA9DCF6",
@@ -608,7 +608,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-C3FE2EAC1C741E34",
@@ -621,7 +621,7 @@
     "existing_unverified_rows": 6,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-21638F12B4014CCD",
@@ -634,7 +634,7 @@
     "existing_unverified_rows": 6,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-1A4CC8E8622F922F",
@@ -647,7 +647,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-1F62B187EE83CC1F",
@@ -660,7 +660,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-7D9586E3315FCBFB",
@@ -673,7 +673,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-BDC1C227FA828DF7",
@@ -686,7 +686,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-DA5750FFB1490C12",
@@ -699,7 +699,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B1E76F033DE5653F",
@@ -712,7 +712,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-C29EDA46B9B77166",
@@ -725,7 +725,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-D758F2A44ABFB0D0",
@@ -738,7 +738,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-968C852334848083",
@@ -751,7 +751,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-99FFDB851C0339EE",
@@ -764,7 +764,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-52D2306D4272E27F",
@@ -777,7 +777,7 @@
     "existing_unverified_rows": 5,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B2C799647A3E755B",
@@ -790,7 +790,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-8FFDA89E3AF685EA",
@@ -803,7 +803,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-368D824ED9DA86BF",
@@ -816,7 +816,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-7527957F64A08978",
@@ -829,7 +829,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-76102178C367BB4C",
@@ -842,7 +842,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-DFA18CECA3CFE64C",
@@ -855,7 +855,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-955565B3267131F2",
@@ -868,7 +868,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-758B44114111723F",
@@ -881,7 +881,7 @@
     "existing_unverified_rows": 2,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-13311011F1551FF3",
@@ -894,7 +894,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B637A3DDC35667B1",
@@ -907,7 +907,7 @@
     "existing_unverified_rows": 2,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-27F5510AC85EA95E",
@@ -920,7 +920,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-2D19AAE4EAC230E2",
@@ -933,7 +933,7 @@
     "existing_unverified_rows": 11,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-F75A7CCC50B7A2F2",
@@ -946,7 +946,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-9E26A1AB84EEE769",
@@ -959,7 +959,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-59D0E990201C0F20",
@@ -972,7 +972,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-A33746A4D66957EE",
@@ -985,7 +985,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-4596B7611683DC2A",
@@ -998,7 +998,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-6CF7262431AD4852",
@@ -1011,7 +1011,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-AA3293FF3BCD7B88",
@@ -1024,7 +1024,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-67AB927C77C13E43",
@@ -1037,7 +1037,7 @@
     "existing_unverified_rows": 2,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B24C0405F9F321B1",
@@ -1050,7 +1050,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-91798875435139D9",
@@ -1063,7 +1063,7 @@
     "existing_unverified_rows": 2,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-1ECF6FFDEE9AAA8B",
@@ -1076,7 +1076,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-942C1A2CEC9C0267",
@@ -1089,7 +1089,7 @@
     "existing_unverified_rows": 6,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-2E4B6865747D3CDE",
@@ -1102,7 +1102,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-D7220DAA0155FFA1",
@@ -1115,7 +1115,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-24AB5F538344F6F5",
@@ -1128,7 +1128,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-F1FB5889C5048CC8",
@@ -1141,7 +1141,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-B4E7CF871A954FBB",
@@ -1154,7 +1154,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-125D7907CBFAAD34",
@@ -1167,7 +1167,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-AF3ADCBF1F9F9589",
@@ -1180,7 +1180,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-9B4CCCB5D654B132",
@@ -1193,7 +1193,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-69A5A96D44362701",
@@ -1206,7 +1206,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-BA9DC1660E3F5B16",
@@ -1219,7 +1219,7 @@
     "existing_unverified_rows": 1,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-E80B1598AA615E4B",
@@ -1232,7 +1232,7 @@
     "existing_unverified_rows": 0,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   },
   {
     "task_id": "BACKFILL-F155823A197FD12E",
@@ -1245,6 +1245,6 @@
     "existing_unverified_rows": 8,
     "reason": "NO_PUBLISHABLE_VERIFIED_RECORD_FOR_MODULE_YEAR",
     "next_action": "Search official/primary sources, capture document/hash/citation, normalize, validate, then explicitly promote. Never seed a guessed numeric value.",
-    "created_at": "2026-10-09T20:46:36+07:00"
+    "created_at": "2026-10-09T23:14:05+07:00"
   }
 ]
