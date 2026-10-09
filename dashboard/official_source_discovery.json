@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:37:09+07:00",
+  "generated_at": "2026-10-09T13:40:10+07:00",
   "policy": "OFFICIAL_SOURCE_FIRST",
   "counts": {
     "LIVE": 2,
@@ -18,18 +18,18 @@
           "url": "https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex",
           "status": "DOWN",
           "http_status": null,
-          "latency_ms": 225,
+          "latency_ms": 303,
           "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
         },
         {
           "url": "https://sirup.lkpp.go.id/",
           "status": "DOWN",
           "http_status": null,
-          "latency_ms": 147,
+          "latency_ms": 4,
           "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
         }
       ],
-      "checked_at": "2026-10-09T07:37:09+07:00"
+      "checked_at": "2026-10-09T13:40:10+07:00"
     },
     {
       "source_id": "FEED-010",
@@ -42,25 +42,25 @@
           "url": "https://www.bpk.go.id/ihps",
           "status": "DEGRADED",
           "http_status": 403,
-          "latency_ms": 225,
+          "latency_ms": 207,
           "error": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://www.bpk.go.id/news",
           "status": "DEGRADED",
           "http_status": 403,
-          "latency_ms": 67,
+          "latency_ms": 28,
           "error": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://www.bpk.go.id/",
           "status": "DEGRADED",
           "http_status": 403,
-          "latency_ms": 71,
+          "latency_ms": 39,
           "error": "HTTP Error 403: Forbidden"
         }
       ],
-      "checked_at": "2026-10-09T07:37:09+07:00"
+      "checked_at": "2026-10-09T13:40:10+07:00"
     },
     {
       "source_id": "FEED-011",
@@ -73,7 +73,7 @@
           "url": "https://www.kpk.go.id/id/ruang-informasi/berita",
           "status": "LIVE",
           "http_status": 200,
-          "latency_ms": 3703,
+          "latency_ms": 4747,
           "content_type": "text/html; charset=utf-8",
           "content_hash": "cafff50ab2cdc622ba449789fe71d0a62836a4fe7526d438dfa07426ce9c5198",
           "bytes_sampled": 247087
@@ -82,13 +82,13 @@
           "url": "https://www.kpk.go.id/id",
           "status": "LIVE",
           "http_status": 200,
-          "latency_ms": 4206,
+          "latency_ms": 3740,
           "content_type": "text/html; charset=utf-8",
           "content_hash": "3a5e91e93684e7aa261367b40a6db22b09c973cd31902ceddda11e1bb40c88c6",
           "bytes_sampled": 262144
         }
       ],
-      "checked_at": "2026-10-09T07:37:09+07:00"
+      "checked_at": "2026-10-09T13:40:10+07:00"
     },
     {
       "source_id": "FEED-012",
@@ -101,22 +101,22 @@
           "url": "https://www.kejaksaan.go.id/",
           "status": "LIVE",
           "http_status": 200,
-          "latency_ms": 4136,
+          "latency_ms": 1868,
           "content_type": "text/html",
-          "content_hash": "e1ecad6b9c938d57a7680f1cb6d916543f982a706f284d4d59b9817bfbec2cbe",
+          "content_hash": "693c489900f8b708b0a900cefed82a30192a520f0acd7599366eb1729064b43a",
           "bytes_sampled": 245
         },
         {
           "url": "https://kejaksaan.go.id/",
           "status": "LIVE",
           "http_status": 200,
-          "latency_ms": 1295,
+          "latency_ms": 1102,
           "content_type": "text/html",
-          "content_hash": "1c0ebd949b032b4fd36a2c6e6531f758d520fbe1694c8cf1cf7a159ebc7adfd5",
+          "content_hash": "adbfb364552479a82b82b1dc183551a24cd01fd3f60461900fab2f059dd8e2cc",
           "bytes_sampled": 245
         }
       ],
-      "checked_at": "2026-10-09T07:37:09+07:00"
+      "checked_at": "2026-10-09T13:40:10+07:00"
     }
   ]
 }

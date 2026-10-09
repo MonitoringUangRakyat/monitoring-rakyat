@@ -9,7 +9,46 @@
     "status": "ACTIVE",
     "reason": "NO_ENDPOINT",
     "search_query_template": "site:kompas.com {keyword} {tahun}",
-    "next_retry": "2026-10-09T12:11:03+07:00",
+    "next_retry": "2026-10-09T16:40:06+07:00",
+    "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
+  },
+  {
+    "task": "recover_source",
+    "source_id": "FEED-002",
+    "source": "Detik",
+    "domain": "detik.com",
+    "category": "MAINSTREAM_MEDIA",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "reason": "UNAVAILABLE",
+    "search_query_template": "site:detik.com {keyword} {tahun}",
+    "next_retry": "2026-10-09T16:40:06+07:00",
+    "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
+  },
+  {
+    "task": "recover_source",
+    "source_id": "FEED-005",
+    "source": "CNN Indonesia",
+    "domain": "cnnindonesia.com",
+    "category": "MAINSTREAM_MEDIA",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "reason": "UNAVAILABLE",
+    "search_query_template": "site:cnnindonesia.com {keyword} {tahun}",
+    "next_retry": "2026-10-09T16:40:06+07:00",
+    "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
+  },
+  {
+    "task": "recover_source",
+    "source_id": "FEED-006",
+    "source": "CNBC Indonesia",
+    "domain": "cnbcindonesia.com",
+    "category": "MAINSTREAM_MEDIA",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "reason": "UNAVAILABLE",
+    "search_query_template": "site:cnbcindonesia.com {keyword} {tahun}",
+    "next_retry": "2026-10-09T16:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -22,7 +61,7 @@
     "status": "ACTIVE",
     "reason": "NO_ENDPOINT",
     "search_query_template": "site:tirto.id {keyword} {tahun}",
-    "next_retry": "2026-10-09T12:11:03+07:00",
+    "next_retry": "2026-10-09T16:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -35,7 +74,7 @@
     "status": "ACTIVE",
     "reason": "NO_ENDPOINT",
     "search_query_template": "site:nemesis.assai.id {keyword} {tahun}",
-    "next_retry": "2026-10-09T12:11:03+07:00",
+    "next_retry": "2026-10-09T16:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -48,7 +87,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:sirup.lkpp.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-09T10:11:03+07:00",
+    "next_retry": "2026-10-09T14:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -61,7 +100,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:bpk.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-09T10:11:03+07:00",
+    "next_retry": "2026-10-09T14:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -74,7 +113,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:kpk.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-09T10:11:03+07:00",
+    "next_retry": "2026-10-09T14:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -87,7 +126,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:kejaksaan.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-09T10:11:03+07:00",
+    "next_retry": "2026-10-09T14:40:06+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   }
 ]
