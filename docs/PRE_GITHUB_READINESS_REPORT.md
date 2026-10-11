@@ -1,13 +1,13 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-10-11T15:53:30+07:00 Asia/Jakarta
+Generated: 2026-10-11T22:42:19+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
 - Dashboard active period: Oktober 2026
 - Current Asia/Jakarta: 10 / 2026
-- Current period rows: 210
+- Current period rows: 212
 - Current period rill rows with source + nominal: 3
 - AI Agent search tasks: 226
 - Historical backfill hardcode: last 15 years, minimum 10 years

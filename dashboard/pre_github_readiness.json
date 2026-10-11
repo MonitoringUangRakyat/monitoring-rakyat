@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:53:30+07:00",
+  "generated_at": "2026-10-11T22:42:19+07:00",
   "active_period": {
     "year": 2026,
     "month": 10,
@@ -19,7 +19,7 @@
   "core_modules_count": 15,
   "missing_core_modules": [],
   "structural_missing_modules": [],
-  "current_period_rows": 210,
+  "current_period_rows": 212,
   "current_period_rill_rows": 3,
   "ai_agent_tasks_count": 226,
   "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
@@ -110,11 +110,11 @@
     "data_rows_terisi": 0,
     "publication_gate": {
       "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
-      "rows_scanned": 575,
+      "rows_scanned": 577,
       "rows_published": 0,
-      "rows_quarantined": 575,
+      "rows_quarantined": 577,
       "quarantine_reasons": {
-        "blocked_status": 513,
+        "blocked_status": 515,
         "no_explicit_publishable_status": 62
       },
       "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
@@ -6502,10 +6502,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 169,
+      "rows_total": 170,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 127,
+      "active_rows": 128,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -6905,14 +6905,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 127,
+          "rows_total": 128,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 127,
+      "latest_nonempty_rows": 128,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -6926,10 +6926,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 169,
+      "rows_total": 170,
       "rows_with_source": 0,
-      "rows_with_money": 28,
-      "active_rows": 0,
+      "rows_with_money": 29,
+      "active_rows": 1,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -7329,14 +7329,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 127,
+          "rows_total": 128,
           "rows_with_source": 0,
-          "rows_with_money": 22,
+          "rows_with_money": 23,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 127,
+      "latest_nonempty_rows": 128,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",

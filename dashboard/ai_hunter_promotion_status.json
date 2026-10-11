@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-11T15:53:36+07:00",
+  "generated_at": "2026-10-11T22:42:24+07:00",
   "engine": "MR_AI_HUNTER_PROMOTION",
   "purpose": "Promosi otomatis kandidat Data Hunter ke Gudang DB draft agar tidak berhenti di queue.",
   "input_candidates_seen": 170,
-  "added_ai_data_builder_rows": 1,
-  "added_ai_pengawas_rows": 1,
+  "added_ai_data_builder_rows": 0,
+  "added_ai_pengawas_rows": 0,
   "added_module_draft_rows": 0,
   "pruned_unsafe_public_module_rows": 0,
   "total_ai_data_builder_hunter_rows": 170,
