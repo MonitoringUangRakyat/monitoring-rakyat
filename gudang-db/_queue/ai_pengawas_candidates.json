@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-10-11T08:54:58+07:00",
+  "generated_at": "2026-10-11T15:53:31+07:00",
   "purpose": "Draft queue hasil patroli AI Pengawas. Jangan dipublish sebagai data final sebelum review.",
   "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
   "candidates": [
+    {
+      "id": "MR-AI-CFC25B6E28201A19",
+      "created_at": "2026-10-11T15:53:31+07:00",
+      "module": "akuntansi",
+      "year": 2026,
+      "month": 10,
+      "task_type": "CURRENT_PERIOD_SEARCH",
+      "historical_mandate": false,
+      "title": "Kabupaten Aceh Tenggara Targetkan Penyerapan TKD 100 Persen",
+      "link": "https://nasional.tempo.co/read/2121333/kabupaten-aceh-tenggara-targetkan-penyerapan-tkd-100-persen",
+      "published": "2026-10-11T09:43:12+07:00",
+      "source_id": "FEED-003",
+      "source": "Tempo",
+      "source_category": "MAINSTREAM_MEDIA",
+      "source_domain": "tempo.co",
+      "confidence": 66,
+      "status": "AI_CLASSIFIED_NEEDS_VERIFICATION",
+      "risk_level": "green",
+      "match_reasons": [
+        "keyword:realisasi anggaran",
+        "cashflow_hint",
+        "media_signal"
+      ],
+      "cashflow_scope": "ALL_APBN_APBD_RP1_TRACE",
+      "summary": "Realisasi anggaran mencapai Rp5,2 miliar atau 41,5 persen dari alokasi transfer ke daerah sebesar Rp12,8 miliar.",
+      "next_action": "Cek duplikasi Gudang DB, pastikan nominal/periode, tambah evidence resmi atau dua sumber independen, lalu buat draft CSV/PR.",
+      "publish_guard": "Tidak boleh menjadi data rill/final sebelum review dan evidence lolos policy."
+    },
     {
       "id": "MR-AI-8CE404B258826EF6",
       "created_at": "2026-09-15T02:22:28+07:00",

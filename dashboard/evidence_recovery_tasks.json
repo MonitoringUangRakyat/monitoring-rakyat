@@ -2535,6 +2535,21 @@
     "next_action": "Cross-check official source, validate semantic amount/period/entity, then explicitly promote status. Never fabricate missing evidence."
   },
   {
+    "task_id": "EVID-9E0D71C667D38964",
+    "task": "resolve_evidence_and_verification",
+    "status": "ACTIVE",
+    "priority": "HIGH",
+    "module": "ai_pengawas",
+    "year": 2026,
+    "file": "3_era_modern_2011_2026/ai_pengawas_2026.csv",
+    "record_ref": "MR-AI-CFC25B6E28201A19",
+    "reason": "blocked_status",
+    "status_snapshot": "DRAFT_REVIEW_NEEDS_EVIDENCE | AUDIT_VALIDATE_PROMOTE",
+    "has_source": true,
+    "has_money": true,
+    "next_action": "Cross-check official source, validate semantic amount/period/entity, then explicitly promote status. Never fabricate missing evidence."
+  },
+  {
     "task_id": "EVID-7F2E6FBE24FDF243",
     "task": "resolve_evidence_and_verification",
     "status": "ACTIVE",

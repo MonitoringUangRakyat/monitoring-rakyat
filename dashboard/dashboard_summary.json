@@ -34,11 +34,11 @@
   "data_rows_terisi": 0,
   "publication_gate": {
     "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
-    "rows_scanned": 575,
+    "rows_scanned": 577,
     "rows_published": 0,
-    "rows_quarantined": 575,
+    "rows_quarantined": 577,
     "quarantine_reasons": {
-      "blocked_status": 513,
+      "blocked_status": 515,
       "no_explicit_publishable_status": 62
     },
     "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
