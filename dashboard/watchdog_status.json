@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-12T14:22:18+07:00",
+  "generated_at": "2026-10-12T23:03:38+07:00",
   "status": "HEALTHY",
   "failures": [],
   "checks": {
     "dashboard_summary": {
       "status": "OK",
-      "timestamp": "2026-10-12T14:22:17.675547+07:00",
+      "timestamp": "2026-10-12T23:03:38.458344+07:00",
       "max_age_hours": 2
     },
     "publication_gate": {
       "status": "OK",
-      "timestamp": "2026-10-12T14:22:18+07:00",
+      "timestamp": "2026-10-12T23:03:38+07:00",
       "max_age_hours": 2
     },
     "source_health": {
       "status": "OK",
-      "timestamp": "2026-10-12T14:22:11+07:00",
+      "timestamp": "2026-10-12T23:03:18+07:00",
       "max_age_hours": 4
     },
     "official_source_discovery": {
       "status": "OK",
-      "timestamp": "2026-10-12T13:28:48+07:00",
+      "timestamp": "2026-10-12T23:03:22+07:00",
       "max_age_hours": 4
     },
     "autonomy_status": {
       "status": "OK",
-      "timestamp": "2026-10-12T13:29:05+07:00",
+      "timestamp": "2026-10-12T23:03:38+07:00",
       "max_age_hours": 4
     }
   }
