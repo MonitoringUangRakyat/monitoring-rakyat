@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-15T05:36:08+07:00",
+  "generated_at": "2026-10-15T06:55:46+07:00",
   "status": "HEALTHY",
   "failures": [],
   "checks": {
     "dashboard_summary": {
       "status": "OK",
-      "timestamp": "2026-10-15T05:36:07.557086+07:00",
+      "timestamp": "2026-10-15T06:55:46.400139+07:00",
       "max_age_hours": 2
     },
     "publication_gate": {
       "status": "OK",
-      "timestamp": "2026-10-15T05:36:07+07:00",
+      "timestamp": "2026-10-15T06:55:46+07:00",
       "max_age_hours": 2
     },
     "source_health": {
       "status": "OK",
-      "timestamp": "2026-10-15T05:35:50+07:00",
+      "timestamp": "2026-10-15T06:55:40+07:00",
       "max_age_hours": 4
     },
     "official_source_discovery": {
