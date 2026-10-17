@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:08:13+07:00",
+  "generated_at": "2026-10-17T18:08:59+07:00",
   "policy": "OFFICIAL_CANDIDATE_IS_STILL_A_CLAIM_UNTIL_DOCUMENT_VALIDATION",
   "total_candidates": 6,
   "sources": [
@@ -20,7 +20,7 @@
     },
     {
       "source_id": "FEED-012",
-      "status": "SKIPPED_NOT_LIVE",
+      "status": "OK",
       "candidates": 0
     }
   ]
