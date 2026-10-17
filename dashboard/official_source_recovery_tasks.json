@@ -7,7 +7,7 @@
     "status": "ACTIVE",
     "priority": "CRITICAL",
     "reason": "DOWN",
-    "next_retry": "2026-10-17T09:30:58+07:00",
+    "next_retry": "2026-10-17T14:07:30+07:00",
     "candidate_urls": [
       "https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex",
       "https://sirup.lkpp.go.id/"
@@ -22,11 +22,26 @@
     "status": "ACTIVE",
     "priority": "CRITICAL",
     "reason": "DEGRADED",
-    "next_retry": "2026-10-17T09:30:58+07:00",
+    "next_retry": "2026-10-17T14:07:30+07:00",
     "candidate_urls": [
       "https://www.bpk.go.id/ihps",
       "https://www.bpk.go.id/news",
       "https://www.bpk.go.id/"
+    ],
+    "rule": "Official source unavailable -> retry/recover/escalate. Never substitute AI-generated facts."
+  },
+  {
+    "task_id": "OFFICIAL-FEED-012",
+    "task": "recover_official_source",
+    "source_id": "FEED-012",
+    "source": "Kejaksaan RI",
+    "status": "ACTIVE",
+    "priority": "CRITICAL",
+    "reason": "DOWN",
+    "next_retry": "2026-10-17T14:07:30+07:00",
+    "candidate_urls": [
+      "https://www.kejaksaan.go.id/",
+      "https://kejaksaan.go.id/"
     ],
     "rule": "Official source unavailable -> retry/recover/escalate. Never substitute AI-generated facts."
   }
