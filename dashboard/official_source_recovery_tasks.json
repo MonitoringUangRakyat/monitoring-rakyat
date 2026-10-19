@@ -7,7 +7,7 @@
     "status": "ACTIVE",
     "priority": "CRITICAL",
     "reason": "DOWN",
-    "next_retry": "2026-10-20T01:44:56+07:00",
+    "next_retry": "2026-10-20T06:37:14+07:00",
     "candidate_urls": [
       "https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex",
       "https://sirup.lkpp.go.id/"
@@ -22,7 +22,7 @@
     "status": "ACTIVE",
     "priority": "CRITICAL",
     "reason": "DEGRADED",
-    "next_retry": "2026-10-20T01:44:56+07:00",
+    "next_retry": "2026-10-20T06:37:14+07:00",
     "candidate_urls": [
       "https://www.bpk.go.id/ihps",
       "https://www.bpk.go.id/news",
