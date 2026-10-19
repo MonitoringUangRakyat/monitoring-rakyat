@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19T07:27:23+07:00",
+  "generated_at": "2026-10-19T12:16:37+07:00",
   "policy": "EVERY_UNKNOWN_AND_EVIDENCE_GAP_BECOMES_A_TASK",
-  "total": 658,
-  "active": 658,
+  "total": 657,
+  "active": 657,
   "dead_letter": 0,
-  "critical": 12,
+  "critical": 11,
   "by_task": {
     "UNKNOWN": 0,
     "backfill_official_evidence": 96,
@@ -12,7 +12,7 @@
     "recover_source": 3,
     "resolve_evidence_and_verification": 318,
     "resolve_source_endpoint": 7,
-    "validate_official_evidence_candidate": 6
+    "validate_official_evidence_candidate": 5
   },
   "sources": [
     "dashboard/source_recovery_tasks.json",
