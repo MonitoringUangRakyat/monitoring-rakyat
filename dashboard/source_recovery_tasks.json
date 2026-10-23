@@ -9,7 +9,7 @@
     "status": "ACTIVE",
     "reason": "NO_ENDPOINT",
     "search_query_template": "site:kompas.com {keyword} {tahun}",
-    "next_retry": "2026-10-24T05:14:35+07:00",
+    "next_retry": "2026-10-24T08:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -22,7 +22,7 @@
     "status": "ACTIVE",
     "reason": "NO_ENDPOINT",
     "search_query_template": "site:tirto.id {keyword} {tahun}",
-    "next_retry": "2026-10-24T05:14:35+07:00",
+    "next_retry": "2026-10-24T08:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -35,7 +35,7 @@
     "status": "ACTIVE",
     "reason": "NO_ENDPOINT",
     "search_query_template": "site:nemesis.assai.id {keyword} {tahun}",
-    "next_retry": "2026-10-24T05:14:35+07:00",
+    "next_retry": "2026-10-24T08:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -48,7 +48,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:sirup.lkpp.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-24T03:14:35+07:00",
+    "next_retry": "2026-10-24T06:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -61,7 +61,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:bpk.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-24T03:14:35+07:00",
+    "next_retry": "2026-10-24T06:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -74,7 +74,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:kpk.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-24T03:14:35+07:00",
+    "next_retry": "2026-10-24T06:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   },
   {
@@ -87,7 +87,7 @@
     "status": "ACTIVE",
     "reason": "DISCOVERY_REQUIRED",
     "search_query_template": "site:kejaksaan.go.id {keyword} {tahun}",
-    "next_retry": "2026-10-24T03:14:35+07:00",
+    "next_retry": "2026-10-24T06:15:29+07:00",
     "rule": "UNKNOWN/NO_ENDPOINT must become a task; never invent replacement data."
   }
 ]
