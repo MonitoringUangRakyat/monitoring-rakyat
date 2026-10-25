@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T19:45:34+07:00",
+  "generated_at": "2026-10-26T00:12:45+07:00",
   "policy": "EVERY_UNKNOWN_AND_EVIDENCE_GAP_BECOMES_A_TASK",
-  "total": 659,
-  "active": 659,
+  "total": 682,
+  "active": 682,
   "dead_letter": 0,
   "critical": 13,
   "by_task": {
@@ -10,7 +10,7 @@
     "backfill_official_evidence": 96,
     "recover_official_source": 2,
     "recover_source": 3,
-    "resolve_evidence_and_verification": 318,
+    "resolve_evidence_and_verification": 341,
     "resolve_source_endpoint": 7,
     "validate_official_evidence_candidate": 7
   },
