@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T23:22:19+07:00",
+  "generated_at": "2026-10-26T02:38:10+07:00",
   "active_period": {
     "year": 2026,
     "month": 10,
@@ -19,9 +19,9 @@
   "core_modules_count": 15,
   "missing_core_modules": [],
   "structural_missing_modules": [],
-  "current_period_rows": 212,
-  "current_period_rill_rows": 3,
-  "ai_agent_tasks_count": 226,
+  "current_period_rows": 254,
+  "current_period_rill_rows": 4,
+  "ai_agent_tasks_count": 225,
   "ai_agent_tasks_file": "dashboard/ai_agent_tasks.json",
   "historical_backfill_policy": {
     "hardcoded": true,
@@ -110,12 +110,12 @@
     "data_rows_terisi": 0,
     "publication_gate": {
       "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
-      "rows_scanned": 577,
+      "rows_scanned": 619,
       "rows_published": 0,
-      "rows_quarantined": 577,
+      "rows_quarantined": 619,
       "quarantine_reasons": {
-        "blocked_status": 515,
-        "no_explicit_publishable_status": 62
+        "blocked_status": 553,
+        "no_explicit_publishable_status": 66
       },
       "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
     },
@@ -563,10 +563,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 8,
+      "rows_total": 9,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 6,
+      "active_rows": 7,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -966,14 +966,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 7,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -1411,11 +1411,11 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 12,
-      "rows_with_source": 12,
-      "rows_with_money": 1,
-      "active_rows": 0,
-      "active_rill_rows": 0,
+      "rows_total": 13,
+      "rows_with_source": 13,
+      "rows_with_money": 2,
+      "active_rows": 1,
+      "active_rill_rows": 1,
       "historical_backfill_years_expected": [
         2011,
         2012,
@@ -1814,14 +1814,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
-          "rows_with_source": 6,
-          "rows_with_money": 1,
-          "rill_rows": 1
+          "rows_total": 7,
+          "rows_with_source": 7,
+          "rows_with_money": 2,
+          "rill_rows": 2
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -1835,10 +1835,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 8,
+      "rows_total": 9,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 6,
+      "active_rows": 7,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -2238,14 +2238,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 7,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "MASTER_HISTORY_AVAILABLE",
         "file": "gudang-db/master/master_koruptor.csv",
@@ -2684,10 +2684,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 24,
+      "rows_total": 25,
       "rows_with_source": 0,
-      "rows_with_money": 12,
-      "active_rows": 0,
+      "rows_with_money": 13,
+      "active_rows": 1,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -3087,14 +3087,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 11,
+          "rows_total": 12,
           "rows_with_source": 0,
-          "rows_with_money": 1,
+          "rows_with_money": 2,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 11,
+      "latest_nonempty_rows": 12,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -3532,10 +3532,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 15,
+      "rows_total": 16,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 13,
+      "active_rows": 14,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -3935,14 +3935,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 13,
+          "rows_total": 14,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 13,
+      "latest_nonempty_rows": 14,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -3952,854 +3952,6 @@
       "data_status": "HAS_ROWS_NO_EVIDENCE"
     },
     "prog_eksekutif": {
-      "years_present": 61,
-      "years_expected": 61,
-      "missing_years": [],
-      "structural_status": "OK",
-      "rows_total": 8,
-      "rows_with_source": 0,
-      "rows_with_money": 0,
-      "active_rows": 6,
-      "active_rill_rows": 0,
-      "historical_backfill_years_expected": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_backfill_years_ready": [],
-      "historical_backfill_years_needing_data": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_minimum_years_ready": [],
-      "year_health": {
-        "1966": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1967": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1968": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1969": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1970": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1971": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1972": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1973": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1974": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1975": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1976": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1977": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1978": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1979": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1980": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1981": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1982": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1983": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1984": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1985": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1986": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1987": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1988": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1989": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1990": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1991": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1992": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1993": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1994": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1995": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1996": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1997": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1998": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1999": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2000": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2001": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2002": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2003": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2004": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2005": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2006": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2007": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2008": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2009": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2010": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2011": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2012": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2013": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2014": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2015": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2016": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2017": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2018": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2019": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2020": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2021": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2022": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2023": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2024": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2025": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2026": {
-          "rows_total": 6,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        }
-      },
-      "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
-      "fallback": {
-        "status": "NO_FALLBACK",
-        "file": "",
-        "rows": 0,
-        "year": 0
-      },
-      "data_status": "HAS_ROWS_NO_EVIDENCE"
-    },
-    "prog_legislatif": {
-      "years_present": 61,
-      "years_expected": 61,
-      "missing_years": [],
-      "structural_status": "OK",
-      "rows_total": 28,
-      "rows_with_source": 0,
-      "rows_with_money": 0,
-      "active_rows": 26,
-      "active_rill_rows": 0,
-      "historical_backfill_years_expected": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_backfill_years_ready": [],
-      "historical_backfill_years_needing_data": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_minimum_years_ready": [],
-      "year_health": {
-        "1966": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1967": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1968": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1969": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1970": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1971": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1972": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1973": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1974": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1975": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1976": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1977": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1978": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1979": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1980": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1981": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1982": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1983": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1984": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1985": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1986": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1987": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1988": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1989": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1990": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1991": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1992": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1993": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1994": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1995": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1996": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1997": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1998": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1999": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2000": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2001": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2002": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2003": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2004": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2005": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2006": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2007": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2008": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2009": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2010": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2011": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2012": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2013": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2014": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2015": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2016": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2017": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2018": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2019": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2020": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2021": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2022": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2023": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2024": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2025": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2026": {
-          "rows_total": 26,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        }
-      },
-      "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 26,
-      "fallback": {
-        "status": "NO_FALLBACK",
-        "file": "",
-        "rows": 0,
-        "year": 0
-      },
-      "data_status": "HAS_ROWS_NO_EVIDENCE"
-    },
-    "redflag": {
       "years_present": 61,
       "years_expected": 61,
       "missing_years": [],
@@ -5223,15 +4375,15 @@
       },
       "data_status": "HAS_ROWS_NO_EVIDENCE"
     },
-    "risknas": {
+    "prog_legislatif": {
       "years_present": 61,
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 8,
+      "rows_total": 30,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 6,
+      "active_rows": 28,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -5631,438 +4783,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 28,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
-      "fallback": {
-        "status": "MASTER_HISTORY_AVAILABLE",
-        "file": "gudang-db/master/master_koruptor.csv",
-        "rows": 27,
-        "year": 2025
-      },
-      "data_status": "HAS_ROWS_NO_EVIDENCE"
-    },
-    "sda": {
-      "years_present": 61,
-      "years_expected": 61,
-      "missing_years": [],
-      "structural_status": "OK",
-      "rows_total": 19,
-      "rows_with_source": 0,
-      "rows_with_money": 12,
-      "active_rows": 0,
-      "active_rill_rows": 0,
-      "historical_backfill_years_expected": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_backfill_years_ready": [],
-      "historical_backfill_years_needing_data": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_minimum_years_ready": [],
-      "year_health": {
-        "1966": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1967": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1968": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1969": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1970": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1971": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1972": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1973": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1974": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1975": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1976": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1977": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1978": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1979": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1980": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1981": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1982": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1983": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1984": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1985": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1986": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1987": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1988": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1989": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1990": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1991": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1992": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1993": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1994": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1995": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1996": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1997": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1998": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1999": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2000": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2001": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2002": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2003": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2004": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2005": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2006": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2007": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2008": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2009": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2010": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2011": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2012": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2013": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2014": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2015": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2016": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2017": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2018": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2019": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2020": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2021": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2022": {
-          "rows_total": 2,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2023": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2024": {
-          "rows_total": 2,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2025": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        },
-        "2026": {
-          "rows_total": 6,
-          "rows_with_source": 0,
-          "rows_with_money": 1,
-          "rill_rows": 0
-        }
-      },
-      "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 28,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -6071,7 +4799,7 @@
       },
       "data_status": "HAS_ROWS_NO_EVIDENCE"
     },
-    "vendor": {
+    "redflag": {
       "years_present": 61,
       "years_expected": 61,
       "missing_years": [],
@@ -6488,6 +5216,1278 @@
       "latest_nonempty_year": 2026,
       "latest_nonempty_rows": 8,
       "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "HAS_ROWS_NO_EVIDENCE"
+    },
+    "risknas": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 9,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 7,
+      "active_rill_rows": 0,
+      "historical_backfill_years_expected": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_backfill_years_ready": [],
+      "historical_backfill_years_needing_data": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_minimum_years_ready": [],
+      "year_health": {
+        "1966": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1967": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1968": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1969": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1970": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1971": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1972": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1973": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1974": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1975": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1976": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1977": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1978": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1979": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1980": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1981": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1982": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1983": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1984": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1985": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1986": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1987": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1988": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1989": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1990": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1991": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1992": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1993": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1994": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1995": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1996": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1997": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1998": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1999": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2000": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2001": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2002": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2003": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2004": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2005": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2006": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2007": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2008": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2009": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2010": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2011": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2012": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2013": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2014": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2015": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2016": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2017": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2018": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2019": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2020": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2021": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2022": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2023": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2024": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2025": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2026": {
+          "rows_total": 7,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        }
+      },
+      "latest_nonempty_year": 2026,
+      "latest_nonempty_rows": 7,
+      "fallback": {
+        "status": "MASTER_HISTORY_AVAILABLE",
+        "file": "gudang-db/master/master_koruptor.csv",
+        "rows": 27,
+        "year": 2025
+      },
+      "data_status": "HAS_ROWS_NO_EVIDENCE"
+    },
+    "sda": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 20,
+      "rows_with_source": 0,
+      "rows_with_money": 13,
+      "active_rows": 1,
+      "active_rill_rows": 0,
+      "historical_backfill_years_expected": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_backfill_years_ready": [],
+      "historical_backfill_years_needing_data": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_minimum_years_ready": [],
+      "year_health": {
+        "1966": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1967": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1968": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1969": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1970": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1971": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1972": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1973": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1974": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1975": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1976": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1977": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1978": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1979": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1980": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1981": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1982": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1983": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1984": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1985": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1986": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1987": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1988": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1989": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1990": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1991": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1992": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1993": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1994": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1995": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1996": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1997": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1998": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1999": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2000": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2001": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2002": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2003": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2004": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2005": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2006": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2007": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2008": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2009": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2010": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2011": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2012": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2013": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2014": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2015": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2016": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2017": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2018": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2019": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2020": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2021": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2022": {
+          "rows_total": 2,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2023": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2024": {
+          "rows_total": 2,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2025": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 1,
+          "rill_rows": 0
+        },
+        "2026": {
+          "rows_total": 7,
+          "rows_with_source": 0,
+          "rows_with_money": 2,
+          "rill_rows": 0
+        }
+      },
+      "latest_nonempty_year": 2026,
+      "latest_nonempty_rows": 7,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "HAS_ROWS_NO_EVIDENCE"
+    },
+    "vendor": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 11,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 9,
+      "active_rill_rows": 0,
+      "historical_backfill_years_expected": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_backfill_years_ready": [],
+      "historical_backfill_years_needing_data": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_minimum_years_ready": [],
+      "year_health": {
+        "1966": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1967": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1968": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1969": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1970": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1971": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1972": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1973": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1974": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1975": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1976": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1977": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1978": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1979": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1980": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1981": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1982": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1983": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1984": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1985": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1986": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1987": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1988": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1989": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1990": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1991": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1992": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1993": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1994": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1995": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1996": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1997": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1998": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1999": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2000": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2001": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2002": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2003": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2004": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2005": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2006": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2007": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2008": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2009": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2010": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2011": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2012": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2013": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2014": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2015": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2016": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2017": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2018": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2019": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2020": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2021": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2022": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2023": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2024": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2025": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2026": {
+          "rows_total": 9,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        }
+      },
+      "latest_nonempty_year": 2026,
+      "latest_nonempty_rows": 9,
+      "fallback": {
         "status": "MASTER_EMPTY",
         "file": "gudang-db/master/master_vendor.csv",
         "rows": 0,
@@ -6502,10 +6502,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 170,
+      "rows_total": 185,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 128,
+      "active_rows": 143,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -6905,14 +6905,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 128,
+          "rows_total": 143,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 128,
+      "latest_nonempty_rows": 143,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -6926,10 +6926,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 170,
+      "rows_total": 185,
       "rows_with_source": 0,
-      "rows_with_money": 29,
-      "active_rows": 1,
+      "rows_with_money": 43,
+      "active_rows": 16,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -7329,14 +7329,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 128,
+          "rows_total": 143,
           "rows_with_source": 0,
-          "rows_with_money": 23,
+          "rows_with_money": 37,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 128,
+      "latest_nonempty_rows": 143,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -8634,10 +8634,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 8,
+      "rows_total": 9,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 6,
+      "active_rows": 7,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -9037,14 +9037,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 7,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -9482,11 +9482,11 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 12,
-      "rows_with_source": 12,
-      "rows_with_money": 1,
-      "active_rows": 0,
-      "active_rill_rows": 0,
+      "rows_total": 13,
+      "rows_with_source": 13,
+      "rows_with_money": 2,
+      "active_rows": 1,
+      "active_rill_rows": 1,
       "historical_backfill_years_expected": [
         2011,
         2012,
@@ -9885,14 +9885,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
-          "rows_with_source": 6,
-          "rows_with_money": 1,
-          "rill_rows": 1
+          "rows_total": 7,
+          "rows_with_source": 7,
+          "rows_with_money": 2,
+          "rill_rows": 2
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -10754,10 +10754,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 8,
+      "rows_total": 9,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 6,
+      "active_rows": 7,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -11157,14 +11157,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 7,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "MASTER_HISTORY_AVAILABLE",
         "file": "gudang-db/master/master_koruptor.csv",
@@ -16267,10 +16267,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 24,
+      "rows_total": 25,
       "rows_with_source": 0,
-      "rows_with_money": 12,
-      "active_rows": 0,
+      "rows_with_money": 13,
+      "active_rows": 1,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -16670,14 +16670,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 11,
+          "rows_total": 12,
           "rows_with_source": 0,
-          "rows_with_money": 1,
+          "rows_with_money": 2,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 11,
+      "latest_nonempty_rows": 12,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -17115,10 +17115,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 15,
+      "rows_total": 16,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 13,
+      "active_rows": 14,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -17518,14 +17518,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 13,
+          "rows_total": 14,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 13,
+      "latest_nonempty_rows": 14,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -17535,854 +17535,6 @@
       "data_status": "HAS_ROWS_NO_EVIDENCE"
     },
     "prog_eksekutif": {
-      "years_present": 61,
-      "years_expected": 61,
-      "missing_years": [],
-      "structural_status": "OK",
-      "rows_total": 8,
-      "rows_with_source": 0,
-      "rows_with_money": 0,
-      "active_rows": 6,
-      "active_rill_rows": 0,
-      "historical_backfill_years_expected": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_backfill_years_ready": [],
-      "historical_backfill_years_needing_data": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_minimum_years_ready": [],
-      "year_health": {
-        "1966": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1967": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1968": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1969": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1970": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1971": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1972": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1973": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1974": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1975": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1976": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1977": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1978": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1979": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1980": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1981": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1982": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1983": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1984": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1985": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1986": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1987": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1988": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1989": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1990": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1991": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1992": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1993": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1994": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1995": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1996": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1997": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1998": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1999": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2000": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2001": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2002": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2003": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2004": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2005": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2006": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2007": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2008": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2009": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2010": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2011": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2012": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2013": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2014": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2015": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2016": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2017": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2018": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2019": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2020": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2021": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2022": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2023": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2024": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2025": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2026": {
-          "rows_total": 6,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        }
-      },
-      "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
-      "fallback": {
-        "status": "NO_FALLBACK",
-        "file": "",
-        "rows": 0,
-        "year": 0
-      },
-      "data_status": "HAS_ROWS_NO_EVIDENCE"
-    },
-    "prog_legislatif": {
-      "years_present": 61,
-      "years_expected": 61,
-      "missing_years": [],
-      "structural_status": "OK",
-      "rows_total": 28,
-      "rows_with_source": 0,
-      "rows_with_money": 0,
-      "active_rows": 26,
-      "active_rill_rows": 0,
-      "historical_backfill_years_expected": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_backfill_years_ready": [],
-      "historical_backfill_years_needing_data": [
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025
-      ],
-      "historical_minimum_years_ready": [],
-      "year_health": {
-        "1966": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1967": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1968": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1969": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1970": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1971": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1972": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1973": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1974": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1975": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1976": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1977": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1978": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1979": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1980": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1981": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1982": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1983": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1984": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1985": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1986": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1987": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1988": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1989": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1990": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1991": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1992": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1993": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1994": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1995": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1996": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1997": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1998": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "1999": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2000": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2001": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2002": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2003": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2004": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2005": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2006": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2007": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2008": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2009": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2010": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2011": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2012": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2013": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2014": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2015": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2016": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2017": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2018": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2019": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2020": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2021": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2022": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2023": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2024": {
-          "rows_total": 1,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2025": {
-          "rows_total": 0,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        },
-        "2026": {
-          "rows_total": 26,
-          "rows_with_source": 0,
-          "rows_with_money": 0,
-          "rill_rows": 0
-        }
-      },
-      "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 26,
-      "fallback": {
-        "status": "NO_FALLBACK",
-        "file": "",
-        "rows": 0,
-        "year": 0
-      },
-      "data_status": "HAS_ROWS_NO_EVIDENCE"
-    },
-    "redflag": {
       "years_present": 61,
       "years_expected": 61,
       "missing_years": [],
@@ -18806,15 +17958,15 @@
       },
       "data_status": "HAS_ROWS_NO_EVIDENCE"
     },
-    "risknas": {
+    "prog_legislatif": {
       "years_present": 61,
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 8,
+      "rows_total": 30,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 6,
+      "active_rows": 28,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -19214,14 +18366,862 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 28,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 28,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "HAS_ROWS_NO_EVIDENCE"
+    },
+    "redflag": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 10,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 8,
+      "active_rill_rows": 0,
+      "historical_backfill_years_expected": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_backfill_years_ready": [],
+      "historical_backfill_years_needing_data": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_minimum_years_ready": [],
+      "year_health": {
+        "1966": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1967": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1968": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1969": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1970": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1971": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1972": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1973": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1974": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1975": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1976": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1977": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1978": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1979": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1980": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1981": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1982": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1983": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1984": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1985": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1986": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1987": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1988": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1989": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1990": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1991": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1992": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1993": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1994": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1995": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1996": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1997": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1998": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1999": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2000": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2001": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2002": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2003": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2004": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2005": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2006": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2007": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2008": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2009": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2010": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2011": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2012": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2013": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2014": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2015": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2016": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2017": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2018": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2019": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2020": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2021": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2022": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2023": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2024": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2025": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2026": {
+          "rows_total": 8,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        }
+      },
+      "latest_nonempty_year": 2026,
+      "latest_nonempty_rows": 8,
+      "fallback": {
+        "status": "NO_FALLBACK",
+        "file": "",
+        "rows": 0,
+        "year": 0
+      },
+      "data_status": "HAS_ROWS_NO_EVIDENCE"
+    },
+    "risknas": {
+      "years_present": 61,
+      "years_expected": 61,
+      "missing_years": [],
+      "structural_status": "OK",
+      "rows_total": 9,
+      "rows_with_source": 0,
+      "rows_with_money": 0,
+      "active_rows": 7,
+      "active_rill_rows": 0,
+      "historical_backfill_years_expected": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_backfill_years_ready": [],
+      "historical_backfill_years_needing_data": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "historical_minimum_years_ready": [],
+      "year_health": {
+        "1966": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1967": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1968": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1969": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1970": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1971": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1972": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1973": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1974": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1975": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1976": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1977": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1978": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1979": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1980": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1981": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1982": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1983": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1984": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1985": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1986": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1987": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1988": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1989": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1990": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1991": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1992": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1993": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1994": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1995": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1996": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1997": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1998": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "1999": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2000": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2001": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2002": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2003": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2004": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2005": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2006": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2007": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2008": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2009": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2010": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2011": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2012": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2013": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2014": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2015": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2016": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2017": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2018": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2019": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2020": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2021": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2022": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2023": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2024": {
+          "rows_total": 1,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2025": {
+          "rows_total": 0,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        },
+        "2026": {
+          "rows_total": 7,
+          "rows_with_source": 0,
+          "rows_with_money": 0,
+          "rill_rows": 0
+        }
+      },
+      "latest_nonempty_year": 2026,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "MASTER_HISTORY_AVAILABLE",
         "file": "gudang-db/master/master_koruptor.csv",
@@ -19235,10 +19235,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 19,
+      "rows_total": 20,
       "rows_with_source": 0,
-      "rows_with_money": 12,
-      "active_rows": 0,
+      "rows_with_money": 13,
+      "active_rows": 1,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -19638,14 +19638,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 6,
+          "rows_total": 7,
           "rows_with_source": 0,
-          "rows_with_money": 1,
+          "rows_with_money": 2,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 6,
+      "latest_nonempty_rows": 7,
       "fallback": {
         "status": "NO_FALLBACK",
         "file": "",
@@ -20507,10 +20507,10 @@
       "years_expected": 61,
       "missing_years": [],
       "structural_status": "OK",
-      "rows_total": 10,
+      "rows_total": 11,
       "rows_with_source": 0,
       "rows_with_money": 0,
-      "active_rows": 8,
+      "active_rows": 9,
       "active_rill_rows": 0,
       "historical_backfill_years_expected": [
         2011,
@@ -20910,14 +20910,14 @@
           "rill_rows": 0
         },
         "2026": {
-          "rows_total": 8,
+          "rows_total": 9,
           "rows_with_source": 0,
           "rows_with_money": 0,
           "rill_rows": 0
         }
       },
       "latest_nonempty_year": 2026,
-      "latest_nonempty_rows": 8,
+      "latest_nonempty_rows": 9,
       "fallback": {
         "status": "MASTER_EMPTY",
         "file": "gudang-db/master/master_vendor.csv",
@@ -22160,30 +22160,6 @@
         "K/L pemilik program"
       ],
       "instruction": "WAJIB backfill Gudang DB historis 10-15 tahun ke belakang. Prioritaskan sumber resmi/putusan/audit, nominal, periode, dan status verifikasi. Output tetap DRAFT_REVIEW sampai lolos audit."
-    },
-    {
-      "module": "bea_cukai",
-      "year": 2026,
-      "month": 10,
-      "task_type": "CURRENT_PERIOD_SEARCH",
-      "status": "SEARCH_REQUIRED",
-      "priority": "HIGH",
-      "fallback": {
-        "status": "NO_FALLBACK",
-        "file": "",
-        "rows": 0,
-        "year": 0
-      },
-      "fallback_note": "Belum ada fallback lokal berisi data; tampilkan notifikasi data belum bersumber",
-      "source_priorities": [
-        "Kemenkeu/DJBC",
-        "BPK",
-        "KPK",
-        "Kejaksaan",
-        "putusan pengadilan",
-        "Kompas/Detik/Tempo/Metro TV"
-      ],
-      "instruction": "Tim AI Agent harus mencari sumber publik/resmi untuk bulan/tahun berjalan, membuat draft CSV, memberi status DRAFT_REVIEW, dan tidak mengklaim final sebelum evidence diverifikasi."
     },
     {
       "module": "bea_cukai",

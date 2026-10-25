@@ -1,15 +1,15 @@
 # Pre-GitHub Readiness Report
 
-Generated: 2026-10-25T23:22:19+07:00 Asia/Jakarta
+Generated: 2026-10-26T02:38:10+07:00 Asia/Jakarta
 Status: **NEEDS_WORK**
 
 ## Active Period Gate
 
 - Dashboard active period: Oktober 2026
 - Current Asia/Jakarta: 10 / 2026
-- Current period rows: 212
-- Current period rill rows with source + nominal: 3
-- AI Agent search tasks: 226
+- Current period rows: 254
+- Current period rill rows with source + nominal: 4
+- AI Agent search tasks: 225
 - Historical backfill hardcode: last 15 years, minimum 10 years
 
 ## Blockers
@@ -30,20 +30,20 @@ Status: **NEEDS_WORK**
 | Modul | Tahun | Rows | Source | Nominal | Active Rows | Active Rill | Status |
 |---|---:|---:|---:|---:|---:|---:|---|
 | akuntansi | 61/61 | 11 | 11 | 11 | 0 | 0 | OK / HAS_EVIDENCE |
-| audit | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| audit | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | audittrail | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
-| bea_cukai | 61/61 | 12 | 12 | 1 | 0 | 0 | OK / HAS_EVIDENCE |
-| bumn | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| bea_cukai | 61/61 | 13 | 13 | 2 | 1 | 1 | OK / HAS_EVIDENCE |
+| bumn | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | korupsi | 61/61 | 15 | 15 | 9 | 5 | 3 | OK / HAS_EVIDENCE |
-| pajak | 61/61 | 24 | 0 | 12 | 0 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| pajak | 61/61 | 25 | 0 | 13 | 1 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 | parpol | 61/61 | 0 | 0 | 0 | 0 | 0 | OK / NEEDS_DATA |
-| prog_daerah | 61/61 | 15 | 0 | 0 | 13 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| prog_eksekutif | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| prog_legislatif | 61/61 | 28 | 0 | 0 | 26 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| redflag | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| risknas | 61/61 | 8 | 0 | 0 | 6 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| sda | 61/61 | 19 | 0 | 12 | 0 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
-| vendor | 61/61 | 10 | 0 | 0 | 8 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| prog_daerah | 61/61 | 16 | 0 | 0 | 14 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| prog_eksekutif | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| prog_legislatif | 61/61 | 30 | 0 | 0 | 28 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| redflag | 61/61 | 10 | 0 | 0 | 8 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| risknas | 61/61 | 9 | 0 | 0 | 7 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| sda | 61/61 | 20 | 0 | 13 | 1 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
+| vendor | 61/61 | 11 | 0 | 0 | 9 | 0 | OK / HAS_ROWS_NO_EVIDENCE |
 
 ## Fallback & AI Agent
 
