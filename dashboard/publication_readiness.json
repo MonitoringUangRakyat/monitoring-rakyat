@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:45:34+07:00",
+  "generated_at": "2026-10-25T23:22:29+07:00",
   "status": "PASS",
   "blockers": [],
   "semantics": "RILL = explicit publishable status + evidence/source. Source+money alone is never sufficient.",
@@ -10,9 +10,9 @@
       "quarantined": 0
     },
     "audit": {
-      "rows": 6,
+      "rows": 7,
       "publishable": 0,
-      "quarantined": 6
+      "quarantined": 7
     },
     "audittrail": {
       "rows": 0,
@@ -20,14 +20,14 @@
       "quarantined": 0
     },
     "bea_cukai": {
-      "rows": 6,
+      "rows": 7,
       "publishable": 0,
-      "quarantined": 6
+      "quarantined": 7
     },
     "bumn": {
-      "rows": 6,
+      "rows": 7,
       "publishable": 0,
-      "quarantined": 6
+      "quarantined": 7
     },
     "korupsi": {
       "rows": 5,
@@ -35,9 +35,9 @@
       "quarantined": 5
     },
     "pajak": {
-      "rows": 11,
+      "rows": 12,
       "publishable": 0,
-      "quarantined": 11
+      "quarantined": 12
     },
     "parpol": {
       "rows": 0,
@@ -45,43 +45,43 @@
       "quarantined": 0
     },
     "prog_daerah": {
-      "rows": 13,
+      "rows": 14,
       "publishable": 0,
-      "quarantined": 13
+      "quarantined": 14
     },
     "prog_eksekutif": {
-      "rows": 6,
-      "publishable": 0,
-      "quarantined": 6
-    },
-    "prog_legislatif": {
-      "rows": 26,
-      "publishable": 0,
-      "quarantined": 26
-    },
-    "redflag": {
       "rows": 7,
       "publishable": 0,
       "quarantined": 7
     },
-    "risknas": {
-      "rows": 6,
+    "prog_legislatif": {
+      "rows": 28,
       "publishable": 0,
-      "quarantined": 6
+      "quarantined": 28
     },
-    "sda": {
-      "rows": 6,
-      "publishable": 0,
-      "quarantined": 6
-    },
-    "vendor": {
+    "redflag": {
       "rows": 8,
       "publishable": 0,
       "quarantined": 8
+    },
+    "risknas": {
+      "rows": 7,
+      "publishable": 0,
+      "quarantined": 7
+    },
+    "sda": {
+      "rows": 7,
+      "publishable": 0,
+      "quarantined": 7
+    },
+    "vendor": {
+      "rows": 9,
+      "publishable": 0,
+      "quarantined": 9
     }
   },
   "quarantine_reasons": {
-    "blocked_status": 75,
-    "no_explicit_publishable_status": 31
+    "blocked_status": 83,
+    "no_explicit_publishable_status": 35
   }
 }

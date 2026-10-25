@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T19:45:33+07:00",
+  "generated_at": "2026-10-25T23:22:28+07:00",
   "counts": {
-    "rows_scanned": 577,
-    "quarantined": 577,
-    "reason:blocked_status": 515,
-    "reason:no_explicit_publishable_status": 62
+    "rows_scanned": 619,
+    "quarantined": 619,
+    "reason:blocked_status": 553,
+    "reason:no_explicit_publishable_status": 66
   },
-  "tasks": 318,
+  "tasks": 341,
   "policy": "Every non-publishable substantive record becomes explicit recovery work."
 }

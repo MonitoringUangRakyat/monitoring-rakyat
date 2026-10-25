@@ -4,7 +4,7 @@ Status: **PASS**
 
 ```json
 {
-  "generated_at": "2026-10-25T19:45:34+07:00",
+  "generated_at": "2026-10-25T23:22:29+07:00",
   "status": "PASS",
   "errors": [],
   "recomputed": {
@@ -31,12 +31,12 @@ Status: **PASS**
     "jumlah_kasus": 0,
     "publication_gate": {
       "mode": "DEFAULT_DENY_EVIDENCE_FIRST",
-      "rows_scanned": 577,
+      "rows_scanned": 619,
       "rows_published": 0,
-      "rows_quarantined": 577,
+      "rows_quarantined": 619,
       "quarantine_reasons": {
-        "blocked_status": 515,
-        "no_explicit_publishable_status": 62
+        "blocked_status": 553,
+        "no_explicit_publishable_status": 66
       },
       "money_alias_policy": "FIRST_CANONICAL_ALIAS_ONLY_NO_DOUBLE_COUNT"
     }
